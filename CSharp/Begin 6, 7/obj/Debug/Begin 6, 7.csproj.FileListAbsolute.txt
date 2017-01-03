@@ -1,0 +1,2 @@
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\Begin 6, 7\bin\Debug\MaZaiPC.Beginning.exe.config
+D:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\Begin 6, 7\bin\Debug\MaZaiPC.Beginning.exe.config

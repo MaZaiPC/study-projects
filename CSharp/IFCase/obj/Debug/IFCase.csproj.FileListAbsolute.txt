@@ -1,0 +1,6 @@
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\If 16, 28 & Case 14, 17\bin\Debug\MaZaiPC.Beginning.exe.config
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\If 16, 28 & Case 14, 17\bin\Debug\MaZaiPC.Beginning.exe
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\If 16, 28 & Case 14, 17\bin\Debug\MaZaiPC.Beginning.pdb
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\If 16, 28 & Case 14, 17\obj\Debug\IFCase.csprojResolveAssemblyReference.cache
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\If 16, 28 & Case 14, 17\obj\Debug\MaZaiPC.Beginning.exe
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\If 16, 28 & Case 14, 17\obj\Debug\MaZaiPC.Beginning.pdb

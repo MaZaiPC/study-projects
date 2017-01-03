@@ -1,0 +1,14 @@
+c:\users\students\documents\visual studio 2015\Projects\Figures\Figures\bin\Debug\Figures.exe.config
+c:\users\students\documents\visual studio 2015\Projects\Figures\Figures\bin\Debug\Фигуры.exe.config
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\Figures\Figures\bin\Debug\Фигуры.exe.config
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\Figures\Figures\bin\Debug\Фигуры.exe
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\Figures\Figures\bin\Debug\Фигуры.pdb
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\Figures\Figures\obj\Debug\Figures.csprojResolveAssemblyReference.cache
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\Figures\Figures\obj\Debug\Фигуры.exe
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\Figures\Figures\obj\Debug\Фигуры.pdb
+D:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\Figures\Figures\obj\Debug\Figures.csprojResolveAssemblyReference.cache
+D:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\Figures\Figures\bin\Debug\Треугольники.exe.config
+D:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\Figures\Figures\bin\Debug\Треугольники.exe
+D:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\Figures\Figures\bin\Debug\Треугольники.pdb
+D:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\Figures\Figures\obj\Debug\Треугольники.exe
+D:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\Figures\Figures\obj\Debug\Треугольники.pdb

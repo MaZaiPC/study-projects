@@ -1,0 +1,27 @@
+﻿
+/*----------------------------- Ссылки -----------------------------*/
+
+/* Вид ссылки для темного фона */
+a.bgdark {
+    text-decoration:underline;
+    color:#6da5df;
+}
+
+a.bgdark:active {
+    color:#0984ad;
+
+}
+
+a.bgdark:visited {
+    color:#0984bd;
+}
+
+a.bgdark:hover {
+    text-decoration:none;
+    color:#00baff;
+}
+
+ul.link {
+    list-style-image:url(../../images/main/link.png);
+    list-style-position: inside;
+}

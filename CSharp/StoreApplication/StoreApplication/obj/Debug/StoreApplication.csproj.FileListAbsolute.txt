@@ -1,0 +1,9 @@
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\StoreApplication\MarshManager\bin\Debug\Магазин товаров.exe.config
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\StoreApplication\MarshManager\bin\Debug\Магазин товаров.exe
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\StoreApplication\MarshManager\bin\Debug\Магазин товаров.pdb
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\StoreApplication\MarshManager\obj\Debug\StoreApplication.csprojResolveAssemblyReference.cache
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\StoreApplication\MarshManager\obj\Debug\Магазин товаров.exe
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\StoreApplication\MarshManager\obj\Debug\Магазин товаров.pdb
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\StoreApplication\StoreApplication\bin\Debug\Магазин товаров.exe.config
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\StoreApplication\StoreApplication\obj\Debug\Магазин товаров.exe
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\StoreApplication\StoreApplication\obj\Debug\Магазин товаров.pdb

@@ -1,0 +1,12 @@
+X:\.Шаг\C# - Windows Forms\Домашние задания\Variant17\MenuStatusToolStripsDemo\bin\Debug\TextAnalyzer.exe.config
+X:\.Шаг\C# - Windows Forms\Домашние задания\Variant17\MenuStatusToolStripsDemo\bin\Debug\TextAnalyzer.exe
+X:\.Шаг\C# - Windows Forms\Домашние задания\Variant17\MenuStatusToolStripsDemo\bin\Debug\TextAnalyzer.pdb
+X:\.Шаг\C# - Windows Forms\Домашние задания\Variant17\MenuStatusToolStripsDemo\obj\Debug\MaZaiPC.TextAnalyzer.MainForm.resources
+X:\.Шаг\C# - Windows Forms\Домашние задания\Variant17\MenuStatusToolStripsDemo\obj\Debug\MaZaiPC.TextAnalyzer.Properties.Resources.resources
+X:\.Шаг\C# - Windows Forms\Домашние задания\Variant17\MenuStatusToolStripsDemo\obj\Debug\TextAnalyzer.csproj.GenerateResource.Cache
+X:\.Шаг\C# - Windows Forms\Домашние задания\Variant17\MenuStatusToolStripsDemo\obj\Debug\TextAnalyzer.exe
+X:\.Шаг\C# - Windows Forms\Домашние задания\Variant17\MenuStatusToolStripsDemo\obj\Debug\TextAnalyzer.pdb
+X:\.Шаг\C# - Windows Forms\Домашние задания\Variant17\MenuStatusToolStripsDemo\obj\Debug\MaZaiPC.TextAnalyzer.AboutForm.resources
+X:\.Шаг\C# - Windows Forms\Домашние задания\Variant17\TextAnalyzer\bin\Debug\TextAnalyzer.exe.config
+X:\.Шаг\C# - Windows Forms\Домашние задания\Variant17\TextAnalyzer\obj\Debug\TextAnalyzer.exe
+X:\.Шаг\C# - Windows Forms\Домашние задания\Variant17\TextAnalyzer\obj\Debug\TextAnalyzer.pdb

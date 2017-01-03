@@ -1,0 +1,13 @@
+﻿
+/*-- РџРѕРґРіСЂСѓР·РєР° СЃС‚РёР»РµР№ РёРЅС‚РµСЂС„РµР№СЃР° --*/
+@import 'st/globals/base.css';
+@import 'st/globals/header.css';
+@import 'st/globals/hmenu.css';
+@import 'st/globals/promo.css';
+@import 'st/globals/content.css';
+@import 'st/globals/footer.css';
+
+/* РџРѕРґРіСЂСѓР·РєР° РѕР±С‰РёС… СЃС‚РёР»РµР№ */
+@import 'st/text.css';
+@import 'st/links.css';
+@import 'st/images.css';

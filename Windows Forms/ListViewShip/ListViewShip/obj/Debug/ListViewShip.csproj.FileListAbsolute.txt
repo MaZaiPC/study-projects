@@ -1,0 +1,10 @@
+X:\.Шаг\C# - Windows Forms\Домашние задания\ListViewShip\ListViewShip\bin\Debug\ListViewShip.exe.config
+X:\.Шаг\C# - Windows Forms\Домашние задания\ListViewShip\ListViewShip\bin\Debug\ListViewShip.exe
+X:\.Шаг\C# - Windows Forms\Домашние задания\ListViewShip\ListViewShip\bin\Debug\ListViewShip.pdb
+X:\.Шаг\C# - Windows Forms\Домашние задания\ListViewShip\ListViewShip\obj\Debug\ListViewShip.csprojResolveAssemblyReference.cache
+X:\.Шаг\C# - Windows Forms\Домашние задания\ListViewShip\ListViewShip\obj\Debug\ListViewShip.Forms.EditForm.resources
+X:\.Шаг\C# - Windows Forms\Домашние задания\ListViewShip\ListViewShip\obj\Debug\ListViewShip.Properties.Resources.resources
+X:\.Шаг\C# - Windows Forms\Домашние задания\ListViewShip\ListViewShip\obj\Debug\ListViewShip.csproj.GenerateResource.Cache
+X:\.Шаг\C# - Windows Forms\Домашние задания\ListViewShip\ListViewShip\obj\Debug\ListViewShip.exe
+X:\.Шаг\C# - Windows Forms\Домашние задания\ListViewShip\ListViewShip\obj\Debug\ListViewShip.pdb
+X:\.Шаг\C# - Windows Forms\Домашние задания\ListViewShip\ListViewShip\obj\Debug\ListViewShip.Forms.MainForm.resources

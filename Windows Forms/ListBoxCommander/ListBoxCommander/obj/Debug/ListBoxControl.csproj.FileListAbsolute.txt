@@ -1,0 +1,10 @@
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\ListBoxControl\ListBoxControl\bin\Debug\ListBoxControl.exe.config
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\ListBoxControl\ListBoxControl\bin\Debug\ListBoxControl.exe
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\ListBoxControl\ListBoxControl\bin\Debug\ListBoxControl.pdb
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\ListBoxControl\ListBoxControl\obj\Debug\ListBoxControl.csprojResolveAssemblyReference.cache
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\ListBoxControl\ListBoxControl\obj\Debug\ListBoxControl.MainForm.resources
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\ListBoxControl\ListBoxControl\obj\Debug\ListBoxControl.Properties.Resources.resources
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\ListBoxControl\ListBoxControl\obj\Debug\ListBoxControl.csproj.GenerateResource.Cache
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\ListBoxControl\ListBoxControl\obj\Debug\ListBoxControl.exe
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\ListBoxControl\ListBoxControl\obj\Debug\ListBoxControl.pdb
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\ListBoxControl\ListBoxControl\obj\Debug\ListBoxControl.HelperForm.resources

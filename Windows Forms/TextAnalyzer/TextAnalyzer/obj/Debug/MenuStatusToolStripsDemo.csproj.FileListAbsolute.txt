@@ -1,0 +1,9 @@
+X:\.Шаг\C# - Windows Forms\Домашние задания\Variant17\MenuStatusToolStripsDemo\bin\Debug\MenuStatusToolStripsDemo.exe.config
+X:\.Шаг\C# - Windows Forms\Домашние задания\Variant17\MenuStatusToolStripsDemo\bin\Debug\MenuStatusToolStripsDemo.exe
+X:\.Шаг\C# - Windows Forms\Домашние задания\Variant17\MenuStatusToolStripsDemo\bin\Debug\MenuStatusToolStripsDemo.pdb
+X:\.Шаг\C# - Windows Forms\Домашние задания\Variant17\MenuStatusToolStripsDemo\obj\Debug\MenuStatusToolStripsDemo.csprojResolveAssemblyReference.cache
+X:\.Шаг\C# - Windows Forms\Домашние задания\Variant17\MenuStatusToolStripsDemo\obj\Debug\MenuStatusToolStripsDemo.MainForm.resources
+X:\.Шаг\C# - Windows Forms\Домашние задания\Variant17\MenuStatusToolStripsDemo\obj\Debug\MenuStatusToolStripsDemo.Properties.Resources.resources
+X:\.Шаг\C# - Windows Forms\Домашние задания\Variant17\MenuStatusToolStripsDemo\obj\Debug\MenuStatusToolStripsDemo.csproj.GenerateResource.Cache
+X:\.Шаг\C# - Windows Forms\Домашние задания\Variant17\MenuStatusToolStripsDemo\obj\Debug\MenuStatusToolStripsDemo.exe
+X:\.Шаг\C# - Windows Forms\Домашние задания\Variant17\MenuStatusToolStripsDemo\obj\Debug\MenuStatusToolStripsDemo.pdb

@@ -1,0 +1,15 @@
+﻿
+/*----------------------------- Изображения -----------------------------*/
+
+.img_box {
+    text-align:center;
+    padding: 10px;
+}
+
+img.logo_medium {
+    padding-top:15px;
+    margin-right:10px;
+    width:64px;
+    width:64px;
+    float:left;
+}

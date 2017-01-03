@@ -1,0 +1,1 @@
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\MarshManager\MarshManager\bin\Debug\Текстовый редактор.exe.config

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<ArrayOfViolator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Violator>
+    <Id>1</Id>
+    <FamIO>Егорова В.Г.</FamIO>
+    <HistoryOfViolations>
+      <Violation>
+        <Id>1</Id>
+        <CarModel>Mazda</CarModel>
+        <ViolationType>Не уступил(а) дорогу велосипедисту</ViolationType>
+        <Date>2016-12-10T00:00:00</Date>
+        <PenaltySum>100</PenaltySum>
+        <Paid>false</Paid>
+      </Violation>
+    </HistoryOfViolations>
+  </Violator>
+  <Violator>
+    <Id>2</Id>
+    <FamIO>Тимошин О.Д.</FamIO>
+    <HistoryOfViolations>
+      <Violation>
+        <Id>1</Id>
+        <CarModel>Nissan</CarModel>
+        <ViolationType>Не соблюдение дорожных знаков</ViolationType>
+        <Date>2016-10-22T00:00:00</Date>
+        <PenaltySum>250</PenaltySum>
+        <Paid>true</Paid>
+      </Violation>
+    </HistoryOfViolations>
+  </Violator>
+  <Violator>
+    <Id>3</Id>
+    <FamIO>Соболев М.В.</FamIO>
+    <HistoryOfViolations>
+      <Violation>
+        <Id>1</Id>
+        <CarModel>Lada</CarModel>
+        <ViolationType>Не включил(а) поворотник</ViolationType>
+        <Date>2016-11-15T00:00:00</Date>
+        <PenaltySum>100</PenaltySum>
+        <Paid>true</Paid>
+      </Violation>
+    </HistoryOfViolations>
+  </Violator>
+  <Violator>
+    <Id>4</Id>
+    <FamIO>Вассерман О.Э.</FamIO>
+    <HistoryOfViolations>
+      <Violation>
+        <Id>1</Id>
+        <CarModel>BMW</CarModel>
+        <ViolationType>Парковка в запрещенном месте</ViolationType>
+        <Date>2016-09-05T00:00:00</Date>
+        <PenaltySum>420</PenaltySum>
+        <Paid>true</Paid>
+      </Violation>
+    </HistoryOfViolations>
+  </Violator>
+  <Violator>
+    <Id>6</Id>
+    <FamIO>Карина Е.А.</FamIO>
+    <HistoryOfViolations>
+      <Violation>
+        <Id>1</Id>
+        <CarModel>Lohner-Porsche</CarModel>
+        <ViolationType>Разговор по мобильному телефону за рулем</ViolationType>
+        <Date>2016-11-12T00:00:00</Date>
+        <PenaltySum>250</PenaltySum>
+        <Paid>true</Paid>
+      </Violation>
+      <Violation>
+        <Id>2</Id>
+        <CarModel>Lohner-Porsche</CarModel>
+        <ViolationType>Не включил(а) поворотник</ViolationType>
+        <Date>2016-12-05T00:00:00</Date>
+        <PenaltySum>100</PenaltySum>
+        <Paid>true</Paid>
+      </Violation>
+    </HistoryOfViolations>
+  </Violator>
+  <Violator>
+    <Id>7</Id>
+    <FamIO>Петрович из 5-го отдела</FamIO>
+    <HistoryOfViolations>
+      <Violation>
+        <Id>1</Id>
+        <CarModel>Москвич</CarModel>
+        <ViolationType>Парковка в запрещенном месте</ViolationType>
+        <Date>2016-10-05T00:00:00</Date>
+        <PenaltySum>10</PenaltySum>
+        <Paid>true</Paid>
+      </Violation>
+    </HistoryOfViolations>
+  </Violator>
+  <Violator>
+    <Id>8</Id>
+    <FamIO>Самсон В.В.</FamIO>
+    <HistoryOfViolations>
+      <Violation>
+        <Id>1</Id>
+        <CarModel>УАЗ</CarModel>
+        <ViolationType>Езда по разделительной полосе</ViolationType>
+        <Date>2016-11-30T00:00:00</Date>
+        <PenaltySum>250</PenaltySum>
+        <Paid>true</Paid>
+      </Violation>
+    </HistoryOfViolations>
+  </Violator>
+  <Violator>
+    <Id>9</Id>
+    <FamIO>Усманаев Н.В.</FamIO>
+    <HistoryOfViolations>
+      <Violation>
+        <Id>1</Id>
+        <CarModel>Toyota</CarModel>
+        <ViolationType>Несоблюдение дистанции на дороге</ViolationType>
+        <Date>2016-12-07T00:00:00</Date>
+        <PenaltySum>320</PenaltySum>
+        <Paid>false</Paid>
+      </Violation>
+    </HistoryOfViolations>
+  </Violator>
+  <Violator>
+    <Id>10</Id>
+    <FamIO>Гейб Л. Н.</FamIO>
+    <HistoryOfViolations>
+      <Violation>
+        <Id>1</Id>
+        <CarModel>Steam-Car</CarModel>
+        <ViolationType>Обгон тихоходного транспортного средства</ViolationType>
+        <Date>2016-12-11T00:00:00</Date>
+        <PenaltySum>300</PenaltySum>
+        <Paid>true</Paid>
+      </Violation>
+      <Violation>
+        <Id>2</Id>
+        <CarModel>Steam-Car</CarModel>
+        <ViolationType>Внезапное изменение траектории движения на дороге</ViolationType>
+        <Date>2016-12-05T00:00:00</Date>
+        <PenaltySum>540</PenaltySum>
+        <Paid>true</Paid>
+      </Violation>
+      <Violation>
+        <Id>3</Id>
+        <CarModel>Steam-Car</CarModel>
+        <ViolationType>Не включил(а) поворотник</ViolationType>
+        <Date>2016-12-04T00:00:00</Date>
+        <PenaltySum>100</PenaltySum>
+        <Paid>true</Paid>
+      </Violation>
+      <Violation>
+        <Id>4</Id>
+        <CarModel>Steam-Car</CarModel>
+        <ViolationType>Парковка в запрещенном месте</ViolationType>
+        <Date>2016-11-18T00:00:00</Date>
+        <PenaltySum>250</PenaltySum>
+        <Paid>true</Paid>
+      </Violation>
+    </HistoryOfViolations>
+  </Violator>
+</ArrayOfViolator>

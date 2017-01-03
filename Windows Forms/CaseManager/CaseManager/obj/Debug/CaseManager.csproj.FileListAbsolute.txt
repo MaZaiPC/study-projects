@@ -1,0 +1,12 @@
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\CaseManager\CaseManager\bin\Debug\CaseManager.exe.config
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\CaseManager\CaseManager\bin\Debug\CaseManager.exe
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\CaseManager\CaseManager\bin\Debug\CaseManager.pdb
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\CaseManager\CaseManager\obj\Debug\CaseManager.csprojResolveAssemblyReference.cache
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\CaseManager\CaseManager\obj\Debug\MaZaiPC.CaseManager.WindowsForms.AboutForm.resources
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\CaseManager\CaseManager\obj\Debug\MaZaiPC.CaseManager.WindowsForms.HelperForm.resources
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\CaseManager\CaseManager\obj\Debug\MaZaiPC.CaseManager.WindowsForms.MainForm.resources
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\CaseManager\CaseManager\obj\Debug\MaZaiPC.CaseManager.Properties.Resources.resources
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\CaseManager\CaseManager\obj\Debug\MaZaiPC.CaseManager.WindowsForms.WorkerForm.resources
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\CaseManager\CaseManager\obj\Debug\CaseManager.csproj.GenerateResource.Cache
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\CaseManager\CaseManager\obj\Debug\CaseManager.exe
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\CaseManager\CaseManager\obj\Debug\CaseManager.pdb

@@ -1,0 +1,19 @@
+﻿
+html, body {
+    width: 1200px;   /* С€РёСЂРёРЅР° РѕР±Р»Р°СЃС‚Рё */
+    margin: 0 auto;  /* РІС‹СЂР°РІРЅРёРІР°РЅРёРµ РїРѕ С†РµРЅС‚СЂСѓ */
+}
+
+#wrapper {
+    margin:0 auto;
+    padding:15px 10px 0;
+}
+
+sub {
+    font-size: 11pt;
+}
+
+ul.none {
+    list-style-type: none;
+    padding-left: 0;
+}

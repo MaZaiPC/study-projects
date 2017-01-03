@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<ArrayOfStudent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Student>
+    <Id>1</Id>
+    <Surname>Петрова Н.Н.</Surname>
+    <Gender>Ж</Gender>
+    <BirthDate>1999-05-11T00:00:00</BirthDate>
+    <Course>1</Course>
+    <Group>ПСД 1-31</Group>
+    <Scholarship>true</Scholarship>
+  </Student>
+  <Student>
+    <Id>2</Id>
+    <Surname>Оладушкин Е.К.</Surname>
+    <Gender>М</Gender>
+    <BirthDate>2000-01-04T00:00:00</BirthDate>
+    <Course>1</Course>
+    <Group>ПСУ 1-31</Group>
+    <Scholarship>false</Scholarship>
+  </Student>
+  <Student>
+    <Id>3</Id>
+    <Surname>Бинчикова В.Ш.</Surname>
+    <Gender>Ж</Gender>
+    <BirthDate>2000-02-28T00:00:00</BirthDate>
+    <Course>1</Course>
+    <Scholarship>false</Scholarship>
+  </Student>
+</ArrayOfStudent>

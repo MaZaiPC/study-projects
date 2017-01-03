@@ -1,0 +1,6 @@
+D:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\Figures\Triangles\bin\Debug\Треугольники.exe.config
+D:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\Figures\Triangles\obj\Debug\Треугольники.exe
+D:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\Figures\Triangles\obj\Debug\Треугольники.pdb
+D:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\Figures\Triangles\bin\Debug\Треугольники.exe
+D:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\Figures\Triangles\bin\Debug\Треугольники.pdb
+D:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\Figures\Triangles\obj\Debug\Triangles.csprojResolveAssemblyReference.cache

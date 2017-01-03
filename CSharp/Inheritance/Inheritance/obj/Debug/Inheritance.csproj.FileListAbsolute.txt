@@ -1,0 +1,9 @@
+c:\users\андрей\documents\visual studio 2015\Projects\Inheritance\Inheritance\bin\Debug\Наследование.exe.config
+c:\users\андрей\documents\visual studio 2015\Projects\Inheritance\Inheritance\bin\Debug\Наследование.exe
+c:\users\андрей\documents\visual studio 2015\Projects\Inheritance\Inheritance\bin\Debug\Наследование.pdb
+c:\users\андрей\documents\visual studio 2015\Projects\Inheritance\Inheritance\obj\Debug\Inheritance.csprojResolveAssemblyReference.cache
+c:\users\андрей\documents\visual studio 2015\Projects\Inheritance\Inheritance\obj\Debug\Наследование.exe
+c:\users\андрей\documents\visual studio 2015\Projects\Inheritance\Inheritance\obj\Debug\Наследование.pdb
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\Inheritance\Inheritance\bin\Debug\Наследование.exe.config
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\Inheritance\Inheritance\obj\Debug\Наследование.exe
+N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\Inheritance\Inheritance\obj\Debug\Наследование.pdb

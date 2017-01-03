@@ -1,0 +1,6 @@
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\TextFilesEvents\TextFiles\bin\Debug\Обработка текстовых файлов.exe.config
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\TextFilesEvents\TextFiles\obj\Debug\TextFiles.csprojResolveAssemblyReference.cache
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\TextFilesEvents\TextFiles\bin\Debug\Обработка текстовых файлов.exe
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\TextFilesEvents\TextFiles\bin\Debug\Обработка текстовых файлов.pdb
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\TextFilesEvents\TextFiles\obj\Debug\Обработка текстовых файлов.exe
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\TextFilesEvents\TextFiles\obj\Debug\Обработка текстовых файлов.pdb

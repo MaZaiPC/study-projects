@@ -1,0 +1,4 @@
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\TextEditor\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\TextEditor\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\TextEditor\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\TextEditor\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

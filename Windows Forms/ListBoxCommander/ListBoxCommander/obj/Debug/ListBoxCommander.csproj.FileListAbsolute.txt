@@ -1,0 +1,12 @@
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\ListBoxControl\ListBoxControl\obj\Debug\ListBoxCommander.csproj.GenerateResource.Cache
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\ListBoxControl\ListBoxControl\bin\Debug\ListBoxCommander.exe.config
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\ListBoxControl\ListBoxControl\obj\Debug\MaZaiPC.ListBoxCommander.HelperForm.resources
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\ListBoxControl\ListBoxControl\obj\Debug\MaZaiPC.ListBoxCommander.MainForm.resources
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\ListBoxControl\ListBoxControl\obj\Debug\MaZaiPC.ListBoxCommander.Properties.Resources.resources
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\ListBoxControl\ListBoxControl\bin\Debug\ListBoxCommander.exe
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\ListBoxControl\ListBoxControl\bin\Debug\ListBoxCommander.pdb
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\ListBoxControl\ListBoxControl\obj\Debug\ListBoxCommander.exe
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\CaseManager\ListBoxControl\ListBoxControl\obj\Debug\ListBoxCommander.pdb
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\WindowsForms\ListBoxCommander\ListBoxCommander\bin\Debug\ListBoxCommander.exe.config
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\WindowsForms\ListBoxCommander\ListBoxCommander\obj\Debug\ListBoxCommander.exe
+H:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\WindowsForms\ListBoxCommander\ListBoxCommander\obj\Debug\ListBoxCommander.pdb

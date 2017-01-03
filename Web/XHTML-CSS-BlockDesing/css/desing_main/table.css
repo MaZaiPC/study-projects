@@ -1,0 +1,23 @@
+﻿table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left:3em;
+    border: 2px ridge #aeaeae;
+}
+
+td, th {
+    padding: 2px;
+    padding-left: 10px;
+    border: 2px ridge #a1a1a1;
+}
+
+thead {
+    background-color:#dff1fe;
+}
+
+caption {
+    text-align: left;
+    margin-left:-2em;
+    color:#555;
+    font-weight:bold;
+}

@@ -1,0 +1,35 @@
+﻿table.special {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+}
+.special th, .special td:first-child {
+    background-color: #41867c;
+    color: white;
+}
+.special th, .special td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    padding: 10px 20px;
+}
+.special td {
+    background-color: #b8dcdf;
+}
+.special th:first-child, .special td:first-child {
+    text-align: left;
+}
+
+.special th {
+    font-family: "Times New Roman", serif;
+    font-size: medium;
+}
+
+.th-left th {
+    text-align: left;
+}
+
+td.number {
+    text-align: right;
+}

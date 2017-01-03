@@ -1,0 +1,9 @@
+﻿
+/* Импорт требуемых таблиц стилей для сайта */
+
+@import 'desing_main/global.css'; /* Глобальные блоки */
+@import 'desing_main/hmenu.css';  /* Горизонтальное меню */
+@import 'desing_main/images.css'; /* Стили изображений */
+@import 'desing_main/links.css';  /* Стили ссылок */
+@import 'desing_main/text.css';   /* Стили текстовых элементов */
+@import 'desing_main/table.css';  /* Стили таблиц */
