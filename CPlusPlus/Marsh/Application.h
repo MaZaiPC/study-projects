@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "Marsh.h"
 
 class Application

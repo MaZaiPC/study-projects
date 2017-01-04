@@ -1,3 +1,31 @@
-O’;Ф}UЁ€Х™FЃ_{пp≈3”eљ© !Nl0фoзm]fє'Ч™эцъечсOТ5€,Ѓ1dLхwёљх(ь]5^Э}ѓ?,oЙcc5Cх*’RпK ™эЙлКmµїУ$Ж_їom±nB®дЭЬМs16f±ъ®_@ъЂcW%ЪЂхЉ]VнШk-ЦYl≥/.<)уWШ0м\б}€њѕыљЫ9ЇЉУ*®УЊ®fRШчх~–вўРІпуКїz„≈лs”„T€/ЏМyT[…иЛ[~gЦЛ÷~љ¶Ж)ь]ЇЋйт ™ѕYx“ш∆1SWъЫЩЋ≥aN}•’Ћў≥ЂFha$…*тC¬—ЃѓЄ«хЭТ"`TП≥…„І9цR≠F™пфGТ’Џ®сЉIѓµ0≠∞.Kжн…8Ќ9µkґ“ЊZ–и=ћ ж|+eжђЁЛGлЗх‘-пЙ?џкХ7"^ћХЮp„с‘ы|Dся^с{«W№<s±≈≤XґHџЈw3+МҐџ≈£Rq§ЋЌ№"±C6‘Ьi√€х6rEЛ"чnuв≠ЩfiубI£э|Ъёd≠ьбяџЄWNМY”_№§ИіѓОƒ©L
-urOU*—yЯг6,Ќ”w€ґџ{kѕ5≠eд}.ђ}лс€§eZҐЋіЂ/йyгU_с&ЫьWg$УЦ[ƒЂ^K%<0њY7q≥slЕяэOХ)Uр7юyЮ™£њ¶bjwзн+ъњюIrzjПF¶ґџuЉИЗЋы’N	zЅz©™€≈”т~b9цeН~V?≠ќыJъКЪТюbЮ≠ш ÷ыyYєЃќЗ»7њ7щ?ЌЩwƒ±ЗщGЦ Љзѕ…≈йлй—\Ы≤Ћ≥техJWн€¶~jNUґ7дщ,`гј•яy iR±,ёщyЕёкЯќ…hМЂћ€€≥ю‘ц,ю3ЭCИ^„«[4®yВ5Pя/|ЦFЁ7нЎЮ]v“K∆6їdFрҐwн$UA≥$эB√ЈМ†с‘€шЇёёzwo$ЙY©Ь%э\≈
-Ј(Пы$ъЉ*тќW{mС£ЖЯь^€ыф<лдrЧjэdь€ЏчеµlыЊ%ю¬Ћэ™>^_e†©W?«)хW,ўо[њћє.™J≠©'wџґ^г%°(UµrБЋ+?ч—zX/жЎЧE’÷v∆’цX0эЊЭ°п√~яO“зO‘ёs≥Џpпг≠зхЇнmоњk;¬ь>цЈ≠Ь;Яэ‘.Уё„O€€ы[ВЛюOv±Ј…љYџ1Ђ§jѓѓƒ~»"N
+#pragma once
+
+void init();
+void SetWindow(int Width, int Height, WORD Attrib = 0x1f);
+
+double Random(double a, double b);
+int Random(int a, int b);
+
+bool isLeap(WORD year);
+WORD LastDay(WORD month, WORD year);
+
+UINT getUINT(char *prompt, UINT min = 0, UINT max = UINT_MAX);
+
+
+// “ип данных - перечисление дл€ задани€ цвета в консоли
+enum CColor {
+	Black, Blue, Green, Cyan, Red, Magenta, Yellow, Grey, 
+	White, LtBlue, LtGreen, LtCyan, LtRed, LtMagenta, LtYellow, LtWhite
+};
+
+// ‘ункции дл€ управлени€ цветом в консоли
+void Color(char *color);
+void SetBkColor(CColor color = Black);
+void SetForeColor(CColor color = Grey);
+void Clear(char fill = ' ');
+void GotoXY(UINT x, UINT y);
+void WriteXY(UINT x, UINT y, char *text);
+
+// преобразование прописных (больших) букв в строчные (малые)
+char *StrLower(char *Str);
+

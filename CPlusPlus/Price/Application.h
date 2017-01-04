@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include "Price.h"
 
 class Application

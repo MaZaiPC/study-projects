@@ -1,5 +1,42 @@
-´ÈŞŒ'é=†a8ÏfIœ)`ş3ˆm­^Ì–ÜÔ4{–l³osxŞeI›OŒç23¨Ù¼ZcJ!¡ßV±txddÒb<Q!BUé‹{¶™;ÂÜÒÜƒ‹Õš«,Ï`cĞİ'l{¶FC\4#Ø_YRUËÍ~Ã\(O’u&ğ‘n6‘«bÙiıéÑ—f¤Æ¢3tË¹{ÆzÂMÔ×°Ä…^¡¶V}¶jÃ£bÍØ|)ëîj^b8yevQæV-¢ÌŞƒ­rÑ’½28d«‰c„ĞîNP+)Cë)]%IPX¿Œ`A¦B¾ Î'$
-<­¸ØšiÖ·mÄ‰e…“šM¬Hh¡¶EÈşdÇ[¸’·¨»œÉ³mk.%·¬’> ØZ*¼”lYZnÌæf´ÕEÜç6VJ‚^BF×î€—µ€­ß >Æ©Û¯N¥Á^—ˆÊYõŸ%x¦;ö"ØÚ=q4[YıĞ™%YÂ&E<ÛÕ’/U‡÷"o!
-}ÚÆuˆ€Q;Xïr”c1K}WÆ7±4E6'Í3{;"Éf±lZdZâè"ÓÂdK6édÃíÚá‹\6‡ëÑˆ[‡ŸÒÑÉ¸~v"ñ]s”ş99ügºIµ¾aZí“­OÜâÚsp®´æŸ¹¾	3mí¬Ï”~DSXÙ×œ‡½áe<êDûÕàËcZ‡İ‰Ô_ä¼8	Ë•€W&x÷²t	~ò§¬dbK{M…RJÆ'C¯…?³jìH‡,	òwX’ÔYÒÁI6F²[guJt›`H[FÚÖYG;bäg„ÕÛ¨EC/­ (yM™Âk^#F¼˜™Â¡‚‡–.²† RŠY,$~¸gÜ@‘™nfRXfŞûŒ)rèEkÁIV+±¯ò¬Ö}—İ‹óf#1fg÷5G9Û—Û/©”')ªÚR–å©òçÉGÄ#¬„N3ã£!îë©,¨z[¶tGzUZ¿!C¤m*vØœ¢XúYï…7@ ³7ÖğÛÆ®ša+¥­äDÖ4G:Æ®Âíjã>¢aˆºğ ŠPJÌMgµÍÖ³[„y½AAk
-ŠCDo
--jêzƒn á¾rI×Ü[9
+#include "stdafx.h"
+#include "Currency.h"
+
+/*----------------Abstractly Class Currency-----------------*/
+
+Currency::Currency() : cash()
+{
+}
+
+Currency::Currency(UINT unit, UINT cents) : cash(100*unit + cents)
+{
+}
+
+Currency::~Currency()
+{
+}
+
+istream &operator>>(istream &is, Currency &obj)
+{
+	return obj.Input(is);
+}
+
+ostream &operator>>(ostream &os, Currency &obj)
+{
+	return obj.Show(os);
+}
+
+/*----------------------Class Dollar------------------------*/
+
+ostream &Dollar::Show(ostream &os) const
+{
+	os << (cash / 100) << "." << setfill('0') << setw(2) << (cash % 100) << setfill(' ');
+	return os;
+}
+
+/*----------------------Class Euro------------------------*/
+
+ostream &Euro::Show(ostream &os) const
+{
+	os << (cash / 100) << "." << setfill('0') << setw(2) << (cash % 100) << setfill(' ');
+	return os;
+}
