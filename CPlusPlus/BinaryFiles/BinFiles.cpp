@@ -1,4 +1,4 @@
-#include "stdafx.h"
+п»ї#include "stdafx.h"
 #include "BinFiles.h"
 #include "Utils.h"
 
@@ -25,19 +25,19 @@ LPCSTR BinDB::GetFileName() {
 	return fileName;
 }
 
-// ГЛАВНЫЕ ФУНКЦИИ
+// Р“Р›РђР’РќР«Р• Р¤РЈРќРљР¦РР
 void BinDB::Read(LPCSTR section, WORD paramNumber, LPSTR defaultValue, LPSTR &returnWhere)
 {
 	FILE * fin;
 	fin = fopen(fileName, "rb");
 	RESULT finder = Find(section, paramNumber);
-	if (finder.state) // если вдруг секция и параметр созданы
+	if (finder.state) // РµСЃР»Рё РІРґСЂСѓРі СЃРµРєС†РёСЏ Рё РїР°СЂР°РјРµС‚СЂ СЃРѕР·РґР°РЅС‹
 	{
 		fseek(fin, finder.seek, SEEK_SET);
 		fscanf(fin, "%s", &returnWhere);
 		return;
 	} else {
-		cout << "\nПараметр #" << paramNumber << " в секции \"" << section << "\" не найден!\n"; 
+		cout << "\nРџР°СЂР°РјРµС‚СЂ #" << paramNumber << " РІ СЃРµРєС†РёРё \"" << section << "\" РЅРµ РЅР°Р№РґРµРЅ!\n"; 
 		returnWhere = defaultValue;
 	}
 	
@@ -49,13 +49,13 @@ void BinDB::Write(LPCSTR section, WORD paramNumber, LPCSTR string)
 	FILE * fout;
 	fout = fopen(fileName, "wb");
 	RESULT finder = Find(section, paramNumber);
-	if (finder.state) // если вдруг секция и параметр созданы
+	if (finder.state) // РµСЃР»Рё РІРґСЂСѓРі СЃРµРєС†РёСЏ Рё РїР°СЂР°РјРµС‚СЂ СЃРѕР·РґР°РЅС‹
 	{
 		fseek(fout, finder.seek, SEEK_SET);
 		fprintf(fout, "%d\n", string);
 		return;
 	}
-	if (finder.secState) // если вдруг секция уже создана а параметра еще нет
+	if (finder.secState) // РµСЃР»Рё РІРґСЂСѓРі СЃРµРєС†РёСЏ СѓР¶Рµ СЃРѕР·РґР°РЅР° Р° РїР°СЂР°РјРµС‚СЂР° РµС‰Рµ РЅРµС‚
 	{
 		fseek(fout, finder.secSeek, SEEK_SET);
 		int i = finder.secSeek;
@@ -70,7 +70,7 @@ void BinDB::Write(LPCSTR section, WORD paramNumber, LPCSTR string)
 		}
 		return;
 	}
-	fseek(fout, 0, SEEK_END);   // иначе запись в конец файла данных
+	fseek(fout, 0, SEEK_END);   // РёРЅР°С‡Рµ Р·Р°РїРёСЃСЊ РІ РєРѕРЅРµС† С„Р°Р№Р»Р° РґР°РЅРЅС‹С…
 	fclose(fout);
 }
 
@@ -80,12 +80,12 @@ BinDB::RESULT BinDB::Find(LPCSTR section, WORD what) const
 	RESULT result;
 	FILE * f;
 	f = fopen(fileName, "rb");
-	fseek(f, 0, SEEK_SET);   // в начало файла данных
+	fseek(f, 0, SEEK_SET);   // РІ РЅР°С‡Р°Р»Рѕ С„Р°Р№Р»Р° РґР°РЅРЅС‹С…
 	int i(0),j;
-	// Цикл - по записям в файле - линейный поиск 
+	// Р¦РёРєР» - РїРѕ Р·Р°РїРёСЃСЏРј РІ С„Р°Р№Р»Рµ - Р»РёРЅРµР№РЅС‹Р№ РїРѕРёСЃРє 
 	LPSTR str("");
 	LPSTR sec = (LPSTR)Format("%c%s", '{', section).c_str();
-	// находим секцию
+	// РЅР°С…РѕРґРёРј СЃРµРєС†РёСЋ
 	while (!feof(f)) {
 		i++;
 		if (fgets(str, 250, f) == sec)
@@ -96,25 +96,25 @@ BinDB::RESULT BinDB::Find(LPCSTR section, WORD what) const
 		}
 		
 	} // while i
-	fseek(f, i, SEEK_SET);   // начало секции данных
-	// находим параметр в секции
+	fseek(f, i, SEEK_SET);   // РЅР°С‡Р°Р»Рѕ СЃРµРєС†РёРё РґР°РЅРЅС‹С…
+	// РЅР°С…РѕРґРёРј РїР°СЂР°РјРµС‚СЂ РІ СЃРµРєС†РёРё
 	while (!feof(f)) {
 		i++;
 		fgets(str, 250, f);
 		
 		j = 0;
-		// Посимвольная проверка строки на наличие '}' (конца секции)
-		// пока не достигнут нуль-терминал (эта чатсть кода требует консультации)
+		// РџРѕСЃРёРјРІРѕР»СЊРЅР°СЏ РїСЂРѕРІРµСЂРєР° СЃС‚СЂРѕРєРё РЅР° РЅР°Р»РёС‡РёРµ '}' (РєРѕРЅС†Р° СЃРµРєС†РёРё)
+		// РїРѕРєР° РЅРµ РґРѕСЃС‚РёРіРЅСѓС‚ РЅСѓР»СЊ-С‚РµСЂРјРёРЅР°Р» (СЌС‚Р° С‡Р°С‚СЃС‚СЊ РєРѕРґР° С‚СЂРµР±СѓРµС‚ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё)
 		while (str[j] != '\0')
 		{
 			j++;
 			if (str[j] == '}')
 			{
-				goto _break; // выход из всех вложенных циклов
+				goto _break; // РІС‹С…РѕРґ РёР· РІСЃРµС… РІР»РѕР¶РµРЅРЅС‹С… С†РёРєР»РѕРІ
 			}
 		} // while j
 
-		// если параметр n найден успешно, то присваеваем полный результат
+		// РµСЃР»Рё РїР°СЂР°РјРµС‚СЂ n РЅР°Р№РґРµРЅ СѓСЃРїРµС€РЅРѕ, С‚Рѕ РїСЂРёСЃРІР°РµРІР°РµРј РїРѕР»РЅС‹Р№ СЂРµР·СѓР»СЊС‚Р°С‚
 		if (i == result.secSeek+what)
 		{
 			result.str = str;
@@ -124,9 +124,9 @@ BinDB::RESULT BinDB::Find(LPCSTR section, WORD what) const
 		} // if
 
 	} // while i
-_break:; // метка предназначеная для выхода из всех вложенных циклов,
-		 // можно было и с помощью булевых флагов, но так проделывается
-		 // в разы больше операций.
+_break:; // РјРµС‚РєР° РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅР°СЏ РґР»СЏ РІС‹С…РѕРґР° РёР· РІСЃРµС… РІР»РѕР¶РµРЅРЅС‹С… С†РёРєР»РѕРІ,
+		 // РјРѕР¶РЅРѕ Р±С‹Р»Рѕ Рё СЃ РїРѕРјРѕС‰СЊСЋ Р±СѓР»РµРІС‹С… С„Р»Р°РіРѕРІ, РЅРѕ С‚Р°Рє РїСЂРѕРґРµР»С‹РІР°РµС‚СЃСЏ
+		 // РІ СЂР°Р·С‹ Р±РѕР»СЊС€Рµ РѕРїРµСЂР°С†РёР№.
 
 	return result;
 }

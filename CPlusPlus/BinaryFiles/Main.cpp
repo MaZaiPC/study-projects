@@ -1,13 +1,13 @@
-// BinaryFilesLib.cpp: определяет точку входа для консольного приложения.
+п»ї// BinaryFilesLib.cpp: РѕРїСЂРµРґРµР»СЏРµС‚ С‚РѕС‡РєСѓ РІС…РѕРґР° РґР»СЏ РєРѕРЅСЃРѕР»СЊРЅРѕРіРѕ РїСЂРёР»РѕР¶РµРЅРёСЏ.
 //
 
 #include "stdafx.h"
 #include "BinFiles.h"
 #include "Utils.h"
 
-/* Для быстрой копипасты соорудил:
+/* Р”Р»СЏ Р±С‹СЃС‚СЂРѕР№ РєРѕРїРёРїР°СЃС‚С‹ СЃРѕРѕСЂСѓРґРёР»:
 
-// чтение всего файла
+// С‡С‚РµРЅРёРµ РІСЃРµРіРѕ С„Р°Р№Р»Р°
 void load(char* fileName, char* &to)
 {
 	FILE * fin;
@@ -18,7 +18,7 @@ void load(char* fileName, char* &to)
 	fclose(fin);
 }
 
-// запись строки в файл
+// Р·Р°РїРёСЃСЊ СЃС‚СЂРѕРєРё РІ С„Р°Р№Р»
 void write(char* fileName, char* &from)
 {
 	FILE * fout;
@@ -30,19 +30,19 @@ void write(char* fileName, char* &from)
 
 HANDLE h;
 
-int main() // тест работы класса BinDB
+int main() // С‚РµСЃС‚ СЂР°Р±РѕС‚С‹ РєР»Р°СЃСЃР° BinDB
 {
 	init();
-	BinDB f;					// создаем базу
-	f.SetFileName("test.bin");  // инициализируем
-	LPSTR output;				// переменная для хранения результата
+	BinDB f;					// СЃРѕР·РґР°РµРј Р±Р°Р·Сѓ
+	f.SetFileName("test.bin");  // РёРЅРёС†РёР°Р»РёР·РёСЂСѓРµРј
+	LPSTR output;				// РїРµСЂРµРјРµРЅРЅР°СЏ РґР»СЏ С…СЂР°РЅРµРЅРёСЏ СЂРµР·СѓР»СЊС‚Р°С‚Р°
 
-	//		Назв. секции, p№,  Value
+	//		РќР°Р·РІ. СЃРµРєС†РёРё, pв„–,  Value
 	f.Write("TestSection", 1, "Test String");
-	//	    Назв. секции, p№,  Default, куда записать значение
+	//	    РќР°Р·РІ. СЃРµРєС†РёРё, pв„–,  Default, РєСѓРґР° Р·Р°РїРёСЃР°С‚СЊ Р·РЅР°С‡РµРЅРёРµ
 	f.Read("TestSection", 1 ,  "NULL"  , output);
 
-	cout << "Param1 = " << output << endl; // вывод результата
+	cout << "Param1 = " << output << endl; // РІС‹РІРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚Р°
 	return 0;
 }
 

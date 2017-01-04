@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include "Receipt.h"
 
 class Application
@@ -22,11 +22,11 @@ public:
 
 	int numRecords();
 
-	// Элементы меню
+	// Р­Р»РµРјРµРЅС‚С‹ РјРµРЅСЋ
 	void Run();
 	void SubMenu();
 
-	// Операции с чеками
+	// РћРїРµСЂР°С†РёРё СЃ С‡РµРєР°РјРё
 	void rec_new();
 	void rec_load();
 	void rec_rename();
@@ -34,7 +34,7 @@ public:
 	void rec_delete();
 	void rec_add_gooide();
 
-	// Операции с товарами
+	// РћРїРµСЂР°С†РёРё СЃ С‚РѕРІР°СЂР°РјРё
 	void gooide_add();
 	void gooide_remove();
 

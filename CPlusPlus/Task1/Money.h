@@ -1,4 +1,4 @@
-#pragma once
+ï»¿#pragma once
 #include "stdafx.h"
 #include "Pair.h"
 
@@ -8,16 +8,16 @@ class Money : Pair
 	
 	static void repare(Money &what);
 public:
-	// Êîíñòðóêòîðû è äåñòðóêòîð
+	// ÐšÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€Ñ‹ Ð¸ Ð´ÐµÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€
 	Money();
 	Money(long, long);
 	~Money();
 
-	// Âèðòóàëüíûå ìåòîäû
-	virtual Money add(Money &obj) const; // Ñëîæåíèå
-	virtual Money mul(Money &obj) const; // Óìíîæåíèå
-	virtual Money sub(Money &obj) const; // Âû÷èòàíèå
-	virtual Money div(Money &obj) const; // Äåëåíèå
+	// Ð’Ð¸Ñ€Ñ‚ÑƒÐ°Ð»ÑŒÐ½Ñ‹Ðµ Ð¼ÐµÑ‚Ð¾Ð´Ñ‹
+	virtual Money add(Money &obj) const; // Ð¡Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ
+	virtual Money mul(Money &obj) const; // Ð£Ð¼Ð½Ð¾Ð¶ÐµÐ½Ð¸Ðµ
+	virtual Money sub(Money &obj) const; // Ð’Ñ‹Ñ‡Ð¸Ñ‚Ð°Ð½Ð¸Ðµ
+	virtual Money div(Money &obj) const; // Ð”ÐµÐ»ÐµÐ½Ð¸Ðµ
 
 	friend istream &operator >>(istream &is, Money &obj);
 	friend ostream &operator <<(ostream &os, const Money &obj);

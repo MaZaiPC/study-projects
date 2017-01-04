@@ -1,43 +1,43 @@
-#pragma once
+п»ї#pragma once
 #include "Goods.h"
 #include "Time.h"
 
 class Receipt
 {
-	UINT     number;  // Номер чека
-	UINT     size;    // Фактическое количество товаров в чеке
-	Time	 create;  // Дата и время создания чека
-	Goods    *goods;  // Указатель на массив товаров в чеке
+	UINT     number;  // РќРѕРјРµСЂ С‡РµРєР°
+	UINT     size;    // Р¤Р°РєС‚РёС‡РµСЃРєРѕРµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‚РѕРІР°СЂРѕРІ РІ С‡РµРєРµ
+	Time	 create;  // Р”Р°С‚Р° Рё РІСЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ С‡РµРєР°
+	Goods    *goods;  // РЈРєР°Р·Р°С‚РµР»СЊ РЅР° РјР°СЃСЃРёРІ С‚РѕРІР°СЂРѕРІ РІ С‡РµРєРµ
 
 public:
-	static UINT counter;      // текущее количество созданных чеков - счетчик чеков
-	static UINT makeNumber(); // создание номера чека
+	static UINT counter;      // С‚РµРєСѓС‰РµРµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃРѕР·РґР°РЅРЅС‹С… С‡РµРєРѕРІ - СЃС‡РµС‚С‡РёРє С‡РµРєРѕРІ
+	static UINT makeNumber(); // СЃРѕР·РґР°РЅРёРµ РЅРѕРјРµСЂР° С‡РµРєР°
 
-	Receipt();                          // Конструктор по умолчанию
-	Receipt(int number, Time &dt);  // Конструктор с параметрами
+	Receipt();                          // РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
+	Receipt(int number, Time &dt);  // РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ СЃ РїР°СЂР°РјРµС‚СЂР°РјРё
 	Receipt(const Goods &obj);          
-	Receipt(const Receipt &obj);        // Конструктор копирования                                              
-	~Receipt();                         // Деструктор
+	Receipt(const Receipt &obj);        // РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РєРѕРїРёСЂРѕРІР°РЅРёСЏ                                              
+	~Receipt();                         // Р”РµСЃС‚СЂСѓРєС‚РѕСЂ
 
-	// Геттеры
+	// Р“РµС‚С‚РµСЂС‹
 	int getNumber()  const { return number; }
 
-	// Сеттеры
+	// РЎРµС‚С‚РµСЂС‹
 	void setNumber(int what);
 
-	// Методы
-	void Init(int number, int day, int  month, int year, int h, int m, int s); // Инициализация присваивания начальных значений
-	bool operator-(UINT nIndex);	// Удаление товара из чека по индексу (nIndex) в массиве товаров goods 
-	bool Change(Goods &obj);		// Изменение товара в массиве товаров goods
-	Goods &Find(UINT code);			// Поиск товара по его коду
-	UINT Summa();					// Общая сумма покупки по чеку
+	// РњРµС‚РѕРґС‹
+	void Init(int number, int day, int  month, int year, int h, int m, int s); // РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РїСЂРёСЃРІР°РёРІР°РЅРёСЏ РЅР°С‡Р°Р»СЊРЅС‹С… Р·РЅР°С‡РµРЅРёР№
+	bool operator-(UINT nIndex);	// РЈРґР°Р»РµРЅРёРµ С‚РѕРІР°СЂР° РёР· С‡РµРєР° РїРѕ РёРЅРґРµРєСЃСѓ (nIndex) РІ РјР°СЃСЃРёРІРµ С‚РѕРІР°СЂРѕРІ goods 
+	bool Change(Goods &obj);		// РР·РјРµРЅРµРЅРёРµ С‚РѕРІР°СЂР° РІ РјР°СЃСЃРёРІРµ С‚РѕРІР°СЂРѕРІ goods
+	Goods &Find(UINT code);			// РџРѕРёСЃРє С‚РѕРІР°СЂР° РїРѕ РµРіРѕ РєРѕРґСѓ
+	UINT Summa();					// РћР±С‰Р°СЏ СЃСѓРјРјР° РїРѕРєСѓРїРєРё РїРѕ С‡РµРєСѓ
 
-	// Операции с файлами
+	// РћРїРµСЂР°С†РёРё СЃ С„Р°Р№Р»Р°РјРё
 	void Save(string filePath);
 	void Save(UINT gooideNum, string filePath);
 	void Load(UINT i, string recFilePath, string dbFilePath);
 
-	// Перегрузка операций вывода и ввода
+	// РџРµСЂРµРіСЂСѓР·РєР° РѕРїРµСЂР°С†РёР№ РІС‹РІРѕРґР° Рё РІРІРѕРґР°
 	friend ostream &operator<<(ostream &os, const Receipt &obj);
 	friend istream &operator>>(istream &is, Receipt &obj);
 };

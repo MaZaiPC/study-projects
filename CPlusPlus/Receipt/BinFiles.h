@@ -1,4 +1,4 @@
-#pragma once
+Ôªø#pragma once
 class BinDB
 {
 	string fileName;
@@ -6,22 +6,22 @@ public:
 	BinDB();
 	~BinDB();
 	
-	// Ã‡ÌËÔÛÎˇˆËË Ò ÍÓ‰ËÓ‚‡ÌËÂÏ
+	// –ú–∞–Ω–∏–ø—É–ª—è—Ü–∏–∏ —Å –∫–æ–¥–∏—Ä–æ–≤–∞–Ω–∏–µ–º
 	void Encode();
 	void Decode();
 
-	// √≈““≈–€ | —≈““≈–€
+	// –ì–ï–¢–¢–ï–†–´ | –°–ï–¢–¢–ï–†–´
 	void SetFileName(string name);
 	string GetFileName();
 
-	// √À¿¬Õ€≈ ‘”Õ ÷»»
+	// –ì–õ–ê–í–ù–´–ï –§–£–ù–ö–¶–ò–ò
 	void Read(LPCSTR section, LPCSTR paramName, LPCSTR defaultValue, LPSTR &returnWhere, DWORD nSize);
 	void Write(LPCSTR section, LPCSTR paramName, LPCSTR string);
 	
 
 
 
-	// œ≈–≈√–”« »
+	// –ü–ï–†–ï–ì–†–£–ó–ö–ò
 	void Read(LPCSTR section, LPCSTR paramName, int defaultValue, LPSTR &returnWhere, DWORD nSize);
 	void Read(LPCSTR section, LPCSTR paramName, double defaultValue, LPSTR &returnWhere, DWORD nSize);
 	void Read(string section, string paramName, int defaultValue, LPSTR &returnWhere, DWORD nSize);

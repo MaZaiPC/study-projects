@@ -1,19 +1,19 @@
-#include "stdafx.h"
+п»ї#include "stdafx.h"
 #include "Date.h"
 #include "Utils.h"
 
-// Конструкторы и деструктор
+// РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂС‹ Рё РґРµСЃС‚СЂСѓРєС‚РѕСЂ
 
 Date::Date(UINT yyyy = 1974, UINT mm = 11, UINT dd = 23)
 {
 	setDate(yyyy, mm, dd);
-	cout << "Конструктор" << endl;
+	cout << "РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ" << endl;
 }
 
 Date::Date(const Date &Date)
 {
 	setDate(Date.day, Date.month, Date.year);
-	cout << "Копирующий конструктор" << endl;
+	cout << "РљРѕРїРёСЂСѓСЋС‰РёР№ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ" << endl;
 }
 
 Date::~Date()
@@ -21,8 +21,8 @@ Date::~Date()
 
 }
 
-// МЕТОДЫ
-// Арифметические
+// РњР•РўРћР”Р«
+// РђСЂРёС„РјРµС‚РёС‡РµСЃРєРёРµ
 Date Date::add(UINT days)
 {
 	UINT a = toJDN();
@@ -40,7 +40,7 @@ Date Date::diff(Date x)
 	return a > b ? a - b : b - a;
 }
 
-// Логические
+// Р›РѕРіРёС‡РµСЃРєРёРµ
 bool Date::equal(Date x)
 {
 	UINT a = toJDN(year, month, day);
@@ -62,17 +62,17 @@ bool Date::less(Date x)
 	return a < b;
 }
 
-// Проверяет дату на корректность.
+// РџСЂРѕРІРµСЂСЏРµС‚ РґР°С‚Сѓ РЅР° РєРѕСЂСЂРµРєС‚РЅРѕСЃС‚СЊ.
 bool Date::IsValidDate(UINT day, UINT month, UINT year) {
 	return day > 0 && month > 0 && month < 13 && year > 0;
 }
 
-// Проверяет является ли год високосным.
+// РџСЂРѕРІРµСЂСЏРµС‚ СЏРІР»СЏРµС‚СЃСЏ Р»Рё РіРѕРґ РІРёСЃРѕРєРѕСЃРЅС‹Рј.
 bool Date::IsLeapYear(UINT year) {
 	return (year % 100 == 0) ? (year % 400 == 0) : (year % 4 == 0);
 }
 
-// Геттеры и Сеттеры
+// Р“РµС‚С‚РµСЂС‹ Рё РЎРµС‚С‚РµСЂС‹
 UINT Date::getDay() {
 	return day;
 }
@@ -97,7 +97,7 @@ void Date::setYear(UINT year) {
 	this->year = year;
 }
 
-void Date::setDate(UINT day, UINT month, UINT year) { // setDate - Альтернативное название для Init
+void Date::setDate(UINT day, UINT month, UINT year) { // setDate - РђР»СЊС‚РµСЂРЅР°С‚РёРІРЅРѕРµ РЅР°Р·РІР°РЅРёРµ РґР»СЏ Init
 	if (IsValidDate(day, month, year))
 	{
 		setDay(day); setMonth(month); setYear(year);
@@ -114,7 +114,7 @@ void Date::coutDate() {
 		<< year << endl;
 }
 
-// Конвертеры
+// РљРѕРЅРІРµСЂС‚РµСЂС‹
 UINT Date::toJDN()
 {
 	return toJDN(day, month, year);
@@ -151,7 +151,7 @@ Date Date::toGD(UINT JDN)
 	return t;
 }
 
-//Инициализация.
+//РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ.
 void Date::Init()
 {
 	Init(1974, 2015);

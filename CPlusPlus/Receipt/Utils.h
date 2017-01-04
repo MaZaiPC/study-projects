@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include "stdafx.h"
 
 void init();
@@ -15,28 +15,28 @@ UINT getUINT(char *prompt, UINT min = 0, UINT max = UINT_MAX);
 
 void Wrap(int n);
 
-// Тип данных - перечисление для задания цвета в консоли
+// РўРёРї РґР°РЅРЅС‹С… - РїРµСЂРµС‡РёСЃР»РµРЅРёРµ РґР»СЏ Р·Р°РґР°РЅРёСЏ С†РІРµС‚Р° РІ РєРѕРЅСЃРѕР»Рё
 enum CColor {
 	Black, Blue, Green, Cyan, Red, Magenta, Yellow, Grey, 
 	White, LtBlue, LtGreen, LtCyan, LtRed, LtMagenta, LtYellow, LtWhite
 };
 
-// Функции для управления цветом в консоли
+// Р¤СѓРЅРєС†РёРё РґР»СЏ СѓРїСЂР°РІР»РµРЅРёСЏ С†РІРµС‚РѕРј РІ РєРѕРЅСЃРѕР»Рё
 void Color(char *color);
 void SetBkColor(CColor color = Black);
 void SetForeColor(CColor color = Grey);
 void Clear(char fill = ' ');
 
-// Функции управления консольным курсором
+// Р¤СѓРЅРєС†РёРё СѓРїСЂР°РІР»РµРЅРёСЏ РєРѕРЅСЃРѕР»СЊРЅС‹Рј РєСѓСЂСЃРѕСЂРѕРј
 void GotoXY(UINT x, UINT y);
 void WriteXY(UINT x, UINT y, char *text);
 void WriteXY(UINT x, UINT y, string text);
 COORD WhereXY();
 
-// Заголовки/цветной текст
+// Р—Р°РіРѕР»РѕРІРєРё/С†РІРµС‚РЅРѕР№ С‚РµРєСЃС‚
 
-// Перегрузки
-// Если параметр border не по умолчанию (!0), так же можно указать количество пробелов после границы.
+// РџРµСЂРµРіСЂСѓР·РєРё
+// Р•СЃР»Рё РїР°СЂР°РјРµС‚СЂ border РЅРµ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ (!0), С‚Р°Рє Р¶Рµ РјРѕР¶РЅРѕ СѓРєР°Р·Р°С‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ РїСЂРѕР±РµР»РѕРІ РїРѕСЃР»Рµ РіСЂР°РЅРёС†С‹.
 void tMark(char* text, int border, WORD wp);
 void tMark(char* text, int border, CColor sClr, WORD wp);
 void tMark(char* text, CColor sClr, CColor eClr);
@@ -45,21 +45,21 @@ void tMark(string text, int border, WORD wp);
 void tMark(string text, int border, CColor sClr, WORD wp);
 void tMark(string text, CColor sClr, CColor eClr);
 void tMark(string text, CColor sClr);
-// Полные параметры
+// РџРѕР»РЅС‹Рµ РїР°СЂР°РјРµС‚СЂС‹
 void tMark(char* text, int border = 1, CColor sClr = LtYellow, CColor eClr = LtWhite, WORD wp = 0);
 void tMark(string text, int border = 1, CColor sClr = LtYellow, CColor eClr = LtWhite, WORD wp = 0);
-// Где:
-// border - Граница-украшение (как правило для стилизации заголовка)
-// sClr и eClr - Начальный и конечный цвет текста (конечный - временная мера, чтобы выставить первоначальный цвет текста)
-// wp - количество отступов после границы
+// Р“РґРµ:
+// border - Р“СЂР°РЅРёС†Р°-СѓРєСЂР°С€РµРЅРёРµ (РєР°Рє РїСЂР°РІРёР»Рѕ РґР»СЏ СЃС‚РёР»РёР·Р°С†РёРё Р·Р°РіРѕР»РѕРІРєР°)
+// sClr Рё eClr - РќР°С‡Р°Р»СЊРЅС‹Р№ Рё РєРѕРЅРµС‡РЅС‹Р№ С†РІРµС‚ С‚РµРєСЃС‚Р° (РєРѕРЅРµС‡РЅС‹Р№ - РІСЂРµРјРµРЅРЅР°СЏ РјРµСЂР°, С‡С‚РѕР±С‹ РІС‹СЃС‚Р°РІРёС‚СЊ РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅС‹Р№ С†РІРµС‚ С‚РµРєСЃС‚Р°)
+// wp - РєРѕР»РёС‡РµСЃС‚РІРѕ РѕС‚СЃС‚СѓРїРѕРІ РїРѕСЃР»Рµ РіСЂР°РЅРёС†С‹
 
-// преобразование прописных (больших) букв в строчные (малые)
+// РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ РїСЂРѕРїРёСЃРЅС‹С… (Р±РѕР»СЊС€РёС…) Р±СѓРєРІ РІ СЃС‚СЂРѕС‡РЅС‹Рµ (РјР°Р»С‹Рµ)
 char *StrLower(char *Str);
 char *StrUpper(char *Str);
 char *StrInvert(char *Str);
 char *StrUpperFirst(char *Str);
 
-// Преобразование в string
-// Пример использования:
+// РџСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ РІ string
+// РџСЂРёРјРµСЂ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ:
 // std::string str = Format( "%d", sum );
 string Format(const char* frmt, ...);

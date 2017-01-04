@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 
 class Date
 {
@@ -6,34 +6,34 @@ class Date
 	UINT month;
 	UINT day;
 
-	// Методы:
-	// Конвертеры
+	// РњРµС‚РѕРґС‹:
+	// РљРѕРЅРІРµСЂС‚РµСЂС‹
 	UINT toJDN();
 	UINT toJDN(Date x);
 	UINT toJDN(UINT day, UINT month, UINT year);
 	Date toGD(UINT JDN);
 
-	// Логические
+	// Р›РѕРіРёС‡РµСЃРєРёРµ
 	bool IsValidDate(UINT day, UINT month, UINT year);
 public:
-	// Конструкторы и деструктор
+	// РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂС‹ Рё РґРµСЃС‚СЂСѓРєС‚РѕСЂ
 	Date(UINT yyyy = 1974, UINT mm = 11, UINT dd = 23);
 	Date(const Date &Date);
 	~Date();
 
-	// Методы:
-	// Арифметические
-	Date add(UINT days); // Сложение
-	Date sub(UINT days); // Вычитание
-	Date diff(Date x);  // разница между датами
+	// РњРµС‚РѕРґС‹:
+	// РђСЂРёС„РјРµС‚РёС‡РµСЃРєРёРµ
+	Date add(UINT days); // РЎР»РѕР¶РµРЅРёРµ
+	Date sub(UINT days); // Р’С‹С‡РёС‚Р°РЅРёРµ
+	Date diff(Date x);  // СЂР°Р·РЅРёС†Р° РјРµР¶РґСѓ РґР°С‚Р°РјРё
 
-	// Логические
-	bool equal(Date x);        // Равно?
-	bool greate(Date x);       // Больше?
-	bool less(Date x);         // Меньше?
-	bool IsLeapYear(UINT year); // Високосный?
+	// Р›РѕРіРёС‡РµСЃРєРёРµ
+	bool equal(Date x);        // Р Р°РІРЅРѕ?
+	bool greate(Date x);       // Р‘РѕР»СЊС€Рµ?
+	bool less(Date x);         // РњРµРЅСЊС€Рµ?
+	bool IsLeapYear(UINT year); // Р’РёСЃРѕРєРѕСЃРЅС‹Р№?
 
-	// Геттеры и Сеттеры
+	// Р“РµС‚С‚РµСЂС‹ Рё РЎРµС‚С‚РµСЂС‹
 	UINT getDay();
 	UINT getMonth();
 	UINT getYear();
@@ -43,7 +43,7 @@ public:
 	void setDate(UINT day, UINT month, UINT year);
 	void coutDate();
 
-	// Инициализация
+	// РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ
 	void Init();
 	void Init(int a, int b);
 };

@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "Rational.h"
 
 Rational::Rational()
@@ -59,7 +59,7 @@ Rational Rational::div(Rational &x) const
     s.reduce();
     return s;
 }
-// Нахождение НОДа
+// РќР°С…РѕР¶РґРµРЅРёРµ РќРћР”Р°
 static int NOD(const int& a1,const int& b1)
 {
     int a = abs(a1), b = abs(b1);
@@ -71,7 +71,7 @@ static int NOD(const int& a1,const int& b1)
     }
     return a+b;
 }
-// Сокращение дроби
+// РЎРѕРєСЂР°С‰РµРЅРёРµ РґСЂРѕР±Рё
 void Rational::reduce()
 {
     int nod = NOD(a,b);
@@ -79,7 +79,7 @@ void Rational::reduce()
     b = b/nod;
 }
 
-// Операция ввода
+// РћРїРµСЂР°С†РёСЏ РІРІРѕРґР°
 istream &operator >>(istream &is, Rational &obj)
 {
 	int x, y;
@@ -92,7 +92,7 @@ istream &operator >>(istream &is, Rational &obj)
 } // operator>>
 
 
-// Перегрузка операции вывода
+// РџРµСЂРµРіСЂСѓР·РєР° РѕРїРµСЂР°С†РёРё РІС‹РІРѕРґР°
 ostream &operator <<(ostream &os, const Rational &obj)
 {
 	if (obj.b == obj.a)

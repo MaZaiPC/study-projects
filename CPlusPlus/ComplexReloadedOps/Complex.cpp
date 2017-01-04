@@ -1,4 +1,4 @@
-#include "stdafx.h"
+п»ї#include "stdafx.h"
 #include "Complex.h"
 
 Complex Complex::operator +(const Complex &c){
@@ -42,7 +42,7 @@ void Complex::Init(double a, double b)
 	this->b = b;
 }
 
-// Операция ввода
+// РћРїРµСЂР°С†РёСЏ РІРІРѕРґР°
 istream &operator >>(istream &is, Complex &obj)
 {
 	int x, y;
@@ -54,7 +54,7 @@ istream &operator >>(istream &is, Complex &obj)
 } // operator>>
 
 
-// Перегрузка операции вывода
+// РџРµСЂРµРіСЂСѓР·РєР° РѕРїРµСЂР°С†РёРё РІС‹РІРѕРґР°
 ostream &operator <<(ostream &os, const Complex &obj)
 {
 	if (obj.b >= 0)

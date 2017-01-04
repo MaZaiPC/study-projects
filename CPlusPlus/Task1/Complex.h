@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include "Pair.h"
 
 class Complex : Pair
@@ -11,8 +11,8 @@ public:
 	Complex() : a(), b() {}
 	Complex(double x,double y) : a(x), b(y) {}
 
-	virtual Complex add(Complex &obj) const; // Сложение
-    virtual Complex mul(Complex &obj) const; // Умножение
-    virtual Complex sub(Complex &obj) const; // Вычитание
-    virtual Complex div(Complex &obj) const; // Деление
+	virtual Complex add(Complex &obj) const; // РЎР»РѕР¶РµРЅРёРµ
+    virtual Complex mul(Complex &obj) const; // РЈРјРЅРѕР¶РµРЅРёРµ
+    virtual Complex sub(Complex &obj) const; // Р’С‹С‡РёС‚Р°РЅРёРµ
+    virtual Complex div(Complex &obj) const; // Р”РµР»РµРЅРёРµ
 };

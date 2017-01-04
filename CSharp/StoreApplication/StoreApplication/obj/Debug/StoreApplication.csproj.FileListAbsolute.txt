@@ -1,9 +1,9 @@
-N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\StoreApplication\MarshManager\bin\Debug\Магазин товаров.exe.config
-N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\StoreApplication\MarshManager\bin\Debug\Магазин товаров.exe
-N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\StoreApplication\MarshManager\bin\Debug\Магазин товаров.pdb
-N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\StoreApplication\MarshManager\obj\Debug\StoreApplication.csprojResolveAssemblyReference.cache
-N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\StoreApplication\MarshManager\obj\Debug\Магазин товаров.exe
-N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\StoreApplication\MarshManager\obj\Debug\Магазин товаров.pdb
-N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\StoreApplication\StoreApplication\bin\Debug\Магазин товаров.exe.config
-N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\StoreApplication\StoreApplication\obj\Debug\Магазин товаров.exe
-N:\Общее\Шаг\Урок\Основы програмирования\ООП\Домашние задания\C#\StoreApplication\StoreApplication\obj\Debug\Магазин товаров.pdb
+﻿N:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\StoreApplication\MarshManager\bin\Debug\РњР°РіР°Р·РёРЅ С‚РѕРІР°СЂРѕРІ.exe.config
+N:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\StoreApplication\MarshManager\bin\Debug\РњР°РіР°Р·РёРЅ С‚РѕРІР°СЂРѕРІ.exe
+N:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\StoreApplication\MarshManager\bin\Debug\РњР°РіР°Р·РёРЅ С‚РѕРІР°СЂРѕРІ.pdb
+N:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\StoreApplication\MarshManager\obj\Debug\StoreApplication.csprojResolveAssemblyReference.cache
+N:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\StoreApplication\MarshManager\obj\Debug\РњР°РіР°Р·РёРЅ С‚РѕРІР°СЂРѕРІ.exe
+N:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\StoreApplication\MarshManager\obj\Debug\РњР°РіР°Р·РёРЅ С‚РѕРІР°СЂРѕРІ.pdb
+N:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\StoreApplication\StoreApplication\bin\Debug\РњР°РіР°Р·РёРЅ С‚РѕРІР°СЂРѕРІ.exe.config
+N:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\StoreApplication\StoreApplication\obj\Debug\РњР°РіР°Р·РёРЅ С‚РѕРІР°СЂРѕРІ.exe
+N:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\StoreApplication\StoreApplication\obj\Debug\РњР°РіР°Р·РёРЅ С‚РѕРІР°СЂРѕРІ.pdb

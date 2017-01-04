@@ -1,19 +1,19 @@
-#include "stdafx.h"
+п»ї#include "stdafx.h"
 #include "Time.h"
 #include "Utils.h"
 
-// Конструкторы и деструктор
+// РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂС‹ Рё РґРµСЃС‚СЂСѓРєС‚РѕСЂ
 
 Time::Time(WORD hh = 0, WORD mm = 0, WORD ss = 0) 
 {
 	setTime(hh, mm, ss);
-	cout<<"Конструктор"<<endl;
+	cout<<"РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ"<<endl;
 }
  
 Time::Time(const Time &time) 
 {
 	setTime(time.hour, time.minute, time.second);
-	cout<<"Копирующий конструктор"<<endl;
+	cout<<"РљРѕРїРёСЂСѓСЋС‰РёР№ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ"<<endl;
 }
  
 Time::~Time()
@@ -21,8 +21,8 @@ Time::~Time()
     
 }
 
-// МЕТОДЫ
-// Арифметические
+// РњР•РўРћР”Р«
+// РђСЂРёС„РјРµС‚РёС‡РµСЃРєРёРµ
 void Time::add(WORD hh, WORD mm, WORD ss)
 {
 	WORD a = TimeToSec(hour,minute,second);
@@ -46,7 +46,7 @@ Time Time::diff(Time x)
 	return a > b ? a-b : b-a;
 }
 
-// Логические
+// Р›РѕРіРёС‡РµСЃРєРёРµ
 bool Time::equal(Time x)
 {
 	WORD a = TimeToSec(hour,minute,second);
@@ -68,12 +68,12 @@ bool Time::less(Time x)
 	return a < b;
 }
 
-// Проверяет время на корректность.
+// РџСЂРѕРІРµСЂСЏРµС‚ РІСЂРµРјСЏ РЅР° РєРѕСЂСЂРµРєС‚РЅРѕСЃС‚СЊ.
 bool Time::IsValidTime(WORD hour, WORD minute, WORD second) {
 	return second >= 0 && second <= 60 && minute >= 0 && minute <= 60 && hour >= 0 && hour <= 24;
 }
 
-// Геттеры и Сеттеры
+// Р“РµС‚С‚РµСЂС‹ Рё РЎРµС‚С‚РµСЂС‹
 WORD Time::getHour() {
 	return hour;
 }
@@ -98,7 +98,7 @@ void Time::setSecond(WORD second) {
 	this->second = second;
 }
  
-void Time::setTime(WORD hour, WORD minute, WORD second) { // setTime - Альтернативное название для Init
+void Time::setTime(WORD hour, WORD minute, WORD second) { // setTime - РђР»СЊС‚РµСЂРЅР°С‚РёРІРЅРѕРµ РЅР°Р·РІР°РЅРёРµ РґР»СЏ Init
 	if (IsValidTime(hour, minute, second))
 		{ setHour(hour); setMinute(minute); setSecond(second); }
 	else
@@ -111,13 +111,13 @@ void Time::coutTime() {
 		 << second;
 }
 
-// Конвертеры
+// РљРѕРЅРІРµСЂС‚РµСЂС‹
 WORD Time::TimeToSec()
 {
 	return (hour*3600)+(minute*60)+second;
 }
 
-// Функция вычисляет наибольшее простое кратное числа.
+// Р¤СѓРЅРєС†РёСЏ РІС‹С‡РёСЃР»СЏРµС‚ РЅР°РёР±РѕР»СЊС€РµРµ РїСЂРѕСЃС‚РѕРµ РєСЂР°С‚РЅРѕРµ С‡РёСЃР»Р°.
 int Time::NPK(int numb,int mult)
 {
 	int f;
@@ -139,7 +139,7 @@ Time Time::SecToTime(WORD secs)
 	return t;
 }
 
-//Инициализация.
+//РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ.
 void Time::Init()
 {
 	Init(0, 24);

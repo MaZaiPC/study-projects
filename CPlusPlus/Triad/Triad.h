@@ -1,48 +1,48 @@
-#pragma once
+п»ї#pragma once
 #include "stdafx.h"
 
 class Triad
 {
 protected:
 	/*
-	по идее раз класс хранит всего 3 переменные числа,
-	а в задаче не указан тип переменной, то пусть будет
-	int как база. Будь чуть больше времени, можно было бы
-	придумать что то типа динамического изменение типа
-	переменной aka:
+	РїРѕ РёРґРµРµ СЂР°Р· РєР»Р°СЃСЃ С…СЂР°РЅРёС‚ РІСЃРµРіРѕ 3 РїРµСЂРµРјРµРЅРЅС‹Рµ С‡РёСЃР»Р°,
+	Р° РІ Р·Р°РґР°С‡Рµ РЅРµ СѓРєР°Р·Р°РЅ С‚РёРї РїРµСЂРµРјРµРЅРЅРѕР№, С‚Рѕ РїСѓСЃС‚СЊ Р±СѓРґРµС‚
+	int РєР°Рє Р±Р°Р·Р°. Р‘СѓРґСЊ С‡СѓС‚СЊ Р±РѕР»СЊС€Рµ РІСЂРµРјРµРЅРё, РјРѕР¶РЅРѕ Р±С‹Р»Рѕ Р±С‹
+	РїСЂРёРґСѓРјР°С‚СЊ С‡С‚Рѕ С‚Рѕ С‚РёРїР° РґРёРЅР°РјРёС‡РµСЃРєРѕРіРѕ РёР·РјРµРЅРµРЅРёРµ С‚РёРїР°
+	РїРµСЂРµРјРµРЅРЅРѕР№ aka:
 
-	//объявление
+	//РѕР±СЉСЏРІР»РµРЅРёРµ
 	void *data = (void *)(new int);
 
-	//задание значения
+	//Р·Р°РґР°РЅРёРµ Р·РЅР°С‡РµРЅРёСЏ
 	data = (void *)(new WORD);
 	*(UINT *)data = 1.2;
 
 	data = (void *)(new WORD);
 	*(WORD *)data = 1.2;
 
-	//чтение значения
+	//С‡С‚РµРЅРёРµ Р·РЅР°С‡РµРЅРёСЏ
 	x = *(UINT *)data;
 	y = *(WORD *)data;
-	*/// P.S. - с таким вариантом пока не разобрался,
-	  // пока пусть будет int
+	*/// P.S. - СЃ С‚Р°РєРёРј РІР°СЂРёР°РЅС‚РѕРј РїРѕРєР° РЅРµ СЂР°Р·РѕР±СЂР°Р»СЃСЏ,
+	  // РїРѕРєР° РїСѓСЃС‚СЊ Р±СѓРґРµС‚ int
 	int a, b, c;
 public:
-	// конструкторы и деструктор
+	// РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂС‹ Рё РґРµСЃС‚СЂСѓРєС‚РѕСЂ
 	Triad();
 	Triad(WORD a, WORD b, WORD c);
 	Triad(const Triad &obj);
 	~Triad();
 
-	// перегрузка постфиксной формы инкремента
+	// РїРµСЂРµРіСЂСѓР·РєР° РїРѕСЃС‚С„РёРєСЃРЅРѕР№ С„РѕСЂРјС‹ РёРЅРєСЂРµРјРµРЅС‚Р°
 	Triad operator++();
 
-	// перегрузка операций сравнения
+	// РїРµСЂРµРіСЂСѓР·РєР° РѕРїРµСЂР°С†РёР№ СЃСЂР°РІРЅРµРЅРёСЏ
 	bool operator ==(const Triad &obj);
 	bool operator <(const Triad &obj);
 	bool operator >(const Triad &obj);
 
-	// перегрузка оператора присваивания
+	// РїРµСЂРµРіСЂСѓР·РєР° РѕРїРµСЂР°С‚РѕСЂР° РїСЂРёСЃРІР°РёРІР°РЅРёСЏ
     const Triad& operator =(const Triad &obj){
 		a = obj.a;
 		b = obj.b;
@@ -50,16 +50,16 @@ public:
         return *this;
     }
 
-	// перегрузка потоковых операций
+	// РїРµСЂРµРіСЂСѓР·РєР° РїРѕС‚РѕРєРѕРІС‹С… РѕРїРµСЂР°С†РёР№
 	friend ostream &operator<<(ostream &os, const Triad &obj);
 };
 
 class Time : Triad
 {
-	// Здесь ссылки реализуют модель синонимов
+	// Р—РґРµСЃСЊ СЃСЃС‹Р»РєРё СЂРµР°Р»РёР·СѓСЋС‚ РјРѕРґРµР»СЊ СЃРёРЅРѕРЅРёРјРѕРІ
 	int &h = a, &m = b, &s = c;
 public:
-	// конструкторы и деструктор
+	// РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂС‹ Рё РґРµСЃС‚СЂСѓРєС‚РѕСЂ
 	Time();
 	Time(WORD hour, WORD minute, WORD second);
 	Time(const Time &obj);
@@ -67,12 +67,12 @@ public:
 
 	void init(WORD hour, WORD minute, WORD second);
 
-	// Геттеры
+	// Р“РµС‚С‚РµСЂС‹
 	WORD get_H() const { return h; }
 	WORD get_M() const { return m; }
 	WORD get_S() const { return s; }
 
-	// Сеттеры 
+	// РЎРµС‚С‚РµСЂС‹ 
 	void set_H(WORD h);
 	void set_M(WORD m);
 	void set_S(WORD s);
@@ -80,29 +80,29 @@ public:
 	bool operator <(const Time &obj);
 	bool operator >(const Time &obj);
 
-	// перегрузка потоковых операций
+	// РїРµСЂРµРіСЂСѓР·РєР° РїРѕС‚РѕРєРѕРІС‹С… РѕРїРµСЂР°С†РёР№
 	friend ostream &operator<<(ostream &os, const Time &obj);
 	friend istream &operator>>(istream &is, Time &obj);
 };
 
 class Date : Triad
 {
-	int &year = a, &month = b, &day = c; // установка синонимов
-	UINT to_JDN() const;  // конвертация в юлианские дни
-	Date to_GD(UINT JDN); // конвертация в григорианскую дату
+	int &year = a, &month = b, &day = c; // СѓСЃС‚Р°РЅРѕРІРєР° СЃРёРЅРѕРЅРёРјРѕРІ
+	UINT to_JDN() const;  // РєРѕРЅРІРµСЂС‚Р°С†РёСЏ РІ СЋР»РёР°РЅСЃРєРёРµ РґРЅРё
+	Date to_GD(UINT JDN); // РєРѕРЅРІРµСЂС‚Р°С†РёСЏ РІ РіСЂРёРіРѕСЂРёР°РЅСЃРєСѓСЋ РґР°С‚Сѓ
 public:
-	// конструкторы и деструктор
+	// РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂС‹ Рё РґРµСЃС‚СЂСѓРєС‚РѕСЂ
 	Date();
 	Date(UINT y, UINT m, UINT d);
 	Date(const Date &obj);
 	~Date() {}
 
-	// Геттеры
+	// Р“РµС‚С‚РµСЂС‹
 	UINT get_year() const { return year; }
 	UINT get_month() const { return month; }
 	UINT get_day() const { return day; }
 
-	// Сеттеры
+	// РЎРµС‚С‚РµСЂС‹
 	void set_year(UINT y) { year = y; }
 	void set_month(UINT m);
 	void set_day(UINT d);
@@ -110,13 +110,13 @@ public:
 	void init(UINT year, UINT month, UINT day);
 
 	Date operator+(const UINT &days);
-	// перегрузка постфиксной формы инкремента
+	// РїРµСЂРµРіСЂСѓР·РєР° РїРѕСЃС‚С„РёРєСЃРЅРѕР№ С„РѕСЂРјС‹ РёРЅРєСЂРµРјРµРЅС‚Р°
 	Date operator++();
 
 	bool operator <(const Date &obj);
 	bool operator >(const Date &obj);
 
-	// перегрузка потоковых операций
+	// РїРµСЂРµРіСЂСѓР·РєР° РїРѕС‚РѕРєРѕРІС‹С… РѕРїРµСЂР°С†РёР№
 	friend ostream &operator<<(ostream &os, const Date &obj);
 	friend istream &operator>>(istream &is, Date &obj);
 };

@@ -1,4 +1,4 @@
-#pragma once
+ï»¿#pragma once
 
 class Goods
 {
@@ -12,34 +12,34 @@ public:
 	static const UINT LEN_PRICE;
 	static const UINT LEN_COUNT;
 
-	// Êîíñòðóêòîðû è äåñòðóêòîð
+	// ÐšÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€Ñ‹ Ð¸ Ð´ÐµÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€
 	Goods();
-	Goods(int code); // ìîæíî ïðèäóìàòü ìíîæåñòâî âàðèàíòîâ ïåðåãðóæåííûõ êîíñòðóêòîðîâ
+	Goods(int code); // Ð¼Ð¾Ð¶Ð½Ð¾ Ð¿Ñ€Ð¸Ð´ÑƒÐ¼Ð°Ñ‚ÑŒ Ð¼Ð½Ð¾Ð¶ÐµÑÑ‚Ð²Ð¾ Ð²Ð°Ñ€Ð¸Ð°Ð½Ñ‚Ð¾Ð² Ð¿ÐµÑ€ÐµÐ³Ñ€ÑƒÐ¶ÐµÐ½Ð½Ñ‹Ñ… ÐºÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€Ð¾Ð²
 	~Goods();
 
-	// Ïåðåãðóçêè îïåðàòîðîâ
+	// ÐŸÐµÑ€ÐµÐ³Ñ€ÑƒÐ·ÐºÐ¸ Ð¾Ð¿ÐµÑ€Ð°Ñ‚Ð¾Ñ€Ð¾Ð²
 	friend istream &operator >>(istream &is, Goods &obj);
 	friend ostream &operator <<(ostream &os, Goods &obj);
 	const Goods& operator =(const Goods &c);
 	
-	// Ãåòòåðû
+	// Ð“ÐµÑ‚Ñ‚ÐµÑ€Ñ‹
 	int getCode() { return code; }
 	int getPrice() { return price; }
 	int getCount() { return count; }
 	string getName() { return name; }
 	int getSum();
 
-	// Ñåòòåðû
+	// Ð¡ÐµÑ‚Ñ‚ÐµÑ€Ñ‹
 	void setCode(UINT code);
 	void setPrice(UINT price);
 	void setCount(UINT count);
 	void setName(string name);
 
-	// Îïåðàöèè ñ ôàéëàìè
+	// ÐžÐ¿ÐµÑ€Ð°Ñ†Ð¸Ð¸ Ñ Ñ„Ð°Ð¹Ð»Ð°Ð¼Ð¸
 	void Save(string filePath);
 	void Load(UINT i, string filePath);
 
-	// Ìåòîäû
+	// ÐœÐµÑ‚Ð¾Ð´Ñ‹
 	void Randomize();
 	void Randomize(Goods *exclude, int N);
 };

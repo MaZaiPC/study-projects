@@ -1,12 +1,12 @@
-#include "stdafx.h"
+п»ї#include "stdafx.h"
 #include "Receipt.h"
 #include "Utils.h"
 #include "Goods.h"
 
-UINT Receipt::counter = 0;  // начальное значение счетчика чеков
+UINT Receipt::counter = 0;  // РЅР°С‡Р°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ СЃС‡РµС‚С‡РёРєР° С‡РµРєРѕРІ
 
 
-// Формирование номера чека в формате YYMMDDNNNN
+// Р¤РѕСЂРјРёСЂРѕРІР°РЅРёРµ РЅРѕРјРµСЂР° С‡РµРєР° РІ С„РѕСЂРјР°С‚Рµ YYMMDDNNNN
 UINT Receipt::makeNumber()
 {
 	SYSTEMTIME st;
@@ -15,7 +15,7 @@ UINT Receipt::makeNumber()
 } // Receipt::makeNumber
 
 
-// Receipt::Receipt: Конструктор по умолчанию
+// Receipt::Receipt: РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
 Receipt::Receipt() : number(makeNumber()), size(1), create(), goods(new Goods[size])
 { 
 	counter++;

@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include "stdafx.h"
 
 void init(string head);
@@ -13,24 +13,24 @@ WORD LastDay(WORD month, WORD year);
 UINT getUINT(char *prompt, UINT min = 0, UINT max = UINT_MAX);
 
 
-// Тип данных - перечисление для задания цвета в консоли
+// РўРёРї РґР°РЅРЅС‹С… - РїРµСЂРµС‡РёСЃР»РµРЅРёРµ РґР»СЏ Р·Р°РґР°РЅРёСЏ С†РІРµС‚Р° РІ РєРѕРЅСЃРѕР»Рё
 enum CColor {
 	Black, Blue, Green, Cyan, Red, Magenta, Yellow, Grey, 
 	White, LtBlue, LtGreen, LtCyan, LtRed, LtMagenta, LtYellow, LtWhite
 };
 
-// Функции для управления цветом в консоли
+// Р¤СѓРЅРєС†РёРё РґР»СЏ СѓРїСЂР°РІР»РµРЅРёСЏ С†РІРµС‚РѕРј РІ РєРѕРЅСЃРѕР»Рё
 void Color(char *color);
 void SetBkColor(CColor color = Black);
 void SetForeColor(CColor color = Grey);
 void Clear(char fill = ' ');
 void GotoXY(UINT x, UINT y);
 void WriteXY(UINT x, UINT y, char *text);
-// ‡аголовки/–ветной текст
+// вЂЎР°РіРѕР»РѕРІРєРё/вЂ“РІРµС‚РЅРѕР№ С‚РµРєСЃС‚
 void h1(string text, CColor sClr = Yellow, CColor eClr = White);
 void h2(string text, CColor sClr = Yellow, CColor eClr = White);
 void h3(string text, CColor sClr = Yellow, CColor eClr = White);
 
-// преобразование прописных (больших) букв в строчные (малые)
+// РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ РїСЂРѕРїРёСЃРЅС‹С… (Р±РѕР»СЊС€РёС…) Р±СѓРєРІ РІ СЃС‚СЂРѕС‡РЅС‹Рµ (РјР°Р»С‹Рµ)
 char *StrLower(char *Str);
 

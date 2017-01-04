@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include "stdafx.h"
 
 class Account 
@@ -14,12 +14,12 @@ public:
 	
 	~Account();
 	
-	// Методы
+	// РњРµС‚РѕРґС‹
     void Input(); 
     void Show();  
-    void Chown(); // смена владельца 
-    void Pull_of(); // снять сумму 
-    void Put(); // положить 
+    void Chown(); // СЃРјРµРЅР° РІР»Р°РґРµР»СЊС†Р° 
+    void Pull_of(); // СЃРЅСЏС‚СЊ СЃСѓРјРјСѓ 
+    void Put(); // РїРѕР»РѕР¶РёС‚СЊ 
     void Per(); 
     void Change(); 
     void Propis();

@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include "Complex.h"
 #include "Rational.h"
 #include "Fraction.h"
@@ -9,12 +9,12 @@ class Application
 	Pair *pPair;
 
 public:
-	Application();      // Конструктор по умолчанию
-	~Application();     // Деструктор
+	Application();      // РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
+	~Application();     // Р”РµСЃС‚СЂСѓРєС‚РѕСЂ
 
-	void run();           // Главный метод для работы
-	void testComplex();   // Тестирование класса Complex
-	void testRational();   // Тестирование класса Rational
+	void run();           // Р“Р»Р°РІРЅС‹Р№ РјРµС‚РѕРґ РґР»СЏ СЂР°Р±РѕС‚С‹
+	void testComplex();   // РўРµСЃС‚РёСЂРѕРІР°РЅРёРµ РєР»Р°СЃСЃР° Complex
+	void testRational();   // РўРµСЃС‚РёСЂРѕРІР°РЅРёРµ РєР»Р°СЃСЃР° Rational
 
 }; // Application
 

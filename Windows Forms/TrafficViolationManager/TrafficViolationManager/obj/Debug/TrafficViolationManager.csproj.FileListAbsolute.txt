@@ -1,15 +1,15 @@
-X:\.Шаг\C# - Windows Forms\Домашние задания\Итоговая работа\TrafficViolationManager\TrafficViolationManager\bin\Debug\TrafficViolationManager.exe.config
-X:\.Шаг\C# - Windows Forms\Домашние задания\Итоговая работа\TrafficViolationManager\TrafficViolationManager\bin\Debug\TrafficViolationManager.exe
-X:\.Шаг\C# - Windows Forms\Домашние задания\Итоговая работа\TrafficViolationManager\TrafficViolationManager\bin\Debug\TrafficViolationManager.pdb
-X:\.Шаг\C# - Windows Forms\Домашние задания\Итоговая работа\TrafficViolationManager\TrafficViolationManager\obj\Debug\TrafficViolationManager.csproj.GenerateResource.Cache
-X:\.Шаг\C# - Windows Forms\Домашние задания\Итоговая работа\TrafficViolationManager\TrafficViolationManager\obj\Debug\TrafficViolationManager.exe
-X:\.Шаг\C# - Windows Forms\Домашние задания\Итоговая работа\TrafficViolationManager\TrafficViolationManager\obj\Debug\TrafficViolationManager.pdb
-X:\.Шаг\C# - Windows Forms\Домашние задания\Итоговая работа\TrafficViolationManager\TrafficViolationManager\obj\Debug\MaZaiPC.TrafficViolationManager.LauncherForm.resources
-X:\.Шаг\C# - Windows Forms\Домашние задания\Итоговая работа\TrafficViolationManager\TrafficViolationManager\obj\Debug\MaZaiPC.TrafficViolationManager.MainForm.resources
-X:\.Шаг\C# - Windows Forms\Домашние задания\Итоговая работа\TrafficViolationManager\TrafficViolationManager\obj\Debug\MaZaiPC.TrafficViolationManager.Properties.Resources.resources
-X:\.Шаг\C# - Windows Forms\Домашние задания\Итоговая работа\TrafficViolationManager\TrafficViolationManager\obj\Debug\MaZaiPC.TrafficViolationManager.Properties.Strings.resources
-X:\.Шаг\C# - Windows Forms\Домашние задания\Итоговая работа\TrafficViolationManager\TrafficViolationManager\obj\Debug\MaZaiPC.TrafficViolationManager.AboutForm.resources
-X:\.Шаг\C# - Windows Forms\Домашние задания\Итоговая работа\TrafficViolationManager\TrafficViolationManager\obj\Debug\TrafficViolationManager.csprojResolveAssemblyReference.cache
-X:\.Шаг\C# - Windows Forms\Домашние задания\Итоговая работа\TrafficViolationManager — backup\TrafficViolationManager\bin\Debug\TrafficViolationManager.exe.config
-X:\.Шаг\C# - Windows Forms\Домашние задания\Итоговая работа\TrafficViolationManager — backup\TrafficViolationManager\obj\Debug\TrafficViolationManager.exe
-X:\.Шаг\C# - Windows Forms\Домашние задания\Итоговая работа\TrafficViolationManager — backup\TrafficViolationManager\obj\Debug\TrafficViolationManager.pdb
+﻿X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\РС‚РѕРіРѕРІР°СЏ СЂР°Р±РѕС‚Р°\TrafficViolationManager\TrafficViolationManager\bin\Debug\TrafficViolationManager.exe.config
+X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\РС‚РѕРіРѕРІР°СЏ СЂР°Р±РѕС‚Р°\TrafficViolationManager\TrafficViolationManager\bin\Debug\TrafficViolationManager.exe
+X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\РС‚РѕРіРѕРІР°СЏ СЂР°Р±РѕС‚Р°\TrafficViolationManager\TrafficViolationManager\bin\Debug\TrafficViolationManager.pdb
+X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\РС‚РѕРіРѕРІР°СЏ СЂР°Р±РѕС‚Р°\TrafficViolationManager\TrafficViolationManager\obj\Debug\TrafficViolationManager.csproj.GenerateResource.Cache
+X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\РС‚РѕРіРѕРІР°СЏ СЂР°Р±РѕС‚Р°\TrafficViolationManager\TrafficViolationManager\obj\Debug\TrafficViolationManager.exe
+X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\РС‚РѕРіРѕРІР°СЏ СЂР°Р±РѕС‚Р°\TrafficViolationManager\TrafficViolationManager\obj\Debug\TrafficViolationManager.pdb
+X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\РС‚РѕРіРѕРІР°СЏ СЂР°Р±РѕС‚Р°\TrafficViolationManager\TrafficViolationManager\obj\Debug\MaZaiPC.TrafficViolationManager.LauncherForm.resources
+X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\РС‚РѕРіРѕРІР°СЏ СЂР°Р±РѕС‚Р°\TrafficViolationManager\TrafficViolationManager\obj\Debug\MaZaiPC.TrafficViolationManager.MainForm.resources
+X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\РС‚РѕРіРѕРІР°СЏ СЂР°Р±РѕС‚Р°\TrafficViolationManager\TrafficViolationManager\obj\Debug\MaZaiPC.TrafficViolationManager.Properties.Resources.resources
+X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\РС‚РѕРіРѕРІР°СЏ СЂР°Р±РѕС‚Р°\TrafficViolationManager\TrafficViolationManager\obj\Debug\MaZaiPC.TrafficViolationManager.Properties.Strings.resources
+X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\РС‚РѕРіРѕРІР°СЏ СЂР°Р±РѕС‚Р°\TrafficViolationManager\TrafficViolationManager\obj\Debug\MaZaiPC.TrafficViolationManager.AboutForm.resources
+X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\РС‚РѕРіРѕРІР°СЏ СЂР°Р±РѕС‚Р°\TrafficViolationManager\TrafficViolationManager\obj\Debug\TrafficViolationManager.csprojResolveAssemblyReference.cache
+X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\РС‚РѕРіРѕРІР°СЏ СЂР°Р±РѕС‚Р°\TrafficViolationManager вЂ” backup\TrafficViolationManager\bin\Debug\TrafficViolationManager.exe.config
+X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\РС‚РѕРіРѕРІР°СЏ СЂР°Р±РѕС‚Р°\TrafficViolationManager вЂ” backup\TrafficViolationManager\obj\Debug\TrafficViolationManager.exe
+X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\РС‚РѕРіРѕРІР°СЏ СЂР°Р±РѕС‚Р°\TrafficViolationManager вЂ” backup\TrafficViolationManager\obj\Debug\TrafficViolationManager.pdb

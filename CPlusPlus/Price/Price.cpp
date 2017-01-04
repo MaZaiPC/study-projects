@@ -1,4 +1,4 @@
-#include "stdafx.h"
+п»ї#include "stdafx.h"
 #include "Price.h"
 #include "Utils.h"
 
@@ -27,7 +27,7 @@ Price::~Price()
 {
 }
 
-// Сеттеры
+// РЎРµС‚С‚РµСЂС‹
 void Price::setPrice(double pr)
 {
 	price = pr;
@@ -37,14 +37,14 @@ void Price::setName(string nm)
 	name = nm;
 }
 
-// Методы
+// РњРµС‚РѕРґС‹
 void Price::Input(UINT n)
 {
-	string tmp = Format("Добавление товара №%u", n);
+	string tmp = Format("Р”РѕР±Р°РІР»РµРЅРёРµ С‚РѕРІР°СЂР° в„–%u", n);
 	tMark(tmp, 1);
 	COORD Pos[3];
-	cout << "\nНазвание товара\t:> ";	Pos[0] = WhereXY();
-	cout << "\nСтоимость\t:> ";		Pos[1] = WhereXY(); cout << "\t\tруб.";
+	cout << "\nРќР°Р·РІР°РЅРёРµ С‚РѕРІР°СЂР°\t:> ";	Pos[0] = WhereXY();
+	cout << "\nРЎС‚РѕРёРјРѕСЃС‚СЊ\t:> ";		Pos[1] = WhereXY(); cout << "\t\tСЂСѓР±.";
 
 	GotoXY(Pos[0].X, Pos[0].Y); getline(cin, name); getline(cin, name);
 	GotoXY(Pos[1].X, Pos[1].Y); cin >> price;
@@ -52,15 +52,15 @@ void Price::Input(UINT n)
 
 void Price::Show(UINT n)
 {
-	string tmp = Format("Товар №%u", n);
+	string tmp = Format("РўРѕРІР°СЂ в„–%u", n);
 	tMark(tmp, 1);
-	cout << "\nНазвание товара: " << name << endl;
-	cout << "Стоимость: " << price << " руб." << "\n\n";
+	cout << "\nРќР°Р·РІР°РЅРёРµ С‚РѕРІР°СЂР°: " << name << endl;
+	cout << "РЎС‚РѕРёРјРѕСЃС‚СЊ: " << price << " СЂСѓР±." << "\n\n";
 }
 
 void Price::Randomize()
 {	
-	string goods[] = { "Lenovo B590", "LG Optimus L90 Dual", "Джинсы Lacoste HH179LNTWT40", "HP EliteBook 850 G2", "Журнальный стол Comfy Home Mateo", "Внутренний фильтр AquaEl Pat Mini", "Видеокарта Asus PCI-Ex GeForce GTX 980 Matrix 4GB", "Logitech Ultimate Ears 400vi", "Logitech Ultimate Ears 600vi", "Тепловентилятор", "Фотокамера Cannon", "Lenovo Tab 2", "Galaxy S6 Edge+", "Книга", "Тетрадь", "Диск DVD-R", "Диск DVD-RW", "Logitech Keyboard", "GTA V - PC", "AWP Asimov" };
+	string goods[] = { "Lenovo B590", "LG Optimus L90 Dual", "Р”Р¶РёРЅСЃС‹ Lacoste HH179LNTWT40", "HP EliteBook 850 G2", "Р–СѓСЂРЅР°Р»СЊРЅС‹Р№ СЃС‚РѕР» Comfy Home Mateo", "Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РёР»СЊС‚СЂ AquaEl Pat Mini", "Р’РёРґРµРѕРєР°СЂС‚Р° Asus PCI-Ex GeForce GTX 980 Matrix 4GB", "Logitech Ultimate Ears 400vi", "Logitech Ultimate Ears 600vi", "РўРµРїР»РѕРІРµРЅС‚РёР»СЏС‚РѕСЂ", "Р¤РѕС‚РѕРєР°РјРµСЂР° Cannon", "Lenovo Tab 2", "Galaxy S6 Edge+", "РљРЅРёРіР°", "РўРµС‚СЂР°РґСЊ", "Р”РёСЃРє DVD-R", "Р”РёСЃРє DVD-RW", "Logitech Keyboard", "GTA V - PC", "AWP Asimov" };
 	double cost[] =  {	8199,		  3199,					  1836,							 30294,					1333,								236,								 18337,												  599,							  1455,							  233,				 8999,				  2249,			  23999,			 250,	  22,		 25,		   26,			  249,				   3399,		 1740		 };
 	WORD c = Random(1, 19);
 
@@ -68,7 +68,7 @@ void Price::Randomize()
 	price = cost[c];
 }
 
-// Метод для записи в файл полей класса 
+// РњРµС‚РѕРґ РґР»СЏ Р·Р°РїРёСЃРё РІ С„Р°Р№Р» РїРѕР»РµР№ РєР»Р°СЃСЃР° 
 int Price::Save(FILE * f, bool append)
 {
 	int cc;
@@ -83,7 +83,7 @@ int Price::Save(FILE * f, bool append)
 } // Train::Save
 
 
-// Метод для чтения из файла полей класса 
+// РњРµС‚РѕРґ РґР»СЏ С‡С‚РµРЅРёСЏ РёР· С„Р°Р№Р»Р° РїРѕР»РµР№ РєР»Р°СЃСЃР° 
 int Price::Load(FILE * f)
 {
 	fread(&name, LEN_NAME, 1, f);

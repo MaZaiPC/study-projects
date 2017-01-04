@@ -1,13 +1,13 @@
-#include "stdafx.h"
+п»ї#include "stdafx.h"
 #include "Utils.h"
 
 extern HANDLE h;
 
-// внутренняя глобальная переменная для хранения атрибута знакоместа
+// РІРЅСѓС‚СЂРµРЅРЅСЏСЏ РіР»РѕР±Р°Р»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РґР»СЏ С…СЂР°РЅРµРЅРёСЏ Р°С‚СЂРёР±СѓС‚Р° Р·РЅР°РєРѕРјРµСЃС‚Р°
 WORD wColor = Black << 4 | Grey;
 
 
-// Подготовка приложения к работе
+// РџРѕРґРіРѕС‚РѕРІРєР° РїСЂРёР»РѕР¶РµРЅРёСЏ Рє СЂР°Р±РѕС‚Рµ
 void init() 
 {
 	SetConsoleOutputCP(1251);
@@ -22,40 +22,40 @@ void init()
 	cfi.cbSize       = sizeof cfi;
 	cfi.nFont        = 0;
 	cfi.dwFontSize.X = 0;
-	cfi.dwFontSize.Y = 20;  // размер шрифта в пунктах
+	cfi.dwFontSize.Y = 20;  // СЂР°Р·РјРµСЂ С€СЂРёС„С‚Р° РІ РїСѓРЅРєС‚Р°С…
 	cfi.FontFamily   = FF_DONTCARE;
 	cfi.FontWeight   = FW_NORMAL /* FW_BOLD */;
 	wcscpy_s(cfi.FaceName, L"Consolas");
 	SetCurrentConsoleFontEx(h, FALSE, &cfi);
 
-	// Установить заголовок окна консоли
-	// Текст заголовка - в кодировке UNICODE
-	// L"текст" или _T("текст")
-	SetConsoleTitle(_T("ООП: Лаптев В.В., задача 32. Банковский аккаунт."));
+	// РЈСЃС‚Р°РЅРѕРІРёС‚СЊ Р·Р°РіРѕР»РѕРІРѕРє РѕРєРЅР° РєРѕРЅСЃРѕР»Рё
+	// РўРµРєСЃС‚ Р·Р°РіРѕР»РѕРІРєР° - РІ РєРѕРґРёСЂРѕРІРєРµ UNICODE
+	// L"С‚РµРєСЃС‚" РёР»Рё _T("С‚РµРєСЃС‚")
+	SetConsoleTitle(_T("РћРћРџ: Р›Р°РїС‚РµРІ Р’.Р’., Р·Р°РґР°С‡Р° 32. Р‘Р°РЅРєРѕРІСЃРєРёР№ Р°РєРєР°СѓРЅС‚."));
 
-	// Установить размер окна консоли
+	// РЈСЃС‚Р°РЅРѕРІРёС‚СЊ СЂР°Р·РјРµСЂ РѕРєРЅР° РєРѕРЅСЃРѕР»Рё
 	SetWindow(80, 25);
 } // init
 
 
-// Установить размер окна консоли, размеры буфера консоли, цвет консоли
+// РЈСЃС‚Р°РЅРѕРІРёС‚СЊ СЂР°Р·РјРµСЂ РѕРєРЅР° РєРѕРЅСЃРѕР»Рё, СЂР°Р·РјРµСЂС‹ Р±СѓС„РµСЂР° РєРѕРЅСЃРѕР»Рё, С†РІРµС‚ РєРѕРЅСЃРѕР»Рё
 void SetWindow(int Width, int Height, WORD Color)
 {
-	// Параметры буфера консоли
+	// РџР°СЂР°РјРµС‚СЂС‹ Р±СѓС„РµСЂР° РєРѕРЅСЃРѕР»Рё
 	COORD coord;
-	coord.X = Width;   // ширина
-	coord.Y = 300;     // высота буфера по умолчанию
+	coord.X = Width;   // С€РёСЂРёРЅР°
+	coord.Y = 300;     // РІС‹СЃРѕС‚Р° Р±СѓС„РµСЂР° РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
 
-	SMALL_RECT Rect;   // Размеры окна консоли - прямоугольник
+	SMALL_RECT Rect;   // Р Р°Р·РјРµСЂС‹ РѕРєРЅР° РєРѕРЅСЃРѕР»Рё - РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРє
 	Rect.Top = 0;
 	Rect.Left = 0;
-	Rect.Bottom = Height - 1;   // высота окна
-	Rect.Right = Width - 1;     // ширина окна
+	Rect.Bottom = Height - 1;   // РІС‹СЃРѕС‚Р° РѕРєРЅР°
+	Rect.Right = Width - 1;     // С€РёСЂРёРЅР° РѕРєРЅР°
 
-	SetConsoleScreenBufferSize(h, coord);  // Установить размер буфера консоли
-	SetConsoleWindowInfo(h, TRUE, &Rect);  // Установить размер окна консоли
+	SetConsoleScreenBufferSize(h, coord);  // РЈСЃС‚Р°РЅРѕРІРёС‚СЊ СЂР°Р·РјРµСЂ Р±СѓС„РµСЂР° РєРѕРЅСЃРѕР»Рё
+	SetConsoleWindowInfo(h, TRUE, &Rect);  // РЈСЃС‚Р°РЅРѕРІРёС‚СЊ СЂР°Р·РјРµСЂ РѕРєРЅР° РєРѕРЅСЃРѕР»Рё
 
-	// Установить цвет окна консоли
+	// РЈСЃС‚Р°РЅРѕРІРёС‚СЊ С†РІРµС‚ РѕРєРЅР° РєРѕРЅСЃРѕР»Рё
 	wColor = Color;
 	SetConsoleTextAttribute(h, wColor);
 
@@ -103,25 +103,25 @@ UINT getUINT(char *prompt, UINT min, UINT max)
 		cout << prompt;
 		cin >> x;
 		
-		// Проверка корректности типа ввода
+		// РџСЂРѕРІРµСЂРєР° РєРѕСЂСЂРµРєС‚РЅРѕСЃС‚Рё С‚РёРїР° РІРІРѕРґР°
 		if (cin.fail()) {
-			cin.clear();   // сброс ошибки ввода для потока
+			cin.clear();   // СЃР±СЂРѕСЃ РѕС€РёР±РєРё РІРІРѕРґР° РґР»СЏ РїРѕС‚РѕРєР°
 			cin.ignore();  // ???
-			cerr << "\nОШИБКА: Вводите число, не символы.\n\n";
-			_flushall();   // очистка буфера ввода
+			cerr << "\nРћРЁРР‘РљРђ: Р’РІРѕРґРёС‚Рµ С‡РёСЃР»Рѕ, РЅРµ СЃРёРјРІРѕР»С‹.\n\n";
+			_flushall();   // РѕС‡РёСЃС‚РєР° Р±СѓС„РµСЂР° РІРІРѕРґР°
 			continue;
 		} // if
 
-		// Если число не принадлежит диапазону допустимых значений,
-		// сообщить об ошибке и повторить ввод
+		// Р•СЃР»Рё С‡РёСЃР»Рѕ РЅРµ РїСЂРёРЅР°РґР»РµР¶РёС‚ РґРёР°РїР°Р·РѕРЅСѓ РґРѕРїСѓСЃС‚РёРјС‹С… Р·РЅР°С‡РµРЅРёР№,
+		// СЃРѕРѕР±С‰РёС‚СЊ РѕР± РѕС€РёР±РєРµ Рё РїРѕРІС‚РѕСЂРёС‚СЊ РІРІРѕРґ
 		if (x < min || x > max) {
-			cerr << "\nОШИБКА: число должно быть в диапазоне от "
-				<< min << " до " << max << ".\n\n";
+			cerr << "\nРћРЁРР‘РљРђ: С‡РёСЃР»Рѕ РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ РІ РґРёР°РїР°Р·РѕРЅРµ РѕС‚ "
+				<< min << " РґРѕ " << max << ".\n\n";
 			continue;
 		} // if
 
-		// Если оказались тут - число в корректном диапазоне
-		// выполним сброс буфера ввода - почистим все символы после команды
+		// Р•СЃР»Рё РѕРєР°Р·Р°Р»РёСЃСЊ С‚СѓС‚ - С‡РёСЃР»Рѕ РІ РєРѕСЂСЂРµРєС‚РЅРѕРј РґРёР°РїР°Р·РѕРЅРµ
+		// РІС‹РїРѕР»РЅРёРј СЃР±СЂРѕСЃ Р±СѓС„РµСЂР° РІРІРѕРґР° - РїРѕС‡РёСЃС‚РёРј РІСЃРµ СЃРёРјРІРѕР»С‹ РїРѕСЃР»Рµ РєРѕРјР°РЅРґС‹
 		_flushall();
 		break;
 	} // while
@@ -132,31 +132,31 @@ UINT getUINT(char *prompt, UINT min, UINT max)
 
 
 
-// Функция для управления цветом в консоли
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ СѓРїСЂР°РІР»РµРЅРёСЏ С†РІРµС‚РѕРј РІ РєРѕРЅСЃРѕР»Рё
 void Color(char *color)
 {
-	// Все это будет на синем фоне
-	const WORD BLACK = BACKGROUND_BLUE;		// Черный
-	const WORD BLUE = FOREGROUND_BLUE + FOREGROUND_INTENSITY + BACKGROUND_BLUE;						// Синий
-	const WORD GREEN = FOREGROUND_GREEN + FOREGROUND_INTENSITY + BACKGROUND_BLUE;					// Зеленый
-	const WORD CYAN = FOREGROUND_GREEN + FOREGROUND_BLUE + FOREGROUND_INTENSITY + BACKGROUND_BLUE;	// Голубой
-	const WORD RED = FOREGROUND_RED + FOREGROUND_INTENSITY + BACKGROUND_BLUE;						// Красный
-	const WORD PURPLE = FOREGROUND_RED + FOREGROUND_BLUE + FOREGROUND_INTENSITY + BACKGROUND_BLUE;	// Лиловый, фиолетовый
-	const WORD YELLOW = FOREGROUND_RED + FOREGROUND_GREEN + FOREGROUND_INTENSITY + BACKGROUND_BLUE;	// Желтый
-	const WORD WHITE = FOREGROUND_RED + FOREGROUND_GREEN + FOREGROUND_BLUE + FOREGROUND_INTENSITY + BACKGROUND_BLUE;	// Белый
-	const WORD GRAY = FOREGROUND_RED + FOREGROUND_GREEN + FOREGROUND_BLUE + BACKGROUND_BLUE;		// Серый
+	// Р’СЃРµ СЌС‚Рѕ Р±СѓРґРµС‚ РЅР° СЃРёРЅРµРј С„РѕРЅРµ
+	const WORD BLACK = BACKGROUND_BLUE;		// Р§РµСЂРЅС‹Р№
+	const WORD BLUE = FOREGROUND_BLUE + FOREGROUND_INTENSITY + BACKGROUND_BLUE;						// РЎРёРЅРёР№
+	const WORD GREEN = FOREGROUND_GREEN + FOREGROUND_INTENSITY + BACKGROUND_BLUE;					// Р—РµР»РµРЅС‹Р№
+	const WORD CYAN = FOREGROUND_GREEN + FOREGROUND_BLUE + FOREGROUND_INTENSITY + BACKGROUND_BLUE;	// Р“РѕР»СѓР±РѕР№
+	const WORD RED = FOREGROUND_RED + FOREGROUND_INTENSITY + BACKGROUND_BLUE;						// РљСЂР°СЃРЅС‹Р№
+	const WORD PURPLE = FOREGROUND_RED + FOREGROUND_BLUE + FOREGROUND_INTENSITY + BACKGROUND_BLUE;	// Р›РёР»РѕРІС‹Р№, С„РёРѕР»РµС‚РѕРІС‹Р№
+	const WORD YELLOW = FOREGROUND_RED + FOREGROUND_GREEN + FOREGROUND_INTENSITY + BACKGROUND_BLUE;	// Р–РµР»С‚С‹Р№
+	const WORD WHITE = FOREGROUND_RED + FOREGROUND_GREEN + FOREGROUND_BLUE + FOREGROUND_INTENSITY + BACKGROUND_BLUE;	// Р‘РµР»С‹Р№
+	const WORD GRAY = FOREGROUND_RED + FOREGROUND_GREEN + FOREGROUND_BLUE + BACKGROUND_BLUE;		// РЎРµСЂС‹Р№
 	
 
-	// Все это будет на черном фоне
-/*	const WORD BLACK = 0;		// Черный
-	const WORD BLUE = FOREGROUND_BLUE + FOREGROUND_INTENSITY;										// Синий
-	const WORD GREEN = FOREGROUND_GREEN + FOREGROUND_INTENSITY;										// Зеленый
-	const WORD CYAN = FOREGROUND_GREEN + FOREGROUND_BLUE + FOREGROUND_INTENSITY;					// Голубой
-	const WORD RED = FOREGROUND_RED + FOREGROUND_INTENSITY;											// Красный
-	const WORD PURPLE = FOREGROUND_RED + FOREGROUND_BLUE + FOREGROUND_INTENSITY;					// Лиловый, фиолетовый
-	const WORD YELLOW = FOREGROUND_RED + FOREGROUND_GREEN + FOREGROUND_INTENSITY;					// Желтый
-	const WORD WHITE = FOREGROUND_RED + FOREGROUND_GREEN + FOREGROUND_BLUE + FOREGROUND_INTENSITY;	// Белый
-	const WORD GRAY = FOREGROUND_RED + FOREGROUND_GREEN + FOREGROUND_BLUE;							// Серый
+	// Р’СЃРµ СЌС‚Рѕ Р±СѓРґРµС‚ РЅР° С‡РµСЂРЅРѕРј С„РѕРЅРµ
+/*	const WORD BLACK = 0;		// Р§РµСЂРЅС‹Р№
+	const WORD BLUE = FOREGROUND_BLUE + FOREGROUND_INTENSITY;										// РЎРёРЅРёР№
+	const WORD GREEN = FOREGROUND_GREEN + FOREGROUND_INTENSITY;										// Р—РµР»РµРЅС‹Р№
+	const WORD CYAN = FOREGROUND_GREEN + FOREGROUND_BLUE + FOREGROUND_INTENSITY;					// Р“РѕР»СѓР±РѕР№
+	const WORD RED = FOREGROUND_RED + FOREGROUND_INTENSITY;											// РљСЂР°СЃРЅС‹Р№
+	const WORD PURPLE = FOREGROUND_RED + FOREGROUND_BLUE + FOREGROUND_INTENSITY;					// Р›РёР»РѕРІС‹Р№, С„РёРѕР»РµС‚РѕРІС‹Р№
+	const WORD YELLOW = FOREGROUND_RED + FOREGROUND_GREEN + FOREGROUND_INTENSITY;					// Р–РµР»С‚С‹Р№
+	const WORD WHITE = FOREGROUND_RED + FOREGROUND_GREEN + FOREGROUND_BLUE + FOREGROUND_INTENSITY;	// Р‘РµР»С‹Р№
+	const WORD GRAY = FOREGROUND_RED + FOREGROUND_GREEN + FOREGROUND_BLUE;							// РЎРµСЂС‹Р№
 */	
 
 
@@ -209,7 +209,7 @@ void Color(char *color)
 		break;
 	default:
 		SetConsoleTextAttribute(h, RED);
-		cout << "\nОшибка! Заданый цвет не найлен" << endl;
+		cout << "\nРћС€РёР±РєР°! Р—Р°РґР°РЅС‹Р№ С†РІРµС‚ РЅРµ РЅР°Р№Р»РµРЅ" << endl;
 		SetConsoleTextAttribute(h, GRAY);
 		break;
 	} // switch
@@ -220,12 +220,12 @@ void Color(char *color)
 } // Color
 
 
-  // преобразование прописных (больших) букв в строчные (малые)
+  // РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ РїСЂРѕРїРёСЃРЅС‹С… (Р±РѕР»СЊС€РёС…) Р±СѓРєРІ РІ СЃС‚СЂРѕС‡РЅС‹Рµ (РјР°Р»С‹Рµ)
 char *StrLower(char *Str)
 {
 	int i = 0;
 	while (Str[i] != '\0') {
-		if ((Str[i] >= 'A' && Str[i] <= 'Z') || (Str[i] >= 'А' && Str[i] <= 'Я'))
+		if ((Str[i] >= 'A' && Str[i] <= 'Z') || (Str[i] >= 'Рђ' && Str[i] <= 'РЇ'))
 			Str[i] += 32;
 		i++;
 	} // while
@@ -233,12 +233,12 @@ char *StrLower(char *Str)
 	return Str;
 } // StrLower
 
-// преобразование строчных (малых) букв в прописные (большие)
+// РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ СЃС‚СЂРѕС‡РЅС‹С… (РјР°Р»С‹С…) Р±СѓРєРІ РІ РїСЂРѕРїРёСЃРЅС‹Рµ (Р±РѕР»СЊС€РёРµ)
 char *StrUpper(char *Str)
 {
 	int i = 0;
 	while (Str[i] != '\0') {
-		if ((Str[i] >= 'a' && Str[i] <= 'z') || (Str[i] >= 'а' && Str[i] <= 'я'))
+		if ((Str[i] >= 'a' && Str[i] <= 'z') || (Str[i] >= 'Р°' && Str[i] <= 'СЏ'))
 			Str[i] -= 32;
 		i++;
 	} // while
@@ -246,24 +246,24 @@ char *StrUpper(char *Str)
 	return Str;
 } // StrUpper
 
-// преобразование первой буквы в заглавную
+// РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ РїРµСЂРІРѕР№ Р±СѓРєРІС‹ РІ Р·Р°РіР»Р°РІРЅСѓСЋ
 char *StrUpperFirst(char *Str)
 {
 	int i = 0;
-	if ((Str[i] >= 'a' && Str[i] <= 'z') || (Str[i] >= 'а' && Str[i] <= 'я'))
+	if ((Str[i] >= 'a' && Str[i] <= 'z') || (Str[i] >= 'Р°' && Str[i] <= 'СЏ'))
 		Str[i] -= 32;
 
 	return Str;
 } // StrUpperFirst
 
-// инвертирование регистра строк
+// РёРЅРІРµСЂС‚РёСЂРѕРІР°РЅРёРµ СЂРµРіРёСЃС‚СЂР° СЃС‚СЂРѕРє
 char *StrInvert(char *Str)
 {
 	int i = 0;
 	while (Str[i] != '\0') {
-		if ((Str[i] >= 'A' && Str[i] <= 'Z') || (Str[i] >= 'А' && Str[i] <= 'Я'))
+		if ((Str[i] >= 'A' && Str[i] <= 'Z') || (Str[i] >= 'Рђ' && Str[i] <= 'РЇ'))
 			Str[i] += 32;
-		else if ((Str[i] >= 'a' && Str[i] <= 'z') || (Str[i] >= 'а' && Str[i] <= 'я'))
+		else if ((Str[i] >= 'a' && Str[i] <= 'z') || (Str[i] >= 'Р°' && Str[i] <= 'СЏ'))
 			Str[i] -= 32;
 		i++;
 	} // while
@@ -272,7 +272,7 @@ char *StrInvert(char *Str)
 } // StrInvert
 
 
-// Задать цвет фона консоли
+// Р—Р°РґР°С‚СЊ С†РІРµС‚ С„РѕРЅР° РєРѕРЅСЃРѕР»Рё
 void SetBkColor(CColor color)
 {
 	wColor &= 0x0f;
@@ -281,7 +281,7 @@ void SetBkColor(CColor color)
 } // SetBkColor
 
 
-// Задать цвет символов консоли
+// Р—Р°РґР°С‚СЊ С†РІРµС‚ СЃРёРјРІРѕР»РѕРІ РєРѕРЅСЃРѕР»Рё
 void SetForeColor(CColor color)
 {
 	wColor &= 0xf0;
@@ -290,14 +290,14 @@ void SetForeColor(CColor color)
 } // SetForeColor
 
 
-// Очистка экрана консоли - заполнение буфера консоли символом "пробел"
-// с атрибутом wColor, перемещение курсора в начало экрана
+// РћС‡РёСЃС‚РєР° СЌРєСЂР°РЅР° РєРѕРЅСЃРѕР»Рё - Р·Р°РїРѕР»РЅРµРЅРёРµ Р±СѓС„РµСЂР° РєРѕРЅСЃРѕР»Рё СЃРёРјРІРѕР»РѕРј "РїСЂРѕР±РµР»"
+// СЃ Р°С‚СЂРёР±СѓС‚РѕРј wColor, РїРµСЂРµРјРµС‰РµРЅРёРµ РєСѓСЂСЃРѕСЂР° РІ РЅР°С‡Р°Р»Рѕ СЌРєСЂР°РЅР°
 void Clear(char fill)
 {
 	CONSOLE_SCREEN_BUFFER_INFO info;
 	GetConsoleScreenBufferInfo(h, &info);
 
-	// Установить цвет окна консоли
+	// РЈСЃС‚Р°РЅРѕРІРёС‚СЊ С†РІРµС‚ РѕРєРЅР° РєРѕРЅСЃРѕР»Рё
 	SetConsoleTextAttribute(h, wColor);
 
 	COORD start = { 0, 0 };
@@ -306,19 +306,19 @@ void Clear(char fill)
 	FillConsoleOutputAttribute(h, wColor, nLength, start, &done);
 	FillConsoleOutputCharacterA(h, fill, nLength, start, &done);
 
-	// Переход курсора в начало экрана
+	// РџРµСЂРµС…РѕРґ РєСѓСЂСЃРѕСЂР° РІ РЅР°С‡Р°Р»Рѕ СЌРєСЂР°РЅР°
 	GotoXY(0, 0);
 } // Clear
 
 
-// Вывод текста в заданную позицию курсора
+// Р’С‹РІРѕРґ С‚РµРєСЃС‚Р° РІ Р·Р°РґР°РЅРЅСѓСЋ РїРѕР·РёС†РёСЋ РєСѓСЂСЃРѕСЂР°
 void WriteXY(UINT x, UINT y, char *text)
 {
 	GotoXY(x, y);
 	cout << text;
 } // WriteXY
 
-// Позиционирование курсора в заданную позицию экрана
+// РџРѕР·РёС†РёРѕРЅРёСЂРѕРІР°РЅРёРµ РєСѓСЂСЃРѕСЂР° РІ Р·Р°РґР°РЅРЅСѓСЋ РїРѕР·РёС†РёСЋ СЌРєСЂР°РЅР°
 void GotoXY(UINT x, UINT y)
 {
 	COORD coord;
@@ -327,7 +327,7 @@ void GotoXY(UINT x, UINT y)
 	SetConsoleCursorPosition(h, coord);
 } // GotoXY
 
-// Выделяет текст цветом (доступно выделение границ текста знаками: < > = 2, << >> = 3)
+// Р’С‹РґРµР»СЏРµС‚ С‚РµРєСЃС‚ С†РІРµС‚РѕРј (РґРѕСЃС‚СѓРїРЅРѕ РІС‹РґРµР»РµРЅРёРµ РіСЂР°РЅРёС† С‚РµРєСЃС‚Р° Р·РЅР°РєР°РјРё: < > = 2, << >> = 3)
 void tMark(char* text, int border, CColor sClr, CColor eClr)
 {
 	SetForeColor(sClr);
@@ -341,7 +341,7 @@ void tMark(char* text, int border, CColor sClr, CColor eClr)
 	SetForeColor(eClr);
 } //tMark
 
-// Перегрузки (параметры по умолчанию)
+// РџРµСЂРµРіСЂСѓР·РєРё (РїР°СЂР°РјРµС‚СЂС‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ)
 void tMark(char* text)
 {
 	tMark(text, 0, LtYellow, LtWhite);
@@ -365,4 +365,4 @@ void tMark(char* text, CColor sClr)
 {
 	tMark(text, 0, sClr, LtWhite);
 } //tMark
-// Конец перегрузок
+// РљРѕРЅРµС† РїРµСЂРµРіСЂСѓР·РѕРє

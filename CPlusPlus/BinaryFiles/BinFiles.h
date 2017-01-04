@@ -1,10 +1,10 @@
-#pragma once
+п»ї#pragma once
 
 class BinDB
 {
 	LPCSTR fileName;
 
-	struct RESULT // структура для хранения результатов поиска
+	struct RESULT // СЃС‚СЂСѓРєС‚СѓСЂР° РґР»СЏ С…СЂР°РЅРµРЅРёСЏ СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ РїРѕРёСЃРєР°
 	{
 		RESULT() : str("NULL"), seek(), secSeek(), state(false), secState(false) {}
 		LPSTR str;
@@ -17,11 +17,11 @@ public:
 	BinDB();
 	~BinDB();
 
-	// ГЕТТЕРЫ | СЕТТЕРЫ
+	// Р“Р•РўРўР•Р Р« | РЎР•РўРўР•Р Р«
 	void SetFileName(LPCSTR name);
 	LPCSTR GetFileName();
 
-	// ГЛАВНЫЕ ФУНКЦИИ
+	// Р“Р›РђР’РќР«Р• Р¤РЈРќРљР¦РР
 	void Read(LPCSTR section, WORD paramNumber, LPSTR defaultValue, LPSTR &returnWhere);
 	void Write(LPCSTR section, WORD paramNumber, LPCSTR string);
 

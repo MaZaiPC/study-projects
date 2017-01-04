@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 
 class Rational
 {
@@ -7,23 +7,23 @@ class Rational
 	
 	void reduce();
 public:
-	// Љонструктор и деструктор
+	// Р‰РѕРЅСЃС‚СЂСѓРєС‚РѕСЂ Рё РґРµСЃС‚СЂСѓРєС‚РѕСЂ
 	Rational();
 	~Rational();
 	
-	// €нструменты
-	void Init(int num, int den);	// инициализация полей
-	void Read();					// ввод с клавиатуры
+	// в‚¬РЅСЃС‚СЂСѓРјРµРЅС‚С‹
+	void Init(int num, int den);	// РёРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РїРѕР»РµР№
+	void Read();					// РІРІРѕРґ СЃ РєР»Р°РІРёР°С‚СѓСЂС‹
 
-	void Display();					// вывод в консоль
+	void Display();					// РІС‹РІРѕРґ РІ РєРѕРЅСЃРѕР»СЊ
 
-	// Арифметические операции
+	// РђСЂРёС„РјРµС‚РёС‡РµСЃРєРёРµ РѕРїРµСЂР°С†РёРё
 	Rational add(Rational x);
 	Rational sub(Rational x);
 	Rational mul(Rational x);
 	Rational div(Rational x);
 	
-	// Операции сравнения
+	// РћРїРµСЂР°С†РёРё СЃСЂР°РІРЅРµРЅРёСЏ
 	bool less(Rational & f) { return a * f.b < f.a * b; }
 	bool greate(Rational & f) { return a * f.b > f.a * b; }
 	bool equal(Rational & f) { return a == f.b && b == f.b; }

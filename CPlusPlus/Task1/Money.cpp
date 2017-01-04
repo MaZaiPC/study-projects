@@ -1,7 +1,7 @@
-#include "stdafx.h"
+п»ї#include "stdafx.h"
 #include "Money.h"
 
-// перевод излишка копеек в рубли
+// РїРµСЂРµРІРѕРґ РёР·Р»РёС€РєР° РєРѕРїРµРµРє РІ СЂСѓР±Р»Рё
 void Money::repare(Money &obj)
 {
 	obj.bucks = obj.bucks + (obj.cents / 100);
@@ -58,24 +58,24 @@ Money Money::div(Money & obj) const
 	repare(result);
 }
 
-// Операция ввода
+// РћРїРµСЂР°С†РёСЏ РІРІРѕРґР°
 istream &operator >>(istream &is, Money &obj)
 {
 	string str;
 	is >> str;
-	// поиск в строке первой запятой
+	// РїРѕРёСЃРє РІ СЃС‚СЂРѕРєРµ РїРµСЂРІРѕР№ Р·Р°РїСЏС‚РѕР№
 	std::size_t found = str.find_first_of(",./");
-	// до запятой - рубли, после - копейки
+	// РґРѕ Р·Р°РїСЏС‚РѕР№ - СЂСѓР±Р»Рё, РїРѕСЃР»Рµ - РєРѕРїРµР№РєРё
 	long a = atoi(str.substr(0, found - 1).c_str());
 	long b = atoi(str.substr(found + 1).c_str());
-	// перевод излишка копеек в рубли и присваивание
+	// РїРµСЂРµРІРѕРґ РёР·Р»РёС€РєР° РєРѕРїРµРµРє РІ СЂСѓР±Р»Рё Рё РїСЂРёСЃРІР°РёРІР°РЅРёРµ
 	obj.bucks = a + (b / 100);
 	obj.cents = b % 100;
 	return is;
 } // operator>>
 
 
-  // Перегрузка операции вывода
+  // РџРµСЂРµРіСЂСѓР·РєР° РѕРїРµСЂР°С†РёРё РІС‹РІРѕРґР°
 ostream &operator <<(ostream &os, const Money &obj)
 {
 	if (obj.cents == 0)

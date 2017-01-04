@@ -1,4 +1,4 @@
-#include "stdafx.h"
+п»ї#include "stdafx.h"
 #include "Triangle.h"
 #include "Utils.h"
 
@@ -14,11 +14,11 @@ Triangle::Triangle()
 Triangle::Triangle(double a, double b, double c)
 {
 	while((a <= 0. || b <= 0. || c <= 0.) || (!(a < c + b && b < a + c && c < a + b))){
-		tMark("!!!Не корректные данные!!!\n",LtRed); cout <<"Причина сбоя: стороны не образуют треугольник!\n\n"
-			 <<" Пожалуйста введите заново: "
-			 << "Сторона А:"; cin>>a;
-		cout << "Сторона B:"; cin>>b;
-		cout << "Сторона C:"; cin>>c;
+		tMark("!!!РќРµ РєРѕСЂСЂРµРєС‚РЅС‹Рµ РґР°РЅРЅС‹Рµ!!!\n",LtRed); cout <<"РџСЂРёС‡РёРЅР° СЃР±РѕСЏ: СЃС‚РѕСЂРѕРЅС‹ РЅРµ РѕР±СЂР°Р·СѓСЋС‚ С‚СЂРµСѓРіРѕР»СЊРЅРёРє!\n\n"
+			 <<" РџРѕР¶Р°Р»СѓР№СЃС‚Р° РІРІРµРґРёС‚Рµ Р·Р°РЅРѕРІРѕ: "
+			 << "РЎС‚РѕСЂРѕРЅР° Рђ:"; cin>>a;
+		cout << "РЎС‚РѕСЂРѕРЅР° B:"; cin>>b;
+		cout << "РЎС‚РѕСЂРѕРЅР° C:"; cin>>c;
 		system("cls");
 	}
 	
@@ -37,7 +37,7 @@ double Triangle::Perimeter()
 	return a + b + c;
 }
 
-// Вычисление по формуле Герона
+// Р’С‹С‡РёСЃР»РµРЅРёРµ РїРѕ С„РѕСЂРјСѓР»Рµ Р“РµСЂРѕРЅР°
 double Triangle::Area()
 {
 	double p = Perimeter() / 2;
@@ -50,7 +50,7 @@ double Triangle::Altitude()
 	return 2*S/a;
 }
 
-// Функция возвращает угол треугольника. Например <ABC°.
+// Р¤СѓРЅРєС†РёСЏ РІРѕР·РІСЂР°С‰Р°РµС‚ СѓРіРѕР» С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°. РќР°РїСЂРёРјРµСЂ <ABCВ°.
 int GetAngle(double ab, double bc, double ac)
 {
 	return acos((ab*ab + bc*bc - ac*ac / (2*ab*bc));
@@ -58,13 +58,13 @@ int GetAngle(double ab, double bc, double ac)
 
 char Triangle::Type()
 {	
-	double AngleA = GetAngle(a, b, c); // Угол ABC
-	double AngleB = GetAngle(b, c, a); // Угол BCA
-	double AngleC = GetAngle(c, a, b); // Угол CAB
+	double AngleA = GetAngle(a, b, c); // РЈРіРѕР» ABC
+	double AngleB = GetAngle(b, c, a); // РЈРіРѕР» BCA
+	double AngleC = GetAngle(c, a, b); // РЈРіРѕР» CAB
 	
-	// [v]ersatile 	 - разносторонний,	Sharp 	- острый
-	// [e]quilateral - равносторонний,	Obtuse 	- тупой
-	// [i]sosceles 	 - равнобедренный,	Right 	- прямоугольный
+	// [v]ersatile 	 - СЂР°Р·РЅРѕСЃС‚РѕСЂРѕРЅРЅРёР№,	Sharp 	- РѕСЃС‚СЂС‹Р№
+	// [e]quilateral - СЂР°РІРЅРѕСЃС‚РѕСЂРѕРЅРЅРёР№,	Obtuse 	- С‚СѓРїРѕР№
+	// [i]sosceles 	 - СЂР°РІРЅРѕР±РµРґСЂРµРЅРЅС‹Р№,	Right 	- РїСЂСЏРјРѕСѓРіРѕР»СЊРЅС‹Р№
 	
 	bool vSharp = AngleA < 90 && AngleB < 90 && AngleC < 90;
 	bool eSharp = AngleA == AngleC && AngleB < 90;
@@ -77,35 +77,35 @@ char Triangle::Type()
 	bool eRight = AngleA == AngleB == 45;
 	
 	if (vSharp)
-		return "разносторонний, остроугольный";
+		return "СЂР°Р·РЅРѕСЃС‚РѕСЂРѕРЅРЅРёР№, РѕСЃС‚СЂРѕСѓРіРѕР»СЊРЅС‹Р№";
 	if (eSharp)
-		return "равносторонний, остроугольный";
+		return "СЂР°РІРЅРѕСЃС‚РѕСЂРѕРЅРЅРёР№, РѕСЃС‚СЂРѕСѓРіРѕР»СЊРЅС‹Р№";
 	if (iSharp)
-		return "равнобедренный, остроугольный";
+		return "СЂР°РІРЅРѕР±РµРґСЂРµРЅРЅС‹Р№, РѕСЃС‚СЂРѕСѓРіРѕР»СЊРЅС‹Р№";
 	
 	if (vObtuse)
-		return "разносторонний, тупоугольный";
+		return "СЂР°Р·РЅРѕСЃС‚РѕСЂРѕРЅРЅРёР№, С‚СѓРїРѕСѓРіРѕР»СЊРЅС‹Р№";
 	if (eObtuse)
-		return "равнобедренный, тупоугольный";
+		return "СЂР°РІРЅРѕР±РµРґСЂРµРЅРЅС‹Р№, С‚СѓРїРѕСѓРіРѕР»СЊРЅС‹Р№";
 	
 	if (vRight)
-		return "разносторонний, прямоугольный";
+		return "СЂР°Р·РЅРѕСЃС‚РѕСЂРѕРЅРЅРёР№, РїСЂСЏРјРѕСѓРіРѕР»СЊРЅС‹Р№";
 	if (eRight)
-		return "равнобедренный, прямоугольный";
+		return "СЂР°РІРЅРѕР±РµРґСЂРµРЅРЅС‹Р№, РїСЂСЏРјРѕСѓРіРѕР»СЊРЅС‹Р№";
 }
 
 // Get/Set
 void Triangle::Display(){
-    cout <<   "Сторона А:" << a
-		 << "\nСторона B:" << b
-		 << "\nСторона C:" << c << endl;
+    cout <<   "РЎС‚РѕСЂРѕРЅР° Рђ:" << a
+		 << "\nРЎС‚РѕСЂРѕРЅР° B:" << b
+		 << "\nРЎС‚РѕСЂРѕРЅР° C:" << c << endl;
 }
 Triangle Triangle::Read(){
     double a,b,c;
-    cout<<" Ведите длину сторон треугольника: "
-			 << "Сторона А:"; cin>>a;
-		cout << "Сторона B:"; cin>>b;
-		cout << "Сторона C:"; cin>>c;
+    cout<<" Р’РµРґРёС‚Рµ РґР»РёРЅСѓ СЃС‚РѕСЂРѕРЅ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°: "
+			 << "РЎС‚РѕСЂРѕРЅР° Рђ:"; cin>>a;
+		cout << "РЎС‚РѕСЂРѕРЅР° B:"; cin>>b;
+		cout << "РЎС‚РѕСЂРѕРЅР° C:"; cin>>c;
     Triangle A=Triangle(a,b,c);
     return A;
 }

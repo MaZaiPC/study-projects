@@ -1,4 +1,4 @@
-#include "stdafx.h"
+п»ї#include "stdafx.h"
 #include "Fraction.h"
 
 Fraction::Fraction(long a, WORD b) : num(a), den(b)
@@ -60,14 +60,14 @@ istream &operator >>(istream &os, Fraction &obj)
 {
 	string str;
 	os >> str;
-	// поиск в строке первой запятой
+	// РїРѕРёСЃРє РІ СЃС‚СЂРѕРєРµ РїРµСЂРІРѕР№ Р·Р°РїСЏС‚РѕР№
 	std::size_t found = str.find_first_of("/");
-	// до запятой - рубли, после - копейки
+	// РґРѕ Р·Р°РїСЏС‚РѕР№ - СЂСѓР±Р»Рё, РїРѕСЃР»Рµ - РєРѕРїРµР№РєРё
 	obj.num = atoi(str.substr(0, found - 1).c_str());
 	obj.den = atoi(str.substr(found + 1).c_str());
 	return os;
 }
-// Перегрузка операции вывода
+// РџРµСЂРµРіСЂСѓР·РєР° РѕРїРµСЂР°С†РёРё РІС‹РІРѕРґР°
 ostream &operator <<(ostream &os, const Fraction &obj)
 {
 	long num = obj.num;

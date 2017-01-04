@@ -1,4 +1,4 @@
-#include "stdafx.h"
+ï»¿#include "stdafx.h"
 #include "Root.h"
 
 /*--------------Abstractly Base Class of Root---------------*/
@@ -25,7 +25,7 @@ void Linear::Solve(double a, double b, double c)
 
 ostream &Linear::Show(ostream &os) const
 {
-	if (res) os << x; else os << "Óðàâíåíèå íå èìååò êîðíåé!";
+	if (res) os << x; else os << "Ð£Ñ€Ð°Ð²Ð½ÐµÐ½Ð¸Ðµ Ð½Ðµ Ð¸Ð¼ÐµÐµÑ‚ ÐºÐ¾Ñ€Ð½ÐµÐ¹!";
 	return os;
 }
 
@@ -47,6 +47,6 @@ ostream &Square::Show(ostream &os) const
 	if (res)
 		os << "x1: " << x1 << "\nx2: " << x2;
 	else
-		os << "Óðàâíåíèå íå èìååò êîðíåé!";
+		os << "Ð£Ñ€Ð°Ð²Ð½ÐµÐ½Ð¸Ðµ Ð½Ðµ Ð¸Ð¼ÐµÐµÑ‚ ÐºÐ¾Ñ€Ð½ÐµÐ¹!";
 	return os;
 }

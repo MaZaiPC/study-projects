@@ -1,1 +1,1 @@
-X:\.Шаг\C# - Windows Forms\Домашние задания\CollectionsHome\CollectionsHome\bin\Debug\CollectionsHome.exe.config
+﻿X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\CollectionsHome\CollectionsHome\bin\Debug\CollectionsHome.exe.config

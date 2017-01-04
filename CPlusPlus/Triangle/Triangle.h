@@ -1,17 +1,17 @@
-#pragma once
+п»ї#pragma once
 
 class Triangle
 {
-	double a;   // стороны треугольнка
+	double a;   // СЃС‚РѕСЂРѕРЅС‹ С‚СЂРµСѓРіРѕР»СЊРЅРєР°
 	double b;
 	double c;
 public:
-	// Конструкторы и деструктор
+	// РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂС‹ Рё РґРµСЃС‚СЂСѓРєС‚РѕСЂ
 	Triangle();
 	Triangle(double a, double b, double c);
 	~Triangle();
 
-	// Методы
+	// РњРµС‚РѕРґС‹
 	double Perimeter();
 	double Area();
 	double Altitude();

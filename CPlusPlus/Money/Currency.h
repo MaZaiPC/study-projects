@@ -1,21 +1,21 @@
-#pragma once
+ï»¿#pragma once
 #include "stdafx.h"
 
 class Currency
 {
 	UINT cash;
 public:
-	// Êîíñòðóêòîðû è äåñòðóêòîð
+	// ÐšÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€Ñ‹ Ð¸ Ð´ÐµÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€
 	Currency();
 	Currency(UINT unit, UINT cents);
 	~Currency() {}
 
-	// Âèðòóàëüíûå ÷èñòûå ìåòîäû
+	// Ð’Ð¸Ñ€Ñ‚ÑƒÐ°Ð»ÑŒÐ½Ñ‹Ðµ Ñ‡Ð¸ÑÑ‚Ñ‹Ðµ Ð¼ÐµÑ‚Ð¾Ð´Ñ‹
 	virtual UINT to_RUB(UINT rate) = 0;
 	virtual istream &Input(istream &is) = 0;
 	virtual ostream &Show(ostream &os) const = 0;
 
-	// Ïåðåãðóçêà ïîòîêîâûõ îïåðàöèé
+	// ÐŸÐµÑ€ÐµÐ³Ñ€ÑƒÐ·ÐºÐ° Ð¿Ð¾Ñ‚Ð¾ÐºÐ¾Ð²Ñ‹Ñ… Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸Ð¹
 	friend istream &operator>>(istream &is, Currency &obj);
 	friend ostream &operator<<(ostream &os, const Currency &obj);
 };
@@ -25,12 +25,12 @@ class Dollar : public Currency
 protected:
 	double bucks;
 public:
-	// Êîíñòðóêòîðû è äåñòðóêòîð
+	// ÐšÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€Ñ‹ Ð¸ Ð´ÐµÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€
 	Dollar() : Currency() {}
 	Dollar(UINT unit, UINT cents) : Currency(unit, cents) {}
 	~Dollar() {}
 
-	// Ìåòîäû
+	// ÐœÐµÑ‚Ð¾Ð´Ñ‹
 	virtual UINT to_RUB(UINT rate) { return bucks*rate; }
 	virtual istream &Input(istream &is);
 	virtual ostream &Show(ostream &os) const;
@@ -41,12 +41,12 @@ class Euro : public Currency
 protected:
 	double bucks;
 public:
-	// Êîíñòðóêòîðû è äåñòðóêòîð
+	// ÐšÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€Ñ‹ Ð¸ Ð´ÐµÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€
 	Euro() : Currency() {}
 	Euro(UINT unit, UINT cents) : Currency(unit, cents) {}
 	~Euro() {}
 
-	// Ìåòîäû
+	// ÐœÐµÑ‚Ð¾Ð´Ñ‹
 	virtual UINT to_RUB(UINT rate) { return bucks*rate; }
 	virtual istream &Input(istream &is);
 	virtual ostream &Show(ostream &os) const;

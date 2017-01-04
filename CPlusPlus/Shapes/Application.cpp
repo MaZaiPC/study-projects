@@ -1,4 +1,4 @@
-#include "stdafx.h"
+п»ї#include "stdafx.h"
 #include "Utils.h"
 #include "Application.h"
 
@@ -14,17 +14,17 @@ Application::~Application()
 } // Application::~Application
 
 
-// Главный метод приложения - обработка команд пользователя  
+// Р“Р»Р°РІРЅС‹Р№ РјРµС‚РѕРґ РїСЂРёР»РѕР¶РµРЅРёСЏ - РѕР±СЂР°Р±РѕС‚РєР° РєРѕРјР°РЅРґ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ  
 void Application::run()
 {
-	UINT cmd;                // Команда меню
-	bool flagExit = false;   // Флаг выхода из бесконечного цикла
-	char *szMenu = "\t*** М Е Н Ю ***\n"
-			"1. Квадрат. Создание. Перемещение. Пересечение\n"
-			"2. Пятиугольник. Создание. Перемещение. Пересечение\n"
-			"3. Тестирование базового статического шаблонного метода IsIntersect()\n"
-			"0. Выход\n"
-			"   Ваш выбор (0, ..., 2)? ";
+	UINT cmd;                // РљРѕРјР°РЅРґР° РјРµРЅСЋ
+	bool flagExit = false;   // Р¤Р»Р°Рі РІС‹С…РѕРґР° РёР· Р±РµСЃРєРѕРЅРµС‡РЅРѕРіРѕ С†РёРєР»Р°
+	char *szMenu = "\t*** Рњ Р• Рќ Р® ***\n"
+			"1. РљРІР°РґСЂР°С‚. РЎРѕР·РґР°РЅРёРµ. РџРµСЂРµРјРµС‰РµРЅРёРµ. РџРµСЂРµСЃРµС‡РµРЅРёРµ\n"
+			"2. РџСЏС‚РёСѓРіРѕР»СЊРЅРёРє. РЎРѕР·РґР°РЅРёРµ. РџРµСЂРµРјРµС‰РµРЅРёРµ. РџРµСЂРµСЃРµС‡РµРЅРёРµ\n"
+			"3. РўРµСЃС‚РёСЂРѕРІР°РЅРёРµ Р±Р°Р·РѕРІРѕРіРѕ СЃС‚Р°С‚РёС‡РµСЃРєРѕРіРѕ С€Р°Р±Р»РѕРЅРЅРѕРіРѕ РјРµС‚РѕРґР° IsIntersect()\n"
+			"0. Р’С‹С…РѕРґ\n"
+			"   Р’Р°С€ РІС‹Р±РѕСЂ (0, ..., 2)? ";
 
 	while (true) {
 		Clear();
@@ -50,28 +50,28 @@ void Application::run()
 		system("pause");
 	} // while
 
-	// Возвращаем стандартный вид окну
-	// размер 80 х 25, серые символы на черном фоне
+	// Р’РѕР·РІСЂР°С‰Р°РµРј СЃС‚Р°РЅРґР°СЂС‚РЅС‹Р№ РІРёРґ РѕРєРЅСѓ
+	// СЂР°Р·РјРµСЂ 80 С… 25, СЃРµСЂС‹Рµ СЃРёРјРІРѕР»С‹ РЅР° С‡РµСЂРЅРѕРј С„РѕРЅРµ
 	SetWindow(80, 25, 0x07);
 	Clear();
-	WriteXY(34, 12, "Конец работы");
+	WriteXY(34, 12, "РљРѕРЅРµС† СЂР°Р±РѕС‚С‹");
 	GotoXY(0, 24);
 } // Application::run
 
 
 void Application::testQuadrat()
 {
-	WriteXY(5, 10, "Тестирование класса Quadrat");
+	WriteXY(5, 10, "РўРµСЃС‚РёСЂРѕРІР°РЅРёРµ РєР»Р°СЃСЃР° Quadrat");
 
 	Point pVertex[] = { { 1., 2. },{ 1., 5. },{ 4., 5. },{ 4., 2. } };
 	
 	pObj1 = new Square(pVertex);
 
-	WriteXY(5, 12, "Квадрат:");  
+	WriteXY(5, 12, "РљРІР°РґСЂР°С‚:");  
 	GotoXY(5, 13); cout << *pObj1;
 
 	pObj1->Move(10., -10.);
-	WriteXY(5, 15, "Переместили на 10., -10:"); 
+	WriteXY(5, 15, "РџРµСЂРµРјРµСЃС‚РёР»Рё РЅР° 10., -10:"); 
 	GotoXY(5, 16);  cout << *pObj1;
 
 	Point pVertex2[] = { { 2., 3. },{ 2., 6. },{ 5., 6. },{ 5., 3. } };
@@ -80,16 +80,16 @@ void Application::testQuadrat()
 
 void Application::testPentagon()
 {
-	WriteXY(5, 10, "Тестирование класса Pentagon");
+	WriteXY(5, 10, "РўРµСЃС‚РёСЂРѕРІР°РЅРёРµ РєР»Р°СЃСЃР° Pentagon");
 	Point pVertex[] = { { 1., 2. },{ 1., 5. },{ 4., 5. },{ 4., 2. }, {2.5, -2.} };
 	
 	pObj2 = new Pentagon(pVertex);
 
-	WriteXY(5, 12, "Пятиугольник:");
+	WriteXY(5, 12, "РџСЏС‚РёСѓРіРѕР»СЊРЅРёРє:");
 	GotoXY(5, 13); cout << *pObj2;
 
 	pObj2->Move(10., -10.);
-	WriteXY(5, 15, "Переместили на 10., -10:");
+	WriteXY(5, 15, "РџРµСЂРµРјРµСЃС‚РёР»Рё РЅР° 10., -10:");
 	GotoXY(5, 16);  cout << *pObj2;
 
 } // Application::testPentagon
@@ -97,7 +97,7 @@ void Application::testPentagon()
 void Application::testIsIntersect()
 {
 	
-		WriteXY(5, 10, "Тестирование IsIntersect не реализовано! (наработки присутствуют)");
+		WriteXY(5, 10, "РўРµСЃС‚РёСЂРѕРІР°РЅРёРµ IsIntersect РЅРµ СЂРµР°Р»РёР·РѕРІР°РЅРѕ! (РЅР°СЂР°Р±РѕС‚РєРё РїСЂРёСЃСѓС‚СЃС‚РІСѓСЋС‚)");
 		return;
 
 		Point pVertex[] = { { 1., 2. },{ 1., 5. },{ 4., 5. },{ 4., 2. } };
@@ -109,7 +109,7 @@ void Application::testIsIntersect()
 		pObj2 = new Pentagon(pVertex1);
 		pObj2->Move(1., -1.);
 
-		cout << "\npObj1<Square> и pObj2<Pentagon> пересекаются ?: " /*boolalpha*/; // << Shape::IsIntersect(pObj1, pObj2);
+		cout << "\npObj1<Square> Рё pObj2<Pentagon> РїРµСЂРµСЃРµРєР°СЋС‚СЃСЏ ?: " /*boolalpha*/; // << Shape::IsIntersect(pObj1, pObj2);
 }
 
 

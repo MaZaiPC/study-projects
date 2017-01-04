@@ -1,14 +1,14 @@
-#include "stdafx.h"
+п»ї#include "stdafx.h"
 #include "Receipt.h"
 #include "Utils.h"
 #include "Goods.h"
 #include "BinFiles.h"
 
 const UINT Receipt::LEN_GOODS = 7;
-UINT Receipt::counter = 0;  // начальное значение счетчика чеков
+UINT Receipt::counter = 0;  // РЅР°С‡Р°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ СЃС‡РµС‚С‡РёРєР° С‡РµРєРѕРІ
 
 
-// Формирование номера чека в формате YYMMDDNNNN
+// Р¤РѕСЂРјРёСЂРѕРІР°РЅРёРµ РЅРѕРјРµСЂР° С‡РµРєР° РІ С„РѕСЂРјР°С‚Рµ YYMMDDNNNN
 UINT Receipt::makeNumber()
 {
 	SYSTEMTIME st;
@@ -18,41 +18,41 @@ UINT Receipt::makeNumber()
 } // Receipt::makeNumber
 
 
-// Конструктор по умолчанию
+// РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
 Receipt::Receipt():size(), create(), goods(new Goods[LEN_GOODS]) 
 { 
-	counter++;             // счетчик созданных чеков
-	number = makeNumber(); // номер чека
+	counter++;             // СЃС‡РµС‚С‡РёРє СЃРѕР·РґР°РЅРЅС‹С… С‡РµРєРѕРІ
+	number = makeNumber(); // РЅРѕРјРµСЂ С‡РµРєР°
 } // Receipt::Receipt
 
 
-// Конструктор с параметрами
+// РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ СЃ РїР°СЂР°РјРµС‚СЂР°РјРё
 Receipt::Receipt(int number, DateTime &dt):size(), create(dt), goods(new Goods[LEN_GOODS])
 {
-	counter++;             // счетчик созданных чеков
-	number = makeNumber(); // номер чека
+	counter++;             // СЃС‡РµС‚С‡РёРє СЃРѕР·РґР°РЅРЅС‹С… С‡РµРєРѕРІ
+	number = makeNumber(); // РЅРѕРјРµСЂ С‡РµРєР°
 } // Receipt::Receipt
 
 
-// Конструктор с параметром - товар
+// РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ СЃ РїР°СЂР°РјРµС‚СЂРѕРј - С‚РѕРІР°СЂ
 Receipt::Receipt(const Goods &obj): size(1), create(), goods(new Goods[LEN_GOODS])
 {
-	counter++;             // счетчик созданных чеков
-	number = makeNumber(); // номер чека
+	counter++;             // СЃС‡РµС‚С‡РёРє СЃРѕР·РґР°РЅРЅС‹С… С‡РµРєРѕРІ
+	number = makeNumber(); // РЅРѕРјРµСЂ С‡РµРєР°
 
-	// Фактическая запись товара в массив
+	// Р¤Р°РєС‚РёС‡РµСЃРєР°СЏ Р·Р°РїРёСЃСЊ С‚РѕРІР°СЂР° РІ РјР°СЃСЃРёРІ
 	goods[0] = obj;
 } // Receipt::Receipt
 
 
-// Копирующий конструктор
+// РљРѕРїРёСЂСѓСЋС‰РёР№ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
 Receipt::Receipt(const Receipt &obj): size(obj.size), create(obj.create),
 	goods(new Goods[LEN_GOODS])
 {
-	counter++;             // счетчик созданных чеков
-	number = makeNumber(); // номер чека
+	counter++;             // СЃС‡РµС‚С‡РёРє СЃРѕР·РґР°РЅРЅС‹С… С‡РµРєРѕРІ
+	number = makeNumber(); // РЅРѕРјРµСЂ С‡РµРєР°
 
-	// Копирование товаров в новый объект
+	// РљРѕРїРёСЂРѕРІР°РЅРёРµ С‚РѕРІР°СЂРѕРІ РІ РЅРѕРІС‹Р№ РѕР±СЉРµРєС‚
 	for (UINT i = 0; i < size; i++) goods[i] = obj.goods[i];
 } // Receipt::Receipt
 
@@ -63,7 +63,7 @@ Receipt::~Receipt()
 } // Receipt::~Receipt
 
 
-// Присваивание для чеков
+// РџСЂРёСЃРІР°РёРІР°РЅРёРµ РґР»СЏ С‡РµРєРѕРІ
 Receipt &Receipt::operator=(const Receipt &obj)
 {
 	number = obj.number;
@@ -75,8 +75,8 @@ Receipt &Receipt::operator=(const Receipt &obj)
 } // Receipt::operator=
 
 
-// Присваивание товара - заменяем массив товаров в чеке на один 
-// заданный товар
+// РџСЂРёСЃРІР°РёРІР°РЅРёРµ С‚РѕРІР°СЂР° - Р·Р°РјРµРЅСЏРµРј РјР°СЃСЃРёРІ С‚РѕРІР°СЂРѕРІ РІ С‡РµРєРµ РЅР° РѕРґРёРЅ 
+// Р·Р°РґР°РЅРЅС‹Р№ С‚РѕРІР°СЂ
 Receipt &Receipt::operator=(const Goods &obj)
 {
 	size = 1;
@@ -85,7 +85,7 @@ Receipt &Receipt::operator=(const Goods &obj)
 } // Receipt::operator=
 
 
-// Сумма по чеку
+// РЎСѓРјРјР° РїРѕ С‡РµРєСѓ
 UINT Receipt::Summa() const
 {
 	UINT sum = 0;
@@ -97,7 +97,7 @@ UINT Receipt::Summa() const
 } // Receipt::Summa
 
 
-// Сохранить чек в файле данных -- реализуем потом
+// РЎРѕС…СЂР°РЅРёС‚СЊ С‡РµРє РІ С„Р°Р№Р»Рµ РґР°РЅРЅС‹С… -- СЂРµР°Р»РёР·СѓРµРј РїРѕС‚РѕРј
 int Receipt::save()
 {
 	BinDB receipt;
@@ -122,7 +122,7 @@ int Receipt::save()
 } // Receipt::save
 
 
-// Читать чек из файла данных - реализуем потом
+// Р§РёС‚Р°С‚СЊ С‡РµРє РёР· С„Р°Р№Р»Р° РґР°РЅРЅС‹С… - СЂРµР°Р»РёР·СѓРµРј РїРѕС‚РѕРј
 int Receipt::load()
 {
 	BinDB receipt;
@@ -158,37 +158,37 @@ int Receipt::load()
 
 //////////////////////////////////////////////////////////////////////////////
 
-// Перегрузка операции вывода
+// РџРµСЂРµРіСЂСѓР·РєР° РѕРїРµСЂР°С†РёРё РІС‹РІРѕРґР°
 ostream &operator<<(ostream &os, const Receipt &obj)
 {
-	os << "\tТоварный чек No " << obj.number << " от " << obj.create << "\n";
+	os << "\tРўРѕРІР°СЂРЅС‹Р№ С‡РµРє No " << obj.number << " РѕС‚ " << obj.create << "\n";
 	for (UINT i = 0; i < obj.size; i++) {
 		os << setw(2) << i << " : " << obj.goods[i] << "\n";
 	} // for i
-	os << "\t\t\tСумма по чеку: " << obj.Summa() << "\n";
+	os << "\t\t\tРЎСѓРјРјР° РїРѕ С‡РµРєСѓ: " << obj.Summa() << "\n";
 	return os;
 } // operator<<
 
 
-// Перегрузка операции ввода
+// РџРµСЂРµРіСЂСѓР·РєР° РѕРїРµСЂР°С†РёРё РІРІРѕРґР°
 istream &operator>>(istream &is, Receipt &obj)
 {
 	Goods goods;
 	char *reply = new char[100];
 
-	WriteXY(13, 9, "Товарный чек "); cout << obj.number << " от " << obj.create;
+	WriteXY(13, 9, "РўРѕРІР°СЂРЅС‹Р№ С‡РµРє "); cout << obj.number << " РѕС‚ " << obj.create;
 
 	for (UINT i = 1; i <= obj.LEN_GOODS; i++) {
-		WriteXY(13, 11, "Товар No "); cout << i;
+		WriteXY(13, 11, "РўРѕРІР°СЂ No "); cout << i;
 
 		is >> goods;
 		obj.goods[i - 1] = goods;
 		goods.save();
 
-		WriteXY(13, 23, "Продолжать ввод (да/нет)? ");
+		WriteXY(13, 23, "РџСЂРѕРґРѕР»Р¶Р°С‚СЊ РІРІРѕРґ (РґР°/РЅРµС‚)? ");
 		is>>reply;
 		WriteXY(39, 23, "               ");
-		if (strcmp(reply, "да") != 0) break;
+		if (strcmp(reply, "РґР°") != 0) break;
 	} // for i
 
 	delete[] reply;

@@ -1,4 +1,4 @@
-#include "stdafx.h"
+п»ї#include "stdafx.h"
 #include "Goods.h"
 #include "Utils.h"
 
@@ -12,7 +12,7 @@ Goods::Goods() : code(0), name("Unknown"), price(0), count(0)
 {
 }
 
-// Конструктор с параметрами
+// РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ СЃ РїР°СЂР°РјРµС‚СЂР°РјРё
 Goods::Goods(int code)
 {
 	setCode(code);
@@ -23,14 +23,14 @@ Goods::~Goods()
 {
 }
 
-// Операция ввода
+// РћРїРµСЂР°С†РёСЏ РІРІРѕРґР°
 istream &operator >>(istream &is, Goods &obj)
 {
 	COORD Pos[4];
-	cout << "\nКод товара\t:> ";		Pos[0] = WhereXY();
-	cout << "\nНазвание товара\t:> ";	Pos[1] = WhereXY();
-	cout << "\nСтоимость\t:> ";			Pos[2] = WhereXY();
-	cout << "\nКол-во\t:> ";			Pos[3] = WhereXY();
+	cout << "\nРљРѕРґ С‚РѕРІР°СЂР°\t:> ";		Pos[0] = WhereXY();
+	cout << "\nРќР°Р·РІР°РЅРёРµ С‚РѕРІР°СЂР°\t:> ";	Pos[1] = WhereXY();
+	cout << "\nРЎС‚РѕРёРјРѕСЃС‚СЊ\t:> ";			Pos[2] = WhereXY();
+	cout << "\nРљРѕР»-РІРѕ\t:> ";			Pos[3] = WhereXY();
 
 	GotoXY(Pos[0].X, Pos[0].Y); is >> obj.code;
 	GotoXY(Pos[1].X, Pos[1].Y); is >> obj.name;
@@ -40,13 +40,13 @@ istream &operator >>(istream &is, Goods &obj)
 } // operator>>
 
 
-// Перегрузка операции вывода
+// РџРµСЂРµРіСЂСѓР·РєР° РѕРїРµСЂР°С†РёРё РІС‹РІРѕРґР°
 ostream &operator <<(ostream &os, Goods &obj)
 {
-	os << "\nКод товара:\t "	 << obj.code;
-	os << "\nНазвание товара: "  << obj.name;
-	os << "\nСтоимость:\t "		 << obj.price;
-	os << "\nКол-во:\t\t "		 << obj.count;
+	os << "\nРљРѕРґ С‚РѕРІР°СЂР°:\t "	 << obj.code;
+	os << "\nРќР°Р·РІР°РЅРёРµ С‚РѕРІР°СЂР°: "  << obj.name;
+	os << "\nРЎС‚РѕРёРјРѕСЃС‚СЊ:\t "		 << obj.price;
+	os << "\nРљРѕР»-РІРѕ:\t\t "		 << obj.count;
 	return os;
 } // operator<< 
 
@@ -115,7 +115,7 @@ void Goods::setName(string name)
 
 void Goods::Randomize()
 {
-	string goods[20] = { "Lenovo B590", "LG Optimus L90 Dual", "Джинсы Lacoste HH179LNTWT40", "HP EliteBook 850 G2", "Журнальный стол Comfy Home Mateo", "Внутренний фильтр AquaEl Pat Mini", "Видеокарта Asus PCI-Ex GeForce GTX 980 Matrix 4GB", "Logitech Ultimate Ears 400vi", "Logitech Ultimate Ears 600vi", "Тепловентилятор", "Фотокамера Cannon", "Lenovo Tab 2", "Galaxy S6 Edge+", "Книга", "Тетрадь", "Диск DVD-R", "Диск DVD-RW", "Logitech Keyboard", "GTA V - PC", "AWP Asimov" };
+	string goods[20] = { "Lenovo B590", "LG Optimus L90 Dual", "Р”Р¶РёРЅСЃС‹ Lacoste HH179LNTWT40", "HP EliteBook 850 G2", "Р–СѓСЂРЅР°Р»СЊРЅС‹Р№ СЃС‚РѕР» Comfy Home Mateo", "Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РёР»СЊС‚СЂ AquaEl Pat Mini", "Р’РёРґРµРѕРєР°СЂС‚Р° Asus PCI-Ex GeForce GTX 980 Matrix 4GB", "Logitech Ultimate Ears 400vi", "Logitech Ultimate Ears 600vi", "РўРµРїР»РѕРІРµРЅС‚РёР»СЏС‚РѕСЂ", "Р¤РѕС‚РѕРєР°РјРµСЂР° Cannon", "Lenovo Tab 2", "Galaxy S6 Edge+", "РљРЅРёРіР°", "РўРµС‚СЂР°РґСЊ", "Р”РёСЃРє DVD-R", "Р”РёСЃРє DVD-RW", "Logitech Keyboard", "GTA V - PC", "AWP Asimov" };
 	UINT cost[20] = { 8199, 3199, 1836, 30294, 1333, 236, 18337, 599, 1455, 233, 8999, 2249, 23999, 250, 22, 25, 26, 249, 3399, 1740 };
 	
 	int c = Random(1, 100000);
@@ -131,7 +131,7 @@ void Goods::Randomize()
 
 void Goods::Randomize(Goods *exclude, int N)
 {
-	string goods[20] = { "Lenovo B590", "LG Optimus L90 Dual", "Джинсы Lacoste HH179LNTWT40", "HP EliteBook 850 G2", "Журнальный стол Comfy Home Mateo", "Внутренний фильтр AquaEl Pat Mini", "Видеокарта Asus PCI-Ex GeForce GTX 980 Matrix 4GB", "Logitech Ultimate Ears 400vi", "Logitech Ultimate Ears 600vi", "Тепловентилятор", "Фотокамера Cannon", "Lenovo Tab 2", "Galaxy S6 Edge+", "Книга", "Тетрадь", "Диск DVD-R", "Диск DVD-RW", "Logitech Keyboard", "GTA V - PC", "AWP Asimov" };
+	string goods[20] = { "Lenovo B590", "LG Optimus L90 Dual", "Р”Р¶РёРЅСЃС‹ Lacoste HH179LNTWT40", "HP EliteBook 850 G2", "Р–СѓСЂРЅР°Р»СЊРЅС‹Р№ СЃС‚РѕР» Comfy Home Mateo", "Р’РЅСѓС‚СЂРµРЅРЅРёР№ С„РёР»СЊС‚СЂ AquaEl Pat Mini", "Р’РёРґРµРѕРєР°СЂС‚Р° Asus PCI-Ex GeForce GTX 980 Matrix 4GB", "Logitech Ultimate Ears 400vi", "Logitech Ultimate Ears 600vi", "РўРµРїР»РѕРІРµРЅС‚РёР»СЏС‚РѕСЂ", "Р¤РѕС‚РѕРєР°РјРµСЂР° Cannon", "Lenovo Tab 2", "Galaxy S6 Edge+", "РљРЅРёРіР°", "РўРµС‚СЂР°РґСЊ", "Р”РёСЃРє DVD-R", "Р”РёСЃРє DVD-RW", "Logitech Keyboard", "GTA V - PC", "AWP Asimov" };
 	UINT cost[20] = { 8199, 3199, 1836, 30294, 1333, 236, 18337, 599, 1455, 233, 8999, 2249, 23999, 250, 22, 25, 26, 249, 3399, 1740 };
 
 	int c = Random(1, 100000);

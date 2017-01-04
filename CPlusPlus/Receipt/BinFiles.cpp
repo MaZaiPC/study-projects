@@ -1,4 +1,4 @@
-#include "stdafx.h"
+п»ї#include "stdafx.h"
 #include "BinFiles.h"
 #include "Utils.h"
 
@@ -26,9 +26,9 @@ BinDB::~BinDB()
 
 void BinDB::Encode()
 {
-	string line;	 // сюда будут записываться строки из файла
-	string all = ""; // а тут они будут накапливаться
-	ifstream fin(fileName, ios::in); //Открываем файл только для чтения
+	string line;	 // СЃСЋРґР° Р±СѓРґСѓС‚ Р·Р°РїРёСЃС‹РІР°С‚СЊСЃСЏ СЃС‚СЂРѕРєРё РёР· С„Р°Р№Р»Р°
+	string all = ""; // Р° С‚СѓС‚ РѕРЅРё Р±СѓРґСѓС‚ РЅР°РєР°РїР»РёРІР°С‚СЊСЃСЏ
+	ifstream fin(fileName, ios::in); //РћС‚РєСЂС‹РІР°РµРј С„Р°Р№Р» С‚РѕР»СЊРєРѕ РґР»СЏ С‡С‚РµРЅРёСЏ
 	if (fin.is_open())
 	{
 		while (getline(fin, line))
@@ -37,21 +37,21 @@ void BinDB::Encode()
 			all += "\n";
 		}
 	}
-	cout  << "В файл записано: " << all;
-	fin.close(); //Закрываем файл
-	ofstream fout(fileName, ios::binary | ios::out); //Открываем файл в двоичном режиме только для записи
+	cout  << "Р’ С„Р°Р№Р» Р·Р°РїРёСЃР°РЅРѕ: " << all;
+	fin.close(); //Р—Р°РєСЂС‹РІР°РµРј С„Р°Р№Р»
+	ofstream fout(fileName, ios::binary | ios::out); //РћС‚РєСЂС‹РІР°РµРј С„Р°Р№Р» РІ РґРІРѕРёС‡РЅРѕРј СЂРµР¶РёРјРµ С‚РѕР»СЊРєРѕ РґР»СЏ Р·Р°РїРёСЃРё
 	if (fout.is_open())
 	{
 		fout.write((char*)&all, sizeof all);
 	}
-	fout.close(); //Закрываем файл
+	fout.close(); //Р—Р°РєСЂС‹РІР°РµРј С„Р°Р№Р»
 }
 
 void BinDB::Decode()
 {
-	string line;	 // сюда будут записываться строки из файла
-	string all = ""; // а тут они будут накапливаться
-	ifstream fin(fileName, ios::binary | ios::out); //Открываем файл в двоичном режиме только для чтения
+	string line;	 // СЃСЋРґР° Р±СѓРґСѓС‚ Р·Р°РїРёСЃС‹РІР°С‚СЊСЃСЏ СЃС‚СЂРѕРєРё РёР· С„Р°Р№Р»Р°
+	string all = ""; // Р° С‚СѓС‚ РѕРЅРё Р±СѓРґСѓС‚ РЅР°РєР°РїР»РёРІР°С‚СЊСЃСЏ
+	ifstream fin(fileName, ios::binary | ios::out); //РћС‚РєСЂС‹РІР°РµРј С„Р°Р№Р» РІ РґРІРѕРёС‡РЅРѕРј СЂРµР¶РёРјРµ С‚РѕР»СЊРєРѕ РґР»СЏ С‡С‚РµРЅРёСЏ
 	if (fin.is_open())
 	{
 		while (getline(fin, line))
@@ -60,14 +60,14 @@ void BinDB::Decode()
 			all += "\n";
 		}
 	}
-	cout << "Из файла получено: " << all;
-	fin.close(); //Закрываем файл
-	ofstream fout(fileName, ios::out); //Открываем файл только для записи
+	cout << "РР· С„Р°Р№Р»Р° РїРѕР»СѓС‡РµРЅРѕ: " << all;
+	fin.close(); //Р—Р°РєСЂС‹РІР°РµРј С„Р°Р№Р»
+	ofstream fout(fileName, ios::out); //РћС‚РєСЂС‹РІР°РµРј С„Р°Р№Р» С‚РѕР»СЊРєРѕ РґР»СЏ Р·Р°РїРёСЃРё
 	if (fout.is_open())
 	{
 		fout.write((char*)&all, sizeof all);
 	}
-	fout.close(); //Закрываем файл
+	fout.close(); //Р—Р°РєСЂС‹РІР°РµРј С„Р°Р№Р»
 }
 
 void BinDB::SetFileName(string name)
@@ -86,7 +86,7 @@ string BinDB::GetFileName() {
 	return fileName.substr(found + 1);
 }
 
-// ГЛАВНЫЕ ФУНКЦИИ
+// Р“Р›РђР’РќР«Р• Р¤РЈРќРљР¦РР
 void BinDB::Read(LPCSTR section, LPCSTR paramName, LPCSTR defaultValue, LPSTR &returnWhere, DWORD nSize)
 {
 	//Decode();
@@ -105,7 +105,7 @@ void BinDB::Write(LPCSTR section, LPCSTR paramName, LPCSTR string)
 
 
 
-// ПЕРЕГРУЗКИ
+// РџР•Р Р•Р“Р РЈР—РљР
 void BinDB::Read(LPCSTR section, LPCSTR paramName, int defaultValue, LPSTR &returnWhere, DWORD nSize)
 {
 	Read(section, paramName, (char*)defaultValue, returnWhere, nSize);

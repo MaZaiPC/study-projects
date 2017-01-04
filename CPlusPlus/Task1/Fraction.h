@@ -1,25 +1,25 @@
-#pragma once
+п»ї#pragma once
 #include "Pair.h"
 
 class Fraction : public Pair
 {
 private:
-	long num; //Целая часть
-	WORD den; //Дробная часть
+	long num; //Р¦РµР»Р°СЏ С‡Р°СЃС‚СЊ
+	WORD den; //Р”СЂРѕР±РЅР°СЏ С‡Р°СЃС‚СЊ
 public:
-	// Конструкторы и деструктор
+	// РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂС‹ Рё РґРµСЃС‚СЂСѓРєС‚РѕСЂ
 	Fraction() : num(), den() {};
 	Fraction(long, WORD);
 	~Fraction() {}
 
-	// Методы класса
+	// РњРµС‚РѕРґС‹ РєР»Р°СЃСЃР°
 	long GetNum() { return num; }
 	unsigned short GetDen() { return den; }
 
-	virtual Fraction add(Fraction &obj) const; // Сложение
-	virtual Fraction mul(Fraction &obj) const; // Умножение
-	virtual Fraction sub(Fraction &obj) const; // Вычитание
-	virtual Fraction div(Fraction &obj) const; // Деление
+	virtual Fraction add(Fraction &obj) const; // РЎР»РѕР¶РµРЅРёРµ
+	virtual Fraction mul(Fraction &obj) const; // РЈРјРЅРѕР¶РµРЅРёРµ
+	virtual Fraction sub(Fraction &obj) const; // Р’С‹С‡РёС‚Р°РЅРёРµ
+	virtual Fraction div(Fraction &obj) const; // Р”РµР»РµРЅРёРµ
 	
 	bool is_greater_than(Fraction &obj) const;
 	bool is_less_than(Fraction &obj)	const;

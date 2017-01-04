@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include "stdafx.h"
 
 class Point
@@ -21,8 +21,8 @@ public:
 class Shape
 {
 protected:
-	UINT uNumVertex;  // количество вершин
-	Point *pPoints;   // массив координат вершин
+	UINT uNumVertex;  // РєРѕР»РёС‡РµСЃС‚РІРѕ РІРµСЂС€РёРЅ
+	Point *pPoints;   // РјР°СЃСЃРёРІ РєРѕРѕСЂРґРёРЅР°С‚ РІРµСЂС€РёРЅ
 
 public:
 	static bool IsLinesCross(Point a, Point b, Point a1, Point b1);

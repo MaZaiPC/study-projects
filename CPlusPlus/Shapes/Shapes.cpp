@@ -1,4 +1,4 @@
-#include "stdafx.h"
+п»ї#include "stdafx.h"
 #include "Shapes.h"
 
 /*----------------------Class Point------------------------*/
@@ -13,7 +13,7 @@ bool Point::operator>(const Point & obj)
 	return false;
 }
 
-// Вывод координат точки
+// Р’С‹РІРѕРґ РєРѕРѕСЂРґРёРЅР°С‚ С‚РѕС‡РєРё
 ostream &operator<<(ostream &os, const Point &point)
 {
 	os << "[" << point.x << "; " << point.y << "]";
@@ -21,7 +21,7 @@ ostream &operator<<(ostream &os, const Point &point)
 } // operator<<
 
 
-  // Ввод координат точки
+  // Р’РІРѕРґ РєРѕРѕСЂРґРёРЅР°С‚ С‚РѕС‡РєРё
 istream &operator>>(istream &is, Point &point)
 {
 	is >> point.x >> point.y;
@@ -30,7 +30,7 @@ istream &operator>>(istream &is, Point &point)
 
 /*----------------------Class Shape------------------------*/
 
-// Пересекается ли отрезок AB с A1B1 ?
+// РџРµСЂРµСЃРµРєР°РµС‚СЃСЏ Р»Рё РѕС‚СЂРµР·РѕРє AB СЃ A1B1 ?
 bool Shape::IsLinesCross(Point a, Point b, Point a1, Point b1)
 {
 	double maxx1 = max(a.x, b.x), maxy1 = max(a.y, b.y);
@@ -39,35 +39,35 @@ bool Shape::IsLinesCross(Point a, Point b, Point a1, Point b1)
 	double minx2 = min(a1.x, b1.x), miny2 = min(a1.y, b1.y);
 
 	if (minx1 > maxx2 || maxx1 < minx2 || miny1 > maxy2 || maxy1 < miny2)
-		return false;  // Момент, когда линии имеют одну общую вершину.
+		return false;  // РњРѕРјРµРЅС‚, РєРѕРіРґР° Р»РёРЅРёРё РёРјРµСЋС‚ РѕРґРЅСѓ РѕР±С‰СѓСЋ РІРµСЂС€РёРЅСѓ.
 
 
-	double dx1 = b.x - a.x, dy1 = b.y - a.y;		// Длина проекций первой линии на ось x и y
-	double dx2 = b1.x - a1.x, dy2 = b1.y - a1.y;	// Длина проекций второй линии на ось x и y
+	double dx1 = b.x - a.x, dy1 = b.y - a.y;		// Р”Р»РёРЅР° РїСЂРѕРµРєС†РёР№ РїРµСЂРІРѕР№ Р»РёРЅРёРё РЅР° РѕСЃСЊ x Рё y
+	double dx2 = b1.x - a1.x, dy2 = b1.y - a1.y;	// Р”Р»РёРЅР° РїСЂРѕРµРєС†РёР№ РІС‚РѕСЂРѕР№ Р»РёРЅРёРё РЅР° РѕСЃСЊ x Рё y
 	double dxx = a.x - a1.x, dyy = a.y - a1.y;
 	double div, mul;
 
 	if ((div = (dy2*dx1 - dx2*dy1)) == 0)
-		return false; // Линии параллельны...
+		return false; // Р›РёРЅРёРё РїР°СЂР°Р»Р»РµР»СЊРЅС‹...
 	if (div > 0)
 	{
 		if ((mul = (dx1*dyy - dy1*dxx)) < 0 || mul > div)
-			return false; // Первый отрезок пересекается за своими границами.
+			return false; // РџРµСЂРІС‹Р№ РѕС‚СЂРµР·РѕРє РїРµСЂРµСЃРµРєР°РµС‚СЃСЏ Р·Р° СЃРІРѕРёРјРё РіСЂР°РЅРёС†Р°РјРё.
 		if ((mul = (dx2*dyy - dy2*dxx)) < 0 || mul > div)
-			return false; // Второй отрезок пересекается за своими границами.
+			return false; // Р’С‚РѕСЂРѕР№ РѕС‚СЂРµР·РѕРє РїРµСЂРµСЃРµРєР°РµС‚СЃСЏ Р·Р° СЃРІРѕРёРјРё РіСЂР°РЅРёС†Р°РјРё.
 	}
 
 	if ((mul = -(dx1*dyy - dy1*dxx)) < 0 || mul > -div)
-		return false; // Первый отрезок пересекается за своими границами.
+		return false; // РџРµСЂРІС‹Р№ РѕС‚СЂРµР·РѕРє РїРµСЂРµСЃРµРєР°РµС‚СЃСЏ Р·Р° СЃРІРѕРёРјРё РіСЂР°РЅРёС†Р°РјРё.
 	if ((mul = -(dx2*dyy - dy2*dxx)) < 0 || mul > -div)
-		return false; // Второй отрезок пересекается за своими границами.
+		return false; // Р’С‚РѕСЂРѕР№ РѕС‚СЂРµР·РѕРє РїРµСЂРµСЃРµРєР°РµС‚СЃСЏ Р·Р° СЃРІРѕРёРјРё РіСЂР°РЅРёС†Р°РјРё.
 
 	return true;
 } // Shape::IsLinesCross
 
-// Проверка пересечения фигур.
-// Проверяет каждое ребро одного полигона на пересечение
-// со всеми ребрами другого полигона.
+// РџСЂРѕРІРµСЂРєР° РїРµСЂРµСЃРµС‡РµРЅРёСЏ С„РёРіСѓСЂ.
+// РџСЂРѕРІРµСЂСЏРµС‚ РєР°Р¶РґРѕРµ СЂРµР±СЂРѕ РѕРґРЅРѕРіРѕ РїРѕР»РёРіРѕРЅР° РЅР° РїРµСЂРµСЃРµС‡РµРЅРёРµ
+// СЃРѕ РІСЃРµРјРё СЂРµР±СЂР°РјРё РґСЂСѓРіРѕРіРѕ РїРѕР»РёРіРѕРЅР°.
 /*
 bool Shape::IsIntersect(const Shape &T1, const Shape &T2)
 {
@@ -97,7 +97,7 @@ bool Shape::IsIntersect(const X & T1, const Y & T2)
 	return false;
 }
 
-// Квадарат - создаем по умолчанию
+// РљРІР°РґР°СЂР°С‚ - СЃРѕР·РґР°РµРј РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
 Shape::Shape() : uNumVertex(3), pPoints(new Point[uNumVertex])
 {
 	memset(pPoints, 0, uNumVertex * sizeof(Point));
@@ -136,7 +136,7 @@ Shape & Shape::operator=(const Shape & obj)
 	return *this;
 } // Shape::operator=
 
-// Перемещение по плоскости
+// РџРµСЂРµРјРµС‰РµРЅРёРµ РїРѕ РїР»РѕСЃРєРѕСЃС‚Рё
 void Shape::Move(double deltaX, double deltaY)
 {
 	for (UINT i = 0; i < uNumVertex; i++) {
@@ -157,7 +157,7 @@ ostream &operator<<(ostream &os, const Shape &obj)
 } // operator<<
 
 
-  // Нужен контроль - образуют ли точки квадрат
+  // РќСѓР¶РµРЅ РєРѕРЅС‚СЂРѕР»СЊ - РѕР±СЂР°Р·СѓСЋС‚ Р»Рё С‚РѕС‡РєРё РєРІР°РґСЂР°С‚
 istream &operator>>(istream &is, Shape &obj)
 {
 	for (UINT i = 0; i < obj.uNumVertex; i++)

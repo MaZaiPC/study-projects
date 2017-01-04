@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 
 class Date
 {
@@ -6,34 +6,34 @@ class Date
 	WORD minute;
 	WORD second;
 	
-	// Методы:
-	// Конвертеры
+	// РњРµС‚РѕРґС‹:
+	// РљРѕРЅРІРµСЂС‚РµСЂС‹
 	WORD TimeToMin();
 	Date MinToTime(WORD JDN);
 	
-	// Логические
+	// Р›РѕРіРёС‡РµСЃРєРёРµ
 	bool IsValidDate(WORD hour, WORD minute, WORD second);
 	
-	// Служебные
+	// РЎР»СѓР¶РµР±РЅС‹Рµ
 	int NPK(int numb,int mult);
 public:
-	// Конструкторы и деструктор
+	// РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂС‹ Рё РґРµСЃС‚СЂСѓРєС‚РѕСЂ
 	Date(WORD hh = 0, WORD mm = 0, WORD ss = 0);
 	Date(const Date &date);
 	~Date();
 
-	// Методы:
-	// Арифметические
-	Date add(WORD days); // Сложение
-	Date sub(WORD days); // Вычитание
-	Date diff(Date x);  // разница между временем
+	// РњРµС‚РѕРґС‹:
+	// РђСЂРёС„РјРµС‚РёС‡РµСЃРєРёРµ
+	Date add(WORD days); // РЎР»РѕР¶РµРЅРёРµ
+	Date sub(WORD days); // Р’С‹С‡РёС‚Р°РЅРёРµ
+	Date diff(Date x);  // СЂР°Р·РЅРёС†Р° РјРµР¶РґСѓ РІСЂРµРјРµРЅРµРј
 	
-	// Логические
-	bool equal(Date x);        // Равно?
-	bool greate(Date x);       // Больше?
-	bool less(Date x);         // Меньше?
+	// Р›РѕРіРёС‡РµСЃРєРёРµ
+	bool equal(Date x);        // Р Р°РІРЅРѕ?
+	bool greate(Date x);       // Р‘РѕР»СЊС€Рµ?
+	bool less(Date x);         // РњРµРЅСЊС€Рµ?
 	
-	// Геттеры и Сеттеры
+	// Р“РµС‚С‚РµСЂС‹ Рё РЎРµС‚С‚РµСЂС‹
 	WORD getHour();
 	WORD getMinute();
 	WORD getSecond();
@@ -43,7 +43,7 @@ public:
 	void setTime(WORD hour, WORD minute, WORD second);
 	void coutTime();
 	
-	// Инициализация
+	// РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ
 	void Init();
 	void Init(a, b);
 };

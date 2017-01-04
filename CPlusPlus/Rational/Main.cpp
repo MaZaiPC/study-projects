@@ -1,13 +1,13 @@
-/*	
+п»ї/*	
 
 Main.cpp  
-Главный файл - проверка операций с классом Rational
+Р“Р»Р°РІРЅС‹Р№ С„Р°Р№Р» - РїСЂРѕРІРµСЂРєР° РѕРїРµСЂР°С†РёР№ СЃ РєР»Р°СЃСЃРѕРј Rational
 
-- метод инициализации Init()
-- метод чтения с клавиатуры Read()
-- метод вывода на экран Display()
-- арифметические операции, 
-- операции сравнения
+- РјРµС‚РѕРґ РёРЅРёС†РёР°Р»РёР·Р°С†РёРё Init()
+- РјРµС‚РѕРґ С‡С‚РµРЅРёСЏ СЃ РєР»Р°РІРёР°С‚СѓСЂС‹ Read()
+- РјРµС‚РѕРґ РІС‹РІРѕРґР° РЅР° СЌРєСЂР°РЅ Display()
+- Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРёРµ РѕРїРµСЂР°С†РёРё, 
+- РѕРїРµСЂР°С†РёРё СЃСЂР°РІРЅРµРЅРёСЏ
 
 */
 
@@ -24,49 +24,49 @@ int main(int argc, char *argv[])
 	init();
 
 	Rational a, b, c;
-	cout << "Тестирование класса Rational\n\n";
+	cout << "РўРµСЃС‚РёСЂРѕРІР°РЅРёРµ РєР»Р°СЃСЃР° Rational\n\n";
 	Sleep(1200);
 
-	cout << "\nТест Init() и Display():\n";
+	cout << "\nРўРµСЃС‚ Init() Рё Display():\n";
 	a.Init(1, 2);
-	cout << "\nДробь a: "; a.Display();
+	cout << "\nР”СЂРѕР±СЊ a: "; a.Display();
 	Sleep(1200);
 
-	cout << "\n\nТест метода ввода Read():\n";
+	cout << "\n\nРўРµСЃС‚ РјРµС‚РѕРґР° РІРІРѕРґР° Read():\n";
 	b.Read();
-	cout << "\nВы ввели: ";	b.Display();
+	cout << "\nР’С‹ РІРІРµР»Рё: ";	b.Display();
 	Sleep(1200);
 
-	cout << "\n\nТест арифметических операций:\n";
+	cout << "\n\nРўРµСЃС‚ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРёС… РѕРїРµСЂР°С†РёР№:\n";
 	c = a.add(b);
-	cout << "\nСложение : ";  a.Display();  cout << " + ";  b.Display();
+	cout << "\nРЎР»РѕР¶РµРЅРёРµ : ";  a.Display();  cout << " + ";  b.Display();
 	cout << " = "; c.Display();
 
 	c = a.sub(b);
-	cout << "\nВычитание: ";  a.Display(); cout << " - ";  b.Display();
+	cout << "\nР’С‹С‡РёС‚Р°РЅРёРµ: ";  a.Display(); cout << " - ";  b.Display();
 	cout << " = "; c.Display();
 
 	c = a.mul(b);
-	cout << "\nУмножение: ";  a.Display(); cout << " * "; b.Display();
+	cout << "\nРЈРјРЅРѕР¶РµРЅРёРµ: ";  a.Display(); cout << " * "; b.Display();
 	cout << " = "; c.Display();
 
 	c = a.div(b);
-	cout << "\nДеление  : ";  a.Display(); cout << " / "; b.Display();
+	cout << "\nР”РµР»РµРЅРёРµ  : ";  a.Display(); cout << " / "; b.Display();
 	cout << " = "; c.Display();
 	Sleep(1200);
-	cout << "\n\nТест арифметических операций:\n";
+	cout << "\n\nРўРµСЃС‚ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРёС… РѕРїРµСЂР°С†РёР№:\n";
 	c = a.greate(b);
-	cout << "\nБольше  : ";  a.Display(); cout << " > "; b.Display();
+	cout << "\nР‘РѕР»СЊС€Рµ  : ";  a.Display(); cout << " > "; b.Display();
 	cout << " = "; c.Display();
 	c = a.less(b);
-	cout << "\nМеньше  : ";  a.Display(); cout << " < "; b.Display();
+	cout << "\nРњРµРЅСЊС€Рµ  : ";  a.Display(); cout << " < "; b.Display();
 	cout << " = "; c.Display();
 	c = a.equal(b);
-	cout << "\nРавно  : ";  a.Display(); cout << " == "; b.Display();
+	cout << "\nР Р°РІРЅРѕ  : ";  a.Display(); cout << " == "; b.Display();
 	cout << " = "; c.Display();
 	Sleep(1200);
 
-	cout << "\n\nКонец работы. ";
+	cout << "\n\nРљРѕРЅРµС† СЂР°Р±РѕС‚С‹. ";
 	return 0;
 } // main
 

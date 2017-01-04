@@ -1,4 +1,4 @@
-#include "stdafx.h"
+п»ї#include "stdafx.h"
 #include "Rational.h"
 
 Rational::Rational()
@@ -9,8 +9,8 @@ Rational::~Rational()
 {
 }
 
-// Инициализация - присваивание начальных значений
-// полям класса
+// РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ - РїСЂРёСЃРІР°РёРІР°РЅРёРµ РЅР°С‡Р°Р»СЊРЅС‹С… Р·РЅР°С‡РµРЅРёР№
+// РїРѕР»СЏРј РєР»Р°СЃСЃР°
 void Rational::Init(int num, int den)
 {
 	a = num;
@@ -18,14 +18,14 @@ void Rational::Init(int num, int den)
 } // Rational::Init
 
 
-// Ввод значений полей с клавиатуры
+// Р’РІРѕРґ Р·РЅР°С‡РµРЅРёР№ РїРѕР»РµР№ СЃ РєР»Р°РІРёР°С‚СѓСЂС‹
 void Rational::Read()
 {
-	cout << "\nЧислитель: "; cin >> a;
-	cout << "\nЗнаменатель: "; cin >> b;
+	cout << "\nР§РёСЃР»РёС‚РµР»СЊ: "; cin >> a;
+	cout << "\nР—РЅР°РјРµРЅР°С‚РµР»СЊ: "; cin >> b;
 } // Rational::Read
 
-// Вывод в консоль
+// Р’С‹РІРѕРґ РІ РєРѕРЅСЃРѕР»СЊ
 void Rational::Display() {cout << (b == 1 || a == 0 ? a : a << '/' << b); }
 
 Rational Rational::add(Rational x)
@@ -74,7 +74,7 @@ Rational Rational::div(Rational x)
 	return t;
 } // Rational::div
 
-// Нахождение НОДа
+// РќР°С…РѕР¶РґРµРЅРёРµ РќРћР”Р°
 static int NOD(const int& a1,const int& b1)
 {
 	int a = abs(a1), b = abs(b1);
@@ -86,7 +86,7 @@ static int NOD(const int& a1,const int& b1)
 	}
 	return a+b;
 }
-// Сокращение дроби
+// РЎРѕРєСЂР°С‰РµРЅРёРµ РґСЂРѕР±Рё
 void Rational::reduce()
 {
 	int nod = NOD(a,b);

@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 
 void init();
 void SetWindow(int Width, int Height, WORD Attrib = 0x1f);
@@ -12,13 +12,13 @@ WORD LastDay(WORD month, WORD year);
 UINT getUINT(char *prompt, UINT min = 0, UINT max = UINT_MAX);
 
 
-// Тип данных - перечисление для задания цвета в консоли
+// РўРёРї РґР°РЅРЅС‹С… - РїРµСЂРµС‡РёСЃР»РµРЅРёРµ РґР»СЏ Р·Р°РґР°РЅРёСЏ С†РІРµС‚Р° РІ РєРѕРЅСЃРѕР»Рё
 enum CColor {
 	Black, Blue, Green, Cyan, Red, Magenta, Yellow, Grey, 
 	White, LtBlue, LtGreen, LtCyan, LtRed, LtMagenta, LtYellow, LtWhite
 };
 
-// Функции для управления цветом в консоли
+// Р¤СѓРЅРєС†РёРё РґР»СЏ СѓРїСЂР°РІР»РµРЅРёСЏ С†РІРµС‚РѕРј РІ РєРѕРЅСЃРѕР»Рё
 void Color(char *color);
 void SetBkColor(CColor color = Black);
 void SetForeColor(CColor color = Grey);
@@ -26,6 +26,6 @@ void Clear(char fill = ' ');
 void GotoXY(UINT x, UINT y);
 void WriteXY(UINT x, UINT y, char *text);
 
-// преобразование прописных (больших) букв в строчные (малые)
+// РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ РїСЂРѕРїРёСЃРЅС‹С… (Р±РѕР»СЊС€РёС…) Р±СѓРєРІ РІ СЃС‚СЂРѕС‡РЅС‹Рµ (РјР°Р»С‹Рµ)
 char *StrLower(char *Str);
 
