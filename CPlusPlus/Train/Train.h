@@ -1,0 +1,47 @@
+#pragma once
+#include "Time.h"
+
+/**
+1. ќпределить класс с именем TRAIN, содержащий следующие пол€:
+	Х название пункта назначени€;
+	Х номер поезда;
+	Х врем€ отправлени€.
+ќпределить методы доступа к этим пол€м и перегруженные операции извлечени€ и вставки дл€ объектов типа TRAIN.
+2. Ќаписать программу, выполн€ющую следующие действи€:
+	Х ввод с клавиатуры данных в массив, состо€щий из восьми объектов типа TRAIN;
+	  записи должны быть размещены в алфавитном пор€дке по названи€м пунктов назначени€;
+	Х вывод на экран информации о поездах, отправл€ющихс€ после введенного с клавиатуры времени;
+	Х если таких поездов нет, выдать на дисплей соответствующее сообщение.
+**/
+
+class Train
+{
+	string serial;
+	string nameStation;
+	Time time_a;
+public:
+	Train();
+	Train(string ser, string name, Time time);
+	Train(const Train & obj);
+	~Train();
+
+	// —еттеры
+	void setSerial(string s);
+	void setNameStation(string ns);
+	void setH(int h);
+	void setM(int m);
+
+	// √еттеры
+	string getSerial()		const { return serial; }
+	string getNameStation() const { return nameStation; }
+	int getH()				const { return time_a.getH(); }
+	int getM()				const { return time_a.getM(); }
+
+	// ћетоды
+	void Input(UINT n);
+	void Show(UINT n);
+	void Randomize();
+
+	int Compare(Time ti) { return time_a.Compare(ti); }
+};
+
