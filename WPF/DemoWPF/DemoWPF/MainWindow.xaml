@@ -1,0 +1,45 @@
+﻿<Window x:Class="DemoWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="358.24" Width="525">
+    <Grid>
+        <Rectangle 
+            Fill="#FF3F3FD4" 
+            Height="56" Stroke="#00000000" 
+            VerticalAlignment="Top" 
+            Margin="-1,-1,-1,0"/>
+        <Ellipse
+            Fill="#FF11116E"
+            HorizontalAlignment="Left"
+            Height="36"
+            Margin="10,10,0,0"
+            Stroke="#00000000"
+            VerticalAlignment="Top"
+            Width="36"/>
+
+        <Rectangle 
+            Fill="#FF515151" 
+            Height="42" 
+            Margin="-1,0,1,-1"
+            Stroke="#00000000"
+            VerticalAlignment="Bottom"/>
+        <Label
+            x:Name="label"
+            Content="All Rights Resevered"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Bottom"
+            Margin="10,0,0,4"
+            Foreground="#FFF0F0F0"/>
+        <Label 
+            x:Name="label1" 
+            Content="Иванченко Андрей" 
+            HorizontalAlignment="Left" 
+            Margin="51,14,0,0" 
+            VerticalAlignment="Top" 
+            Foreground="#FFF0F0F0"/>
+    </Grid>
+</Window>

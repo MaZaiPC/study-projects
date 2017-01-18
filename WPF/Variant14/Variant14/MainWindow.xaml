@@ -1,0 +1,101 @@
+﻿<!-- XAML - eXtensible Application Markup Language -->
+<Window x:Class="MaZaiPC.Variant14.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Лаунчер" Height="268.663" Width="306.838" 
+        Background="#FFEEEEEE" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <!-- Задание количества строк в сетке -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="11*"/>
+            <RowDefinition Height="38*"/>
+            <RowDefinition Height="11*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Задание количества столбцов в сетке -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="48*"/>
+            <ColumnDefinition Width="97*"/>
+            <ColumnDefinition Width="97*"/>
+            <ColumnDefinition Width="48*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button 
+            x:Name="RunProgrammButton" 
+            Content="Запустить программу" 
+            Grid.Row="1"
+            Grid.Column="1"
+            Grid.ColumnSpan="2"
+            HorizontalAlignment="Left" 
+            Margin="10,28,0,0"
+            VerticalAlignment="Top" 
+            Width="181" 
+            Height="31"
+            Background="#FFFFA539"
+            FontFamily="Times New Roman"
+            FontSize="14" BorderBrush="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}" Click="RunProgrammButton_Click"/>
+
+        <Button 
+            x:Name="ExitButton" 
+            Content="Выход" 
+            Grid.Row="1"
+            Grid.Column="1"
+            Grid.ColumnSpan="2"
+            HorizontalAlignment="Left" 
+            Margin="10,91,0,0"
+            VerticalAlignment="Top" 
+            Width="181" 
+            Height="31"
+            Background="#FFB0BBFF"
+            FontFamily="Times New Roman"
+            FontSize="14" BorderBrush="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}" Click="ExitButton_Click"/>
+
+        <Rectangle
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="4"
+            Fill="#FF3E3EF7"
+            VerticalAlignment="Top"
+            Height="44"
+            Stroke="Black"
+            StrokeThickness="0"/>
+
+        <Rectangle
+            Grid.Row="2"
+            Grid.Column="0"
+            Grid.ColumnSpan="4"
+            Fill="#FF595959"
+            VerticalAlignment="Bottom"
+            Height="44"
+            Stroke="Black"
+            StrokeThickness="0"/>
+
+        <Label
+            x:Name="FooterLabel"
+            Content="(c) Иванченко Андрей"
+            Grid.Row="2"
+            Grid.Column="1"
+            Grid.ColumnSpan="2"
+            VerticalAlignment="Bottom"
+            Margin="10,0,11,10"
+            Foreground="#FFEEEEEE" Width="181" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Height="24"
+            />
+
+        <Label
+            x:Name="HeaderLabel"
+            Content="Домашняя работа"
+            Grid.Row="0"
+            Grid.Column="1"
+            Grid.ColumnSpan="2"
+            VerticalAlignment="Bottom"
+            Margin="10,0,10,10"
+            Foreground="#FFEEEEEE" 
+            FontSize="14" 
+            FontWeight="Bold" HorizontalContentAlignment="Center" Height="25"/>
+
+
+    </Grid>
+</Window>
