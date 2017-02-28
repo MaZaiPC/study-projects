@@ -1,4 +1,4 @@
-﻿namespace MaZaiPC.TrafficViolationManager
+﻿namespace Moreniell.TrafficViolationManager
 {
     partial class AboutForm
     {
@@ -32,7 +32,7 @@
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.WhiteSmoke;
-			this.BackgroundImage = global::MaZaiPC.TrafficViolationManager.Properties.Resources.bg_about;
+			this.BackgroundImage = global::Moreniell.TrafficViolationManager.Properties.Resources.bg_about;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(478, 298);
 			this.ControlBox = false;

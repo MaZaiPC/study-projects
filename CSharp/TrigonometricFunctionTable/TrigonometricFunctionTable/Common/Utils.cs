@@ -3,7 +3,7 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 
-namespace MaZaiPC.TrigonometricFunctionTable.Common
+namespace Moreniell.TrigonometricFunctionTable.Common
 {
 	static class Utils
 	{

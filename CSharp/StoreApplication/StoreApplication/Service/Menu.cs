@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 using System.Threading;
 
-namespace MaZaiPC.StoreApplication.Service
+namespace Moreniell.StoreApplication.Service
 {
 	class Menu
 	{

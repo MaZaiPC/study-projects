@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace MaZaiPC.TextAnalyzer
+namespace Moreniell.TextAnalyzer
 {
 	partial class AboutForm
 	{
@@ -94,11 +94,11 @@ namespace MaZaiPC.TextAnalyzer
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(197, 13);
 			this.label5.TabIndex = 0;
-			this.label5.Text = "Автор: Иванченко А.Д. (ник MaZaiPC)";
+			this.label5.Text = "Автор: Иванченко А.Д. (ник Moreniell)";
 			// 
 			// pictureBox1
 			// 
-			this.pictureBox1.Image = global::MaZaiPC.TextAnalyzer.Properties.Resources.text;
+			this.pictureBox1.Image = global::Moreniell.TextAnalyzer.Properties.Resources.text;
 			this.pictureBox1.Location = new System.Drawing.Point(56, 24);
 			this.pictureBox1.Name = "pictureBox1";
 			this.pictureBox1.Size = new System.Drawing.Size(88, 72);

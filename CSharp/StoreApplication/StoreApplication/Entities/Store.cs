@@ -2,9 +2,9 @@
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Text;
-using MaZaiPC.StoreApplication.Service;
+using Moreniell.StoreApplication.Service;
 
-namespace MaZaiPC.StoreApplication.Entities
+namespace Moreniell.StoreApplication.Entities
 {
 	class Store
 	{

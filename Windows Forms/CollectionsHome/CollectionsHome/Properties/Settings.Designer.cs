@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MaZaiPC.CollectionsHome.Properties {
+namespace Moreniell.CollectionsHome.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

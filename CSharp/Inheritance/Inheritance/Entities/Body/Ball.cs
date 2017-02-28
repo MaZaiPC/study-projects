@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MaZaiPC.Inheritance.Entities.Body
+namespace Moreniell.Inheritance.Entities.Body
 {
 	public class Ball : Body
 	{

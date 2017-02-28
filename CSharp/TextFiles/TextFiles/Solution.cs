@@ -7,9 +7,9 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-using MaZaiPC.TextFiles.Service;
+using Moreniell.TextFiles.Service;
 
-namespace MaZaiPC.TextFiles
+namespace Moreniell.TextFiles
 {
 	static class Solution
 	{

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
-using MaZaiPC.CollectionsHome.WindowsForms.Tasks;
+using Moreniell.CollectionsHome.WindowsForms.Tasks;
 
-namespace MaZaiPC.CollectionsHome.WindowsForms
+namespace Moreniell.CollectionsHome.WindowsForms
 {
 	public partial class LauncherForm : Form
 	{

@@ -1,8 +1,8 @@
 ﻿using System;
-using MaZaiPC.NumManager.Common;
-using MaZaiPC.NumManager.Common.Menu;
+using Moreniell.NumManager.Common;
+using Moreniell.NumManager.Common.Menu;
 
-namespace MaZaiPC.NumManager
+namespace Moreniell.NumManager
 {
 	internal class Program
 	{
@@ -20,7 +20,7 @@ namespace MaZaiPC.NumManager
 							new MenuItem("Вывести значения из файла на экран", "Читает и выводит значения из файла\n" +
 							                                                   "попутно зажигая событие OnNumberRead."),
 							new MenuItem(Menu.SEPARATOR),
-							new MenuItem("О программе", "Автор:  Иванченко А.Д. (ник MaZaiPC)\n\n" +
+							new MenuItem("О программе", "Автор:  Иванченко А.Д. (ник Moreniell)\n\n" +
                                                         "Таблица синусов и косинусов.", active: false), 
 						});
 

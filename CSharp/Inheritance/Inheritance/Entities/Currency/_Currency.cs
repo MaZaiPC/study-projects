@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MaZaiPC.Inheritance.Entities.Currency
+namespace Moreniell.Inheritance.Entities.Currency
 {
 	public abstract class Currency
 	{

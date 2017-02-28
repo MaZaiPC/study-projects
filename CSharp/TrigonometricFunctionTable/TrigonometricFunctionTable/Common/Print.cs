@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MaZaiPC.TrigonometricFunctionTable.Common
+namespace Moreniell.TrigonometricFunctionTable.Common
 {
 	public class Print
 	{

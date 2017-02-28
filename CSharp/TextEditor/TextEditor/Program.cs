@@ -1,7 +1,7 @@
 ﻿using System;
 using ClassLibrary1.Service;
 
-namespace MaZaiPC.TextFiles
+namespace Moreniell.TextFiles
 {
 	static class Program
 	{
@@ -16,7 +16,7 @@ namespace MaZaiPC.TextFiles
 							new MenuItem("Менеджер двоичных данных", "Ждет свой черед и надеется на светлое будущее.",
 																								  active: false),
 							new MenuItem(Menu.SEPARATOR),
-							new MenuItem("О программе", "Автор:  Иванченко А.Д. (ник MaZaiPC)\n\n" +
+							new MenuItem("О программе", "Автор:  Иванченко А.Д. (ник Moreniell)\n\n" +
 														"Это приложение работает с файлами.\n\n", active: false), 
 						});
 

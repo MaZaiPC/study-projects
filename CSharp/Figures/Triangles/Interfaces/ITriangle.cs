@@ -1,4 +1,4 @@
-﻿namespace MaZaiPC.Triangles.Interfaces
+﻿namespace Moreniell.Triangles.Interfaces
 {
     public interface ITriangle
     {

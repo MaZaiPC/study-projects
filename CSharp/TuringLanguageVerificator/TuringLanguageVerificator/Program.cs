@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace MaZaiPC.CourseWork
+namespace Moreniell.CourseWork
 {
 	internal static class Program
     {

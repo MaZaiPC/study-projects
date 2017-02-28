@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MaZaiPC.Triangles
+namespace Moreniell.Triangles
 {
     static class Utils
     {

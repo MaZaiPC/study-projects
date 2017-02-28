@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Text;
 
-namespace MaZaiPC.StoreApplication.Entities
+namespace Moreniell.StoreApplication.Entities
 {
 	class Price
 	{

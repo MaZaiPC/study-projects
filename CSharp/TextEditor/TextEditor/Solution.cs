@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using MaZaiPC.TextFiles.Entities;
+using Moreniell.TextFiles.Entities;
 
-namespace MaZaiPC.TextFiles
+namespace Moreniell.TextFiles
 {
 	static class Solution
 	{

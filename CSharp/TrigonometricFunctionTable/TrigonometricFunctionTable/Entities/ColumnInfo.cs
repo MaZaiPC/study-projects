@@ -1,4 +1,4 @@
-﻿namespace MaZaiPC.TrigonometricFunctionTable.Entities
+﻿namespace Moreniell.TrigonometricFunctionTable.Entities
 {
 	public struct ColumnInfo
 	{

@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace MaZaiPC.TextFiles.Service
+namespace Moreniell.TextFiles.Service
 {
 	struct MenuItem
 	{

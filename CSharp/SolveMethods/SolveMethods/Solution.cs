@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MaZaiPC.SolveMethods
+namespace Moreniell.SolveMethods
 {
 	static class Solution
 	{

@@ -1,4 +1,4 @@
-﻿namespace MaZaiPC.CollectionsHome.WindowsForms
+﻿namespace Moreniell.CollectionsHome.WindowsForms
 {
 	partial class LauncherForm
 	{

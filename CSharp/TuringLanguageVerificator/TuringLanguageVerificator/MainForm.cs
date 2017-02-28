@@ -10,7 +10,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
 
-namespace MaZaiPC.CourseWork
+namespace Moreniell.CourseWork
 {
 	public partial class MainForm : Form
 	{

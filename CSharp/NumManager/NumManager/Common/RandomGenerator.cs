@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MaZaiPC.NumManager.Common
+namespace Moreniell.NumManager.Common
 {
 	public class RandomGenerator
 	{

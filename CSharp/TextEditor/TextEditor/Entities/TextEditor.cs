@@ -6,7 +6,7 @@ using System.Security.AccessControl;
 using System.Text;
 using ClassLibrary1.Service;
 
-namespace MaZaiPC.TextFiles.Entities
+namespace Moreniell.TextFiles.Entities
 {
 	class TextEditor
 	{

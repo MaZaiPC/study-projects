@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using MaZaiPC.CollectionsHome.Common;
+using Moreniell.CollectionsHome.Common;
 
-namespace MaZaiPC.CollectionsHome.WindowsForms.Tasks
+namespace Moreniell.CollectionsHome.WindowsForms.Tasks
 {
 	public partial class Task2Form : Form
 	{

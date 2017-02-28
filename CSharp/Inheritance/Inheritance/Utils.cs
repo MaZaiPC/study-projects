@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace MaZaiPC.Inheritance
+namespace Moreniell.Inheritance
 {
 	static class Utils
 	{

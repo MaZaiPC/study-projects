@@ -8,7 +8,7 @@
     <ProjectGuid>{9495A1F7-D5AF-4FAC-93FA-AD9674327F57}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MaZaiPC.CourseWork</RootNamespace>
+    <RootNamespace>Moreniell.CourseWork</RootNamespace>
     <AssemblyName>CourseWork</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

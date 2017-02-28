@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace MaZaiPC.StoreApplication.Service
+namespace Moreniell.StoreApplication.Service
 {
 	struct MenuItem
 	{

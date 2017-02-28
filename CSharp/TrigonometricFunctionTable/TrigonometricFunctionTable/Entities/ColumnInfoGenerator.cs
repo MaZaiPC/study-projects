@@ -1,7 +1,7 @@
 ﻿using System;
-using static MaZaiPC.TrigonometricFunctionTable.Common.Utils;
+using static Moreniell.TrigonometricFunctionTable.Common.Utils;
 
-namespace MaZaiPC.TrigonometricFunctionTable.Entities
+namespace Moreniell.TrigonometricFunctionTable.Entities
 {
 	public class ColumnInfoGenerator
 	{

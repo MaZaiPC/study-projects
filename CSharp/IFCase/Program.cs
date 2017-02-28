@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MaZaiPC.Beginning
+namespace Moreniell.Beginning
 {
 	class Program
 	{

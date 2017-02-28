@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace MaZaiPC.TrafficViolationManager
+namespace Moreniell.TrafficViolationManager
 {
 	partial class MainForm
 	{
@@ -293,7 +293,7 @@ namespace MaZaiPC.TrafficViolationManager
 			// btnNewFile
 			// 
 			this.btnNewFile.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.btnNewFile.Image = global::MaZaiPC.TrafficViolationManager.Properties.Resources._new;
+			this.btnNewFile.Image = global::Moreniell.TrafficViolationManager.Properties.Resources._new;
 			this.btnNewFile.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.btnNewFile.Margin = new System.Windows.Forms.Padding(3, 1, 0, 2);
 			this.btnNewFile.Name = "btnNewFile";
@@ -307,7 +307,7 @@ namespace MaZaiPC.TrafficViolationManager
 			// btnOpenFile
 			// 
 			this.btnOpenFile.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.btnOpenFile.Image = global::MaZaiPC.TrafficViolationManager.Properties.Resources.open;
+			this.btnOpenFile.Image = global::Moreniell.TrafficViolationManager.Properties.Resources.open;
 			this.btnOpenFile.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.btnOpenFile.Name = "btnOpenFile";
 			this.btnOpenFile.Size = new System.Drawing.Size(23, 22);
@@ -326,7 +326,7 @@ namespace MaZaiPC.TrafficViolationManager
 			// 
 			this.btnSaveFile.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
 			this.btnSaveFile.Enabled = false;
-			this.btnSaveFile.Image = global::MaZaiPC.TrafficViolationManager.Properties.Resources.save;
+			this.btnSaveFile.Image = global::Moreniell.TrafficViolationManager.Properties.Resources.save;
 			this.btnSaveFile.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.btnSaveFile.Name = "btnSaveFile";
 			this.btnSaveFile.Size = new System.Drawing.Size(23, 22);
@@ -340,7 +340,7 @@ namespace MaZaiPC.TrafficViolationManager
 			// 
 			this.btnSaveFileAs.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
 			this.btnSaveFileAs.Enabled = false;
-			this.btnSaveFileAs.Image = global::MaZaiPC.TrafficViolationManager.Properties.Resources.save_as;
+			this.btnSaveFileAs.Image = global::Moreniell.TrafficViolationManager.Properties.Resources.save_as;
 			this.btnSaveFileAs.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.btnSaveFileAs.Name = "btnSaveFileAs";
 			this.btnSaveFileAs.Size = new System.Drawing.Size(23, 22);
@@ -627,7 +627,7 @@ namespace MaZaiPC.TrafficViolationManager
 			// 
 			// violatorBindingSource
 			// 
-			this.violatorBindingSource.DataSource = typeof(MaZaiPC.TrafficViolationManager.Model.Violator);
+			this.violatorBindingSource.DataSource = typeof(Moreniell.TrafficViolationManager.Model.Violator);
 			// 
 			// columnId2
 			// 
@@ -692,7 +692,7 @@ namespace MaZaiPC.TrafficViolationManager
 			// 
 			// violationBindingSource
 			// 
-			this.violationBindingSource.DataSource = typeof(MaZaiPC.TrafficViolationManager.Model.Violation);
+			this.violationBindingSource.DataSource = typeof(Moreniell.TrafficViolationManager.Model.Violation);
 			// 
 			// MainForm
 			// 

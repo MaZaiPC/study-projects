@@ -1,8 +1,8 @@
 ﻿using System;
-using MaZaiPC.TrigonometricFunctionTable.Common;
-using MaZaiPC.TrigonometricFunctionTable.Common.Menu;
+using Moreniell.TrigonometricFunctionTable.Common;
+using Moreniell.TrigonometricFunctionTable.Common.Menu;
 
-namespace MaZaiPC.TrigonometricFunctionTable
+namespace Moreniell.TrigonometricFunctionTable
 {
 	static class Program
 	{
@@ -16,7 +16,7 @@ namespace MaZaiPC.TrigonometricFunctionTable
 							new MenuItem("Настроить диапазон значений"),
 							new MenuItem("Показать таблицу"),
 							new MenuItem(Menu.SEPARATOR),
-							new MenuItem("О программе", "Автор:  Иванченко А.Д. (ник MaZaiPC)\n\n" +
+							new MenuItem("О программе", "Автор:  Иванченко А.Д. (ник Moreniell)\n\n" +
                                                         "Таблица синусов и косинусов.", active: false), 
 						});
 

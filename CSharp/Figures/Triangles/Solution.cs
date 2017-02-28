@@ -1,8 +1,8 @@
 ﻿using System;
-using MaZaiPC.Triangles.Entities;
-using MaZaiPC.Triangles.Interfaces;
+using Moreniell.Triangles.Entities;
+using Moreniell.Triangles.Interfaces;
 
-namespace MaZaiPC.Triangles
+namespace Moreniell.Triangles
 {
     static class Solution
     {

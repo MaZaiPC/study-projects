@@ -1,8 +1,8 @@
 ﻿using System;
 
-using MaZaiPC.TextFiles.Service;
+using Moreniell.TextFiles.Service;
 
-namespace MaZaiPC.TextFiles
+namespace Moreniell.TextFiles
 {
 	static class Program
 	{
@@ -18,7 +18,7 @@ namespace MaZaiPC.TextFiles
 							new MenuItem("Показать все маршруты"),
 							new MenuItem("Упорядочить файл по номерам маршрутов"),
 							new MenuItem(Menu.SEPARATOR),
-							new MenuItem("О программе", "Автор:  Иванченко А.Д. (ник MaZaiPC)\n\n" +
+							new MenuItem("О программе", "Автор:  Иванченко А.Д. (ник Moreniell)\n\n" +
 														"Небольшой менеджер маршрутов.", active: false), 
 						});
 

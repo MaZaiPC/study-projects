@@ -1,4 +1,4 @@
-﻿namespace MaZaiPC.ListBoxCommander
+﻿namespace Moreniell.ListBoxCommander
 {
 	partial class HelperForm
 	{
@@ -117,7 +117,7 @@
 			// 
 			// pictureBox4
 			// 
-			this.pictureBox4.Image = global::MaZaiPC.ListBoxCommander.Properties.Resources.Step_4;
+			this.pictureBox4.Image = global::Moreniell.ListBoxCommander.Properties.Resources.Step_4;
 			this.pictureBox4.Location = new System.Drawing.Point(-48, 72);
 			this.pictureBox4.Name = "pictureBox4";
 			this.pictureBox4.Size = new System.Drawing.Size(608, 328);
@@ -161,7 +161,7 @@
 			// 
 			// pictureBox3
 			// 
-			this.pictureBox3.Image = global::MaZaiPC.ListBoxCommander.Properties.Resources.Step_3;
+			this.pictureBox3.Image = global::Moreniell.ListBoxCommander.Properties.Resources.Step_3;
 			this.pictureBox3.Location = new System.Drawing.Point(16, 64);
 			this.pictureBox3.Name = "pictureBox3";
 			this.pictureBox3.Size = new System.Drawing.Size(328, 216);
@@ -203,7 +203,7 @@
 			// 
 			// pictureBox2
 			// 
-			this.pictureBox2.Image = global::MaZaiPC.ListBoxCommander.Properties.Resources.Step_2;
+			this.pictureBox2.Image = global::Moreniell.ListBoxCommander.Properties.Resources.Step_2;
 			this.pictureBox2.Location = new System.Drawing.Point(16, 64);
 			this.pictureBox2.Name = "pictureBox2";
 			this.pictureBox2.Size = new System.Drawing.Size(328, 216);
@@ -244,7 +244,7 @@
 			// 
 			// pictureBox1
 			// 
-			this.pictureBox1.Image = global::MaZaiPC.ListBoxCommander.Properties.Resources.Step_1;
+			this.pictureBox1.Image = global::Moreniell.ListBoxCommander.Properties.Resources.Step_1;
 			this.pictureBox1.Location = new System.Drawing.Point(16, 64);
 			this.pictureBox1.Name = "pictureBox1";
 			this.pictureBox1.Size = new System.Drawing.Size(328, 216);

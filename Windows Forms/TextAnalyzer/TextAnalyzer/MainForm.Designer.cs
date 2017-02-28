@@ -1,4 +1,4 @@
-﻿namespace MaZaiPC.TextAnalyzer
+﻿namespace Moreniell.TextAnalyzer
 {
     partial class MainForm
     {
@@ -85,7 +85,7 @@
 			// 
 			// mniFileOpen
 			// 
-			this.mniFileOpen.Image = global::MaZaiPC.TextAnalyzer.Properties.Resources.file;
+			this.mniFileOpen.Image = global::Moreniell.TextAnalyzer.Properties.Resources.file;
 			this.mniFileOpen.Name = "mniFileOpen";
 			this.mniFileOpen.Size = new System.Drawing.Size(159, 22);
 			this.mniFileOpen.Tag = "2";
@@ -99,7 +99,7 @@
 			// 
 			// mniFileExit
 			// 
-			this.mniFileExit.Image = global::MaZaiPC.TextAnalyzer.Properties.Resources.door_exit;
+			this.mniFileExit.Image = global::Moreniell.TextAnalyzer.Properties.Resources.door_exit;
 			this.mniFileExit.Name = "mniFileExit";
 			this.mniFileExit.Size = new System.Drawing.Size(159, 22);
 			this.mniFileExit.Tag = "4";
@@ -118,7 +118,7 @@
 			// 
 			// mniWordsCount
 			// 
-			this.mniWordsCount.Image = global::MaZaiPC.TextAnalyzer.Properties.Resources.numbered_list_style;
+			this.mniWordsCount.Image = global::Moreniell.TextAnalyzer.Properties.Resources.numbered_list_style;
 			this.mniWordsCount.Name = "mniWordsCount";
 			this.mniWordsCount.Size = new System.Drawing.Size(197, 22);
 			this.mniWordsCount.Tag = "7";
@@ -127,7 +127,7 @@
 			// 
 			// mniLetterOccurrence
 			// 
-			this.mniLetterOccurrence.Image = global::MaZaiPC.TextAnalyzer.Properties.Resources.ic_format_shapes_black_36dp;
+			this.mniLetterOccurrence.Image = global::Moreniell.TextAnalyzer.Properties.Resources.ic_format_shapes_black_36dp;
 			this.mniLetterOccurrence.Name = "mniLetterOccurrence";
 			this.mniLetterOccurrence.Size = new System.Drawing.Size(197, 22);
 			this.mniLetterOccurrence.Tag = "8";
@@ -145,7 +145,7 @@
 			// 
 			// mniHelpAbout
 			// 
-			this.mniHelpAbout.Image = global::MaZaiPC.TextAnalyzer.Properties.Resources.luggage_information;
+			this.mniHelpAbout.Image = global::Moreniell.TextAnalyzer.Properties.Resources.luggage_information;
 			this.mniHelpAbout.Name = "mniHelpAbout";
 			this.mniHelpAbout.Size = new System.Drawing.Size(158, 22);
 			this.mniHelpAbout.Tag = "10";
@@ -171,7 +171,7 @@
 			// tsbOpenText
 			// 
 			this.tsbOpenText.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.tsbOpenText.Image = global::MaZaiPC.TextAnalyzer.Properties.Resources.file;
+			this.tsbOpenText.Image = global::Moreniell.TextAnalyzer.Properties.Resources.file;
 			this.tsbOpenText.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.tsbOpenText.Margin = new System.Windows.Forms.Padding(6, 1, 0, 2);
 			this.tsbOpenText.Name = "tsbOpenText";
@@ -189,7 +189,7 @@
 			// tsbWordsCount
 			// 
 			this.tsbWordsCount.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.tsbWordsCount.Image = global::MaZaiPC.TextAnalyzer.Properties.Resources.numbered_list_style;
+			this.tsbWordsCount.Image = global::Moreniell.TextAnalyzer.Properties.Resources.numbered_list_style;
 			this.tsbWordsCount.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.tsbWordsCount.Name = "tsbWordsCount";
 			this.tsbWordsCount.Size = new System.Drawing.Size(28, 28);
@@ -200,7 +200,7 @@
 			// tsbLetterOccurrence
 			// 
 			this.tsbLetterOccurrence.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.tsbLetterOccurrence.Image = global::MaZaiPC.TextAnalyzer.Properties.Resources.ic_format_shapes_black_36dp;
+			this.tsbLetterOccurrence.Image = global::Moreniell.TextAnalyzer.Properties.Resources.ic_format_shapes_black_36dp;
 			this.tsbLetterOccurrence.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.tsbLetterOccurrence.Name = "tsbLetterOccurrence";
 			this.tsbLetterOccurrence.Size = new System.Drawing.Size(28, 28);
@@ -217,7 +217,7 @@
 			// tsbAbout
 			// 
 			this.tsbAbout.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.tsbAbout.Image = global::MaZaiPC.TextAnalyzer.Properties.Resources.luggage_information;
+			this.tsbAbout.Image = global::Moreniell.TextAnalyzer.Properties.Resources.luggage_information;
 			this.tsbAbout.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.tsbAbout.Name = "tsbAbout";
 			this.tsbAbout.Size = new System.Drawing.Size(28, 28);
@@ -228,7 +228,7 @@
 			// tsbExit
 			// 
 			this.tsbExit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.tsbExit.Image = global::MaZaiPC.TextAnalyzer.Properties.Resources.door_exit;
+			this.tsbExit.Image = global::Moreniell.TextAnalyzer.Properties.Resources.door_exit;
 			this.tsbExit.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.tsbExit.Name = "tsbExit";
 			this.tsbExit.Size = new System.Drawing.Size(28, 28);

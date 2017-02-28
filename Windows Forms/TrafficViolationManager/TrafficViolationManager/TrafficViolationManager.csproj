@@ -7,7 +7,7 @@
     <ProjectGuid>{E7EAE063-B9ED-4C41-83C4-AA6887AA8B5C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MaZaiPC.TrafficViolationManager</RootNamespace>
+    <RootNamespace>Moreniell.TrafficViolationManager</RootNamespace>
     <AssemblyName>TrafficViolationManager</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -96,8 +96,8 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Strings.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="Properties\DataSources\MaZaiPC.TrafficViolationManager.Model.Violation.datasource" />
-    <None Include="Properties\DataSources\MaZaiPC.TrafficViolationManager.Model.Violator.datasource" />
+    <None Include="Properties\DataSources\Moreniell.TrafficViolationManager.Model.Violation.datasource" />
+    <None Include="Properties\DataSources\Moreniell.TrafficViolationManager.Model.Violator.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

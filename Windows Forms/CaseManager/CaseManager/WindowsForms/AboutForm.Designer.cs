@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace MaZaiPC.CaseManager.WindowsForms
+namespace Moreniell.CaseManager.WindowsForms
 {
 	partial class AboutForm
 	{
@@ -94,12 +94,12 @@ namespace MaZaiPC.CaseManager.WindowsForms
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(197, 13);
 			this.label5.TabIndex = 0;
-			this.label5.Text = "Автор: Иванченко А.Д. (ник MaZaiPC)";
+			this.label5.Text = "Автор: Иванченко А.Д. (ник Moreniell)";
 			// 
 			// pictureBox1
 			// 
-			this.pictureBox1.Image = global::MaZaiPC.CaseManager.Properties.Resources.Fonts;
-			this.pictureBox1.InitialImage = global::MaZaiPC.CaseManager.Properties.Resources.Fonts;
+			this.pictureBox1.Image = global::Moreniell.CaseManager.Properties.Resources.Fonts;
+			this.pictureBox1.InitialImage = global::Moreniell.CaseManager.Properties.Resources.Fonts;
 			this.pictureBox1.Location = new System.Drawing.Point(64, 24);
 			this.pictureBox1.Name = "pictureBox1";
 			this.pictureBox1.Size = new System.Drawing.Size(80, 64);

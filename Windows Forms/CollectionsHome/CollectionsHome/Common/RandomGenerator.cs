@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MaZaiPC.CollectionsHome.Common
+namespace Moreniell.CollectionsHome.Common
 {
 	public static class RandomGenerator
 	{

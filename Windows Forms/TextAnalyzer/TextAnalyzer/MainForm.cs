@@ -2,7 +2,7 @@
 using System.IO;
 using System.Windows.Forms;
 
-namespace MaZaiPC.TextAnalyzer
+namespace Moreniell.TextAnalyzer
 {
     public partial class MainForm : Form
     {

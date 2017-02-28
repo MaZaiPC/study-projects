@@ -1,4 +1,4 @@
-﻿namespace MaZaiPC.TrafficViolationManager
+﻿namespace Moreniell.TrafficViolationManager
 {
 	partial class LauncherForm
 	{
@@ -65,7 +65,7 @@
 			// btnExit
 			// 
 			this.btnExit.BackColor = System.Drawing.Color.Transparent;
-			this.btnExit.BackgroundImage = global::MaZaiPC.TrafficViolationManager.Properties.Resources.button_exit;
+			this.btnExit.BackgroundImage = global::Moreniell.TrafficViolationManager.Properties.Resources.button_exit;
 			this.btnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
 			this.btnExit.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.btnExit.FlatAppearance.BorderSize = 0;
@@ -84,7 +84,7 @@
 			// btnAbout
 			// 
 			this.btnAbout.BackColor = System.Drawing.Color.Transparent;
-			this.btnAbout.BackgroundImage = global::MaZaiPC.TrafficViolationManager.Properties.Resources.button_standart;
+			this.btnAbout.BackgroundImage = global::Moreniell.TrafficViolationManager.Properties.Resources.button_standart;
 			this.btnAbout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
 			this.btnAbout.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.btnAbout.FlatAppearance.BorderSize = 0;
@@ -103,7 +103,7 @@
 			// btnHelp
 			// 
 			this.btnHelp.BackColor = System.Drawing.Color.Transparent;
-			this.btnHelp.BackgroundImage = global::MaZaiPC.TrafficViolationManager.Properties.Resources.button_standart;
+			this.btnHelp.BackgroundImage = global::Moreniell.TrafficViolationManager.Properties.Resources.button_standart;
 			this.btnHelp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
 			this.btnHelp.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.btnHelp.FlatAppearance.BorderSize = 0;
@@ -122,7 +122,7 @@
 			// btnRunApp
 			// 
 			this.btnRunApp.BackColor = System.Drawing.Color.Transparent;
-			this.btnRunApp.BackgroundImage = global::MaZaiPC.TrafficViolationManager.Properties.Resources.button_main;
+			this.btnRunApp.BackgroundImage = global::Moreniell.TrafficViolationManager.Properties.Resources.button_main;
 			this.btnRunApp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
 			this.btnRunApp.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.btnRunApp.FlatAppearance.BorderSize = 0;

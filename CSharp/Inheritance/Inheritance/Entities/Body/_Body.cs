@@ -1,4 +1,4 @@
-﻿namespace MaZaiPC.Inheritance.Entities.Body
+﻿namespace Moreniell.Inheritance.Entities.Body
 {
 	public abstract class Body
 	{

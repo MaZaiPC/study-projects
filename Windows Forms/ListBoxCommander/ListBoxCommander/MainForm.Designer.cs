@@ -1,4 +1,4 @@
-﻿namespace MaZaiPC.ListBoxCommander
+﻿namespace Moreniell.ListBoxCommander
 {
 	partial class MainForm
 	{

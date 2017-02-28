@@ -1,9 +1,9 @@
 ﻿using System;
-using MaZaiPC.StoreApplication.Entities;
-using MaZaiPC.StoreApplication.Entities;
-using MaZaiPC.StoreApplication.Service;
+using Moreniell.StoreApplication.Entities;
+using Moreniell.StoreApplication.Entities;
+using Moreniell.StoreApplication.Service;
 
-namespace MaZaiPC.StoreApplication
+namespace Moreniell.StoreApplication
 {
 	static class Program
 	{
@@ -19,7 +19,7 @@ namespace MaZaiPC.StoreApplication
 							new MenuItem("Прайс-лист"),
 							new MenuItem("Упорядочить записи по алфавиту"),
 							new MenuItem(Menu.SEPARATOR),
-							new MenuItem("О программе", "Автор:  Иванченко А.Д. (ник MaZaiPC)\n\n" +
+							new MenuItem("О программе", "Автор:  Иванченко А.Д. (ник Moreniell)\n\n" +
 														"Добро пожаловать в наш магазин!", active: false), 
 						});
 

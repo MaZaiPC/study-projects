@@ -4,7 +4,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading;
 
-namespace MaZaiPC.StoreApplication.Service
+namespace Moreniell.StoreApplication.Service
 {
 	static class Utils
 	{

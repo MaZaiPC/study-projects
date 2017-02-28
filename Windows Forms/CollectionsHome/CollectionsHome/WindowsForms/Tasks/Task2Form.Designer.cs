@@ -1,4 +1,4 @@
-﻿namespace MaZaiPC.CollectionsHome.WindowsForms.Tasks
+﻿namespace Moreniell.CollectionsHome.WindowsForms.Tasks
 {
 	partial class Task2Form
 	{

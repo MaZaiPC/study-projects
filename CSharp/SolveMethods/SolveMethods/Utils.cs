@@ -4,7 +4,7 @@ using System.Reflection;
 using System.Text;
 using static System.Math;
 
-namespace MaZaiPC.SolveMethods
+namespace Moreniell.SolveMethods
 {
 	public static class Utils
 	{

@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace MaZaiPC.ListBoxCommander
+namespace Moreniell.ListBoxCommander
 {
 	public partial class MainForm : Form
 	{

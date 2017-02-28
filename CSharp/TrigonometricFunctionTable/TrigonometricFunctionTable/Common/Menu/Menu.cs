@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace MaZaiPC.TrigonometricFunctionTable.Common.Menu
+namespace Moreniell.TrigonometricFunctionTable.Common.Menu
 {
 	class Menu
 	{

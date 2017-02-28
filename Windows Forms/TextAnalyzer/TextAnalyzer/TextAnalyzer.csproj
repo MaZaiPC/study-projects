@@ -7,7 +7,7 @@
     <ProjectGuid>{C332A505-BA65-49F9-B8E5-EF17245A5435}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MaZaiPC.TextAnalyzer</RootNamespace>
+    <RootNamespace>Moreniell.TextAnalyzer</RootNamespace>
     <AssemblyName>TextAnalyzer</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

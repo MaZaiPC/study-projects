@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Text;
 
-namespace MaZaiPC.TextFiles.Entities
+namespace Moreniell.TextFiles.Entities
 {
 	class Marsh
 	{

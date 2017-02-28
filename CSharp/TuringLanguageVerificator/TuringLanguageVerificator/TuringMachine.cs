@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace MaZaiPC.CourseWork
+namespace Moreniell.CourseWork
 {
 	public class TuringMachine
 	{

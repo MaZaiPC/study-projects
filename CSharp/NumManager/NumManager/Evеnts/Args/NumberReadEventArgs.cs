@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MaZaiPC.NumManager.Evеnts.Args
+namespace Moreniell.NumManager.Evеnts.Args
 {
 	public class NumberReadEventArgs : EventArgs
 	{

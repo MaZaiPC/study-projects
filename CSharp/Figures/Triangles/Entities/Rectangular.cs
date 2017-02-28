@@ -1,7 +1,7 @@
 ﻿using System;
-using MaZaiPC.Triangles.Interfaces;
+using Moreniell.Triangles.Interfaces;
 
-namespace MaZaiPC.Triangles.Entities
+namespace Moreniell.Triangles.Entities
 {
     public class Rectangular : ATriangle, ITriangle
     {

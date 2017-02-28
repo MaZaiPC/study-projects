@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace MaZaiPC.ListBoxCommander
+namespace Moreniell.ListBoxCommander
 {
 	static class Program
 	{

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MaZaiPC.ListBoxCommander.Properties {
+namespace Moreniell.ListBoxCommander.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

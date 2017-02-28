@@ -1,8 +1,8 @@
 ﻿H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\ListBoxControl\ListBoxControl\obj\Debug\ListBoxCommander.csproj.GenerateResource.Cache
 H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\ListBoxControl\ListBoxControl\bin\Debug\ListBoxCommander.exe.config
-H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\ListBoxControl\ListBoxControl\obj\Debug\MaZaiPC.ListBoxCommander.HelperForm.resources
-H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\ListBoxControl\ListBoxControl\obj\Debug\MaZaiPC.ListBoxCommander.MainForm.resources
-H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\ListBoxControl\ListBoxControl\obj\Debug\MaZaiPC.ListBoxCommander.Properties.Resources.resources
+H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\ListBoxControl\ListBoxControl\obj\Debug\Moreniell.ListBoxCommander.HelperForm.resources
+H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\ListBoxControl\ListBoxControl\obj\Debug\Moreniell.ListBoxCommander.MainForm.resources
+H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\ListBoxControl\ListBoxControl\obj\Debug\Moreniell.ListBoxCommander.Properties.Resources.resources
 H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\ListBoxControl\ListBoxControl\bin\Debug\ListBoxCommander.exe
 H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\ListBoxControl\ListBoxControl\bin\Debug\ListBoxCommander.pdb
 H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\ListBoxControl\ListBoxControl\obj\Debug\ListBoxCommander.exe

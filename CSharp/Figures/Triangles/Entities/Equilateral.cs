@@ -1,7 +1,7 @@
-﻿using MaZaiPC.Triangles.Interfaces;
+﻿using Moreniell.Triangles.Interfaces;
 using static System.Math;
 
-namespace MaZaiPC.Triangles.Entities
+namespace Moreniell.Triangles.Entities
 {
     public class Equilateral : ATriangle, ITriangle
     {

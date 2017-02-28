@@ -1,4 +1,4 @@
-﻿namespace MaZaiPC.CaseManager.WindowsForms
+﻿namespace Moreniell.CaseManager.WindowsForms
 {
 	partial class HelperForm
 	{
@@ -41,7 +41,7 @@
 			// 
 			// pictureBox1
 			// 
-			this.pictureBox1.Image = global::MaZaiPC.CaseManager.Properties.Resources.HELP;
+			this.pictureBox1.Image = global::Moreniell.CaseManager.Properties.Resources.HELP;
 			this.pictureBox1.InitialImage = null;
 			this.pictureBox1.Location = new System.Drawing.Point(16, 16);
 			this.pictureBox1.Name = "pictureBox1";

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MaZaiPC.Inheritance.Entities.Currency
+namespace Moreniell.Inheritance.Entities.Currency
 {
 	public class Dollar : Currency
 	{

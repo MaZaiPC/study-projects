@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace MaZaiPC.TextFiles
+namespace Moreniell.TextFiles
 {
 	public class Events
 	{

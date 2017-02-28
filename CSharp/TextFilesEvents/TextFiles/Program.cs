@@ -1,8 +1,8 @@
 ﻿using System;
 
-using MaZaiPC.TextFiles.Service;
+using Moreniell.TextFiles.Service;
 
-namespace MaZaiPC.TextFiles
+namespace Moreniell.TextFiles
 {
 	static class Program
 	{
@@ -15,7 +15,7 @@ namespace MaZaiPC.TextFiles
 			Menu menu = new Menu(new []  {
 							new MenuItem("Запуск", "Построчно считывает текст из файла, реагирует на слова из двух букв."),
 							new MenuItem(Menu.SEPARATOR),
-							new MenuItem("О программе", "Автор:  Иванченко А.Д. (ник MaZaiPC)\n\n" +
+							new MenuItem("О программе", "Автор:  Иванченко А.Д. (ник Moreniell)\n\n" +
 														"Инфо 1: Задания составлены по мотивам лабораторной работы №7\n" +
 														"        из учебника Павловской Т.А.\n\n" +
 														"Инфо 2: Собачку можно отключить, это не более чем забавный символьный" +

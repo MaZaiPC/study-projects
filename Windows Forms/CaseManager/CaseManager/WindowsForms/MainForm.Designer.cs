@@ -1,4 +1,4 @@
-﻿namespace MaZaiPC.CaseManager.WindowsForms
+﻿namespace Moreniell.CaseManager.WindowsForms
 {
 	partial class MainForm
 	{

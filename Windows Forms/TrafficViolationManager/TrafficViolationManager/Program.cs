@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace MaZaiPC.TrafficViolationManager
+namespace Moreniell.TrafficViolationManager
 {
 	static class Program
 	{

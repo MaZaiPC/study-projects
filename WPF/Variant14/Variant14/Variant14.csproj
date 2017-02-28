@@ -7,7 +7,7 @@
     <ProjectGuid>{8831E3FF-B5BA-4080-9E92-90C6E01C52D0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MaZaiPC.Variant14</RootNamespace>
+    <RootNamespace>Moreniell.Variant14</RootNamespace>
     <AssemblyName>Variant14</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

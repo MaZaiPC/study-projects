@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace MaZaiPC.TrafficViolationManager
+namespace Moreniell.TrafficViolationManager
 {
 	public partial class LauncherForm : Form
 	{

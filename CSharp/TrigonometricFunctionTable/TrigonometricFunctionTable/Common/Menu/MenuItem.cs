@@ -1,4 +1,4 @@
-﻿namespace MaZaiPC.TrigonometricFunctionTable.Common.Menu
+﻿namespace Moreniell.TrigonometricFunctionTable.Common.Menu
 {
 	struct MenuItem
 	{

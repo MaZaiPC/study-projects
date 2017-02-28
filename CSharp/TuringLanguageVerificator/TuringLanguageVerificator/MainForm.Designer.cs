@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MaZaiPC.CourseWork
+namespace Moreniell.CourseWork
 {
     partial class MainForm
     {

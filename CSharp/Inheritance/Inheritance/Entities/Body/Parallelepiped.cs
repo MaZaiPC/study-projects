@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MaZaiPC.Inheritance.Entities.Body
+namespace Moreniell.Inheritance.Entities.Body
 {
 	public class Parallelepiped : Body
 	{

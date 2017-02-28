@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace MaZaiPC.CaseManager.WindowsForms
+namespace Moreniell.CaseManager.WindowsForms
 {
 	public partial class MainForm : Form
 	{

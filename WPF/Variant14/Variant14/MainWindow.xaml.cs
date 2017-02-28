@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace MaZaiPC.Variant14
+namespace Moreniell.Variant14
 {
 	/// <summary>
 	/// Логика взаимодействия для MainWindow.xaml

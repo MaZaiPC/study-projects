@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace MaZaiPC.CaseManager
+namespace Moreniell.CaseManager
 {
 	public static class Utils
 	{

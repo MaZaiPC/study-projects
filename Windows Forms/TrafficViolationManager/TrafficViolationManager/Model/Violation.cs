@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MaZaiPC.TrafficViolationManager.Model
+namespace Moreniell.TrafficViolationManager.Model
 {
     public class Violation
     {

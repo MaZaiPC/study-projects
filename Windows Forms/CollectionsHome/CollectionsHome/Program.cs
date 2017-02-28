@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
-using MaZaiPC.CollectionsHome.WindowsForms;
+using Moreniell.CollectionsHome.WindowsForms;
 
-namespace MaZaiPC.CollectionsHome
+namespace Moreniell.CollectionsHome
 {
 	static class Program
 	{

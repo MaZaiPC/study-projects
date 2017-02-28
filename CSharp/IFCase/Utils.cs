@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace MaZaiPC.Beginning
+namespace Moreniell.Beginning
 {
 	static class Utils
 	{

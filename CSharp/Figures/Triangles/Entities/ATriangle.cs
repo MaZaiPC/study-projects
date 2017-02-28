@@ -1,4 +1,4 @@
-﻿namespace MaZaiPC.Triangles.Entities
+﻿namespace Moreniell.Triangles.Entities
 {
     public abstract class ATriangle
     {

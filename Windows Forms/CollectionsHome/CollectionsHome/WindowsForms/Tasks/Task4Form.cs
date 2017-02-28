@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
-using MaZaiPC.CollectionsHome.Common;
+using Moreniell.CollectionsHome.Common;
 
-namespace MaZaiPC.CollectionsHome.WindowsForms.Tasks
+namespace Moreniell.CollectionsHome.WindowsForms.Tasks
 {
 	public partial class Task4Form : Form
 	{

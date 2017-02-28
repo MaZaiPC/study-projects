@@ -1,9 +1,9 @@
 ﻿using System;
 
-using MaZaiPC.Inheritance.Entities.Body;
-using MaZaiPC.Inheritance.Entities.Currency;
+using Moreniell.Inheritance.Entities.Body;
+using Moreniell.Inheritance.Entities.Currency;
 
-namespace MaZaiPC.Inheritance
+namespace Moreniell.Inheritance
 {
 	static class Solution
 	{

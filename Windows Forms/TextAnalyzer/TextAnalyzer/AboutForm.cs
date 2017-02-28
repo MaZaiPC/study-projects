@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace MaZaiPC.TextAnalyzer
+namespace Moreniell.TextAnalyzer
 {
 	public partial class AboutForm : Form
 	{

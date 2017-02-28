@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Xml.Serialization;
 
-namespace MaZaiPC.TrafficViolationManager.Model
+namespace Moreniell.TrafficViolationManager.Model
 {
     public class Violator
     {

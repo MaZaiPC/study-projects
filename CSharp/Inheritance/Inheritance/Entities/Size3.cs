@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MaZaiPC.Inheritance.Entities
+namespace Moreniell.Inheritance.Entities
 {
 	public class Size3
 	{

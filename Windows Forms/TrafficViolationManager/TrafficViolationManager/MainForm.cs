@@ -4,10 +4,10 @@ using System.IO;
 using System.Text;
 using System.Windows.Forms;
 using System.Xml.Serialization;
-using MaZaiPC.TrafficViolationManager.Model;
-using MaZaiPC.TrafficViolationManager.Properties;
+using Moreniell.TrafficViolationManager.Model;
+using Moreniell.TrafficViolationManager.Properties;
 
-namespace MaZaiPC.TrafficViolationManager
+namespace Moreniell.TrafficViolationManager
 {
 	public partial class MainForm : Form
 	{

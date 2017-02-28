@@ -1,11 +1,11 @@
 ﻿using System;
 using System.IO;
 
-using MaZaiPC.NumManager.Common;
-using MaZaiPC.NumManager.Entities;
-using MaZaiPC.NumManager.Evеnts;
+using Moreniell.NumManager.Common;
+using Moreniell.NumManager.Entities;
+using Moreniell.NumManager.Evеnts;
 
-namespace MaZaiPC.NumManager
+namespace Moreniell.NumManager
 {
 	internal class Solution
 	{

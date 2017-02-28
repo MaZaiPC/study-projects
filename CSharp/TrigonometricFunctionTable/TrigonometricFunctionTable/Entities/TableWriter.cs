@@ -2,7 +2,7 @@
 using System.IO;
 using System.Text;
 
-namespace MaZaiPC.TrigonometricFunctionTable.Entities
+namespace Moreniell.TrigonometricFunctionTable.Entities
 {
 	public delegate double TrigonometricFuncDelegate(double x);
 

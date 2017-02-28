@@ -1,4 +1,4 @@
-﻿namespace MaZaiPC.SolveMethods
+﻿namespace Moreniell.SolveMethods
 {
 	public enum TimeEntity
 	{

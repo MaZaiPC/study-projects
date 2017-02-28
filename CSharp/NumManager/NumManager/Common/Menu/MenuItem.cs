@@ -1,4 +1,4 @@
-﻿namespace MaZaiPC.NumManager.Common.Menu
+﻿namespace Moreniell.NumManager.Common.Menu
 {
 	public struct MenuItem
 	{

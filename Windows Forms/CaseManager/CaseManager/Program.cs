@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
-using MaZaiPC.CaseManager.WindowsForms;
+using Moreniell.CaseManager.WindowsForms;
 
-namespace MaZaiPC.CaseManager
+namespace Moreniell.CaseManager
 {
 	static class Program
 	{

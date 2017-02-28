@@ -3,7 +3,7 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 
-namespace MaZaiPC.NumManager.Common
+namespace Moreniell.NumManager.Common
 {
 	public class Utils
 	{

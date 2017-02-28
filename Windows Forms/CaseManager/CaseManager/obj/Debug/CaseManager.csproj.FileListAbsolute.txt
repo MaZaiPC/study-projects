@@ -2,11 +2,11 @@
 H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\CaseManager\CaseManager\bin\Debug\CaseManager.exe
 H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\CaseManager\CaseManager\bin\Debug\CaseManager.pdb
 H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\CaseManager\CaseManager\obj\Debug\CaseManager.csprojResolveAssemblyReference.cache
-H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\CaseManager\CaseManager\obj\Debug\MaZaiPC.CaseManager.WindowsForms.AboutForm.resources
-H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\CaseManager\CaseManager\obj\Debug\MaZaiPC.CaseManager.WindowsForms.HelperForm.resources
-H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\CaseManager\CaseManager\obj\Debug\MaZaiPC.CaseManager.WindowsForms.MainForm.resources
-H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\CaseManager\CaseManager\obj\Debug\MaZaiPC.CaseManager.Properties.Resources.resources
-H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\CaseManager\CaseManager\obj\Debug\MaZaiPC.CaseManager.WindowsForms.WorkerForm.resources
+H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\CaseManager\CaseManager\obj\Debug\Moreniell.CaseManager.WindowsForms.AboutForm.resources
+H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\CaseManager\CaseManager\obj\Debug\Moreniell.CaseManager.WindowsForms.HelperForm.resources
+H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\CaseManager\CaseManager\obj\Debug\Moreniell.CaseManager.WindowsForms.MainForm.resources
+H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\CaseManager\CaseManager\obj\Debug\Moreniell.CaseManager.Properties.Resources.resources
+H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\CaseManager\CaseManager\obj\Debug\Moreniell.CaseManager.WindowsForms.WorkerForm.resources
 H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\CaseManager\CaseManager\obj\Debug\CaseManager.csproj.GenerateResource.Cache
 H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\CaseManager\CaseManager\obj\Debug\CaseManager.exe
 H:\РћР±С‰РµРµ\РЁР°Рі\РЈСЂРѕРє\РћСЃРЅРѕРІС‹ РїСЂРѕРіСЂР°РјРёСЂРѕРІР°РЅРёСЏ\РћРћРџ\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\C#\CaseManager\CaseManager\CaseManager\obj\Debug\CaseManager.pdb

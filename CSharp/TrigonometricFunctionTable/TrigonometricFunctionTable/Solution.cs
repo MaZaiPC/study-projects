@@ -1,8 +1,8 @@
 ﻿using System;
-using MaZaiPC.TrigonometricFunctionTable.Common;
-using MaZaiPC.TrigonometricFunctionTable.Entities;
+using Moreniell.TrigonometricFunctionTable.Common;
+using Moreniell.TrigonometricFunctionTable.Entities;
 
-namespace MaZaiPC.TrigonometricFunctionTable
+namespace Moreniell.TrigonometricFunctionTable
 {
 	static class Solution
 	{

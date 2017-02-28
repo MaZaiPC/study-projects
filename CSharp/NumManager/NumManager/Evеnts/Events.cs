@@ -1,6 +1,6 @@
-﻿using MaZaiPC.NumManager.Evеnts.Args;
+﻿using Moreniell.NumManager.Evеnts.Args;
 
-namespace MaZaiPC.NumManager.Evеnts
+namespace Moreniell.NumManager.Evеnts
 {
 	public delegate void NumberReadEventHandler(object sender, NumberReadEventArgs e);
 

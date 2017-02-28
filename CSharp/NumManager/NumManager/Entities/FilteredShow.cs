@@ -1,9 +1,9 @@
 ﻿using System;
-using MaZaiPC.NumManager.Common;
-using MaZaiPC.NumManager.Evеnts;
-using MaZaiPC.NumManager.Evеnts.Args;
+using Moreniell.NumManager.Common;
+using Moreniell.NumManager.Evеnts;
+using Moreniell.NumManager.Evеnts.Args;
 
-namespace MaZaiPC.NumManager.Entities
+namespace Moreniell.NumManager.Entities
 {
 	internal class FilteredShow
 	{

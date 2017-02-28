@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MaZaiPC.Beginning
+namespace Moreniell.Beginning
 {
 	static class Solution
 	{

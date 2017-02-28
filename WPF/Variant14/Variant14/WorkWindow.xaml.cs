@@ -4,7 +4,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 
-namespace MaZaiPC.Variant14
+namespace Moreniell.Variant14
 {
 	/// <summary>
 	/// Логика взаимодействия для WorkWindow.xaml

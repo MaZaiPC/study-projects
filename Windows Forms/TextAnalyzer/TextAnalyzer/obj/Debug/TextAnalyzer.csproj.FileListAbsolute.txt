@@ -1,12 +1,12 @@
 ﻿X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\Variant17\MenuStatusToolStripsDemo\bin\Debug\TextAnalyzer.exe.config
 X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\Variant17\MenuStatusToolStripsDemo\bin\Debug\TextAnalyzer.exe
 X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\Variant17\MenuStatusToolStripsDemo\bin\Debug\TextAnalyzer.pdb
-X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\Variant17\MenuStatusToolStripsDemo\obj\Debug\MaZaiPC.TextAnalyzer.MainForm.resources
-X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\Variant17\MenuStatusToolStripsDemo\obj\Debug\MaZaiPC.TextAnalyzer.Properties.Resources.resources
+X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\Variant17\MenuStatusToolStripsDemo\obj\Debug\Moreniell.TextAnalyzer.MainForm.resources
+X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\Variant17\MenuStatusToolStripsDemo\obj\Debug\Moreniell.TextAnalyzer.Properties.Resources.resources
 X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\Variant17\MenuStatusToolStripsDemo\obj\Debug\TextAnalyzer.csproj.GenerateResource.Cache
 X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\Variant17\MenuStatusToolStripsDemo\obj\Debug\TextAnalyzer.exe
 X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\Variant17\MenuStatusToolStripsDemo\obj\Debug\TextAnalyzer.pdb
-X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\Variant17\MenuStatusToolStripsDemo\obj\Debug\MaZaiPC.TextAnalyzer.AboutForm.resources
+X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\Variant17\MenuStatusToolStripsDemo\obj\Debug\Moreniell.TextAnalyzer.AboutForm.resources
 X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\Variant17\TextAnalyzer\bin\Debug\TextAnalyzer.exe.config
 X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\Variant17\TextAnalyzer\obj\Debug\TextAnalyzer.exe
 X:\.РЁР°Рі\C# - Windows Forms\Р”РѕРјР°С€РЅРёРµ Р·Р°РґР°РЅРёСЏ\Variant17\TextAnalyzer\obj\Debug\TextAnalyzer.pdb

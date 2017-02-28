@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace MaZaiPC.CaseManager.WindowsForms
+namespace Moreniell.CaseManager.WindowsForms
 {
 	public partial class WorkerForm : Form
 	{
